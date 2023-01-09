@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Manrope:wght@700&family=Montserrat:wght@500&display=swap');
+
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo img{
+position: absolute;
+width: 51px;
+height: 108px;
+left: 120px;
+top: -20px;
+
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+}
+.nav-links li{
+  margin: 0px 30px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* background-color: red; */
+display: inline-block;
+}
+.arrow-down{
+position: relative;
+left: 4%;
+/* right: 17%; */
+top: 15%;
+/* bottom: 25%; */
+/* border: 1.5px solid #292D32 */
+}
+.login{
+  background: #8003CD;
+  border-radius: 30px;
+  padding: 17px 30px;
+  width: 80px;
+  height: 21px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
