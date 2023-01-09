@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   /* background-color: red; */
-  margin: 2rem 20rem 0;
+  margin: 10rem 0rem 0;
 }
 .title {
   font-family: "Recoleta Alt";
@@ -50,6 +50,7 @@
   height: 66px;
   align-items: center;
   padding: 10px 30px;
+  cursor: pointer;
 }
 .btn-black {
   border-radius: 30px;
@@ -59,6 +60,7 @@
   height: 66px;
   align-items: center;
   padding: 10px 30px;
+  cursor: pointer;
 }
 .gplaylogo {
   position: relative;

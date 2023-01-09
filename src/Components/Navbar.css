@@ -1,55 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Manrope:wght@700&family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Manrope:wght@700&family=Montserrat:wght@500&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-evenly;
+  /* background-color: red; */
+  /* padding-top: 5rem; */
+  /* margin-top: 40px;
+  height: 61px; */
+  position: absolute;
+  width: 1300px;
+  height: 64.56px;
+  left: 200px;
+  right: 200px;
+  top: 40px;
 }
-.logo img{
-position: absolute;
-width: 51px;
-height: 108px;
-left: 120px;
-top: -20px;
-
+.logo img {
+  position: absolute;
+  /* width: 51px;
+  height: 108px;
+  left: 200px;
+  top: -10px; */
+  width: 61px;
+  height: 138px;
+  left: -5.7px;
+  top: -36.44px;
 }
-.nav-links{
+.nav-links {
   display: flex;
   list-style: none;
+ 
 }
-.nav-links li{
+.nav-links li {
   margin: 0px 30px;
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-/* background-color: red; */
-display: inline-block;
+  /* font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px; */
+  /* background-color: red; */
+  /* display: inline-block; */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* background-color: blue; */
+   /* align-content: center; */
+  padding: 20px 0;
 }
-.arrow-down{
-position: relative;
-left: 4%;
-/* right: 17%; */
-top: 15%;
-/* bottom: 25%; */
-/* border: 1.5px solid #292D32 */
+.arrow-down {
+  position: relative;
+  left: 4%;
+  /* right: 17%; */
+  top: 15%;
+  /* bottom: 25%; */
+  /* border: 1.5px solid #292D32 */
 }
-.login{
-  background: #8003CD;
+.login {
+  background: #8003cd;
   border-radius: 30px;
   padding: 17px 30px;
-  width: 80px;
-  height: 21px;
-  font-family: 'Manrope';
+  width: 140px;
+  height: 55px;
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 150%;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
+  margin-top: 3px;
 }
