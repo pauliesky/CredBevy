@@ -1,0 +1,75 @@
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15rem;
+  height: 20rem;
+  /* background-color: red; */
+  align-content: center;
+  padding-top: 5rem;
+  /* width: 100%; */
+  /* text-align: center; */
+}
+.products h4 {
+  margin-bottom: 1rem;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+.products h5 {
+  margin-bottom: 0.5rem;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+.resources h4 {
+  margin-bottom: 1rem;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+.resources h5 {
+  margin-bottom: 0.5rem;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+.company h4 {
+  margin-bottom: 1rem;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+.company h5 {
+  margin-bottom: 0.5rem;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.ft-logo img {
+  position: relative;
+  /* width: 51px;
+  height: 108px;
+  left: 200px;
+  top: -10px; */
+  width: 61px;
+  height: 138px;
+  left: -60px;
+  top: -36.44px;
+}
