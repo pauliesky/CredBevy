@@ -4,6 +4,11 @@ import { FaAngleDown } from "react-icons/fa";
 import logoImg from '../Images/B.png'
 
 function Navbar() {
+
+  const loginHandler = () => {
+    console.log('logged in')
+
+  }
   return (
     <nav className='navbar'>
       <div className='logo'><img src={logoImg} alt='logo-img'></img></div>
@@ -13,7 +18,8 @@ function Navbar() {
         <li>Partners<FaAngleDown className='arrow-down' /></li>
         <li>Company<FaAngleDown className='arrow-down' /></li>
       </ul>
-      <div className='login'>Get Started</div>
+      <div className='login' onClick ={loginHandler}
+      >Get Started</div>
     </nav>
 
   )
