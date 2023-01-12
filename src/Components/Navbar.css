@@ -13,7 +13,7 @@
   /* margin-top: 40px;
   height: 61px; */
   position: absolute;
-  width: 1300px;
+  /* width: 1300px; */
   height: 64.56px;
   left: 200px;
   right: 200px;
@@ -33,7 +33,6 @@
 .nav-links {
   display: flex;
   list-style: none;
- 
 }
 .nav-links li {
   margin: 0px 30px;
@@ -50,7 +49,7 @@
   font-size: 16px;
   line-height: 150%;
   /* background-color: blue; */
-   /* align-content: center; */
+  /* align-content: center; */
   padding: 20px 0;
 }
 .arrow-down {
