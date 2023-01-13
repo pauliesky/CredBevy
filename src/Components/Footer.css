@@ -1,14 +1,52 @@
-.footer1 {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer-1-container {
+  /* background: red; */
+  /* height: 50rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 20rem; */
+  /* background-color: black; */
+}
+.ft-logo {
+  width: 51.5px;
+  height: 64.56px;
+  /* margin-right: 150px; */
+  /* background-color: aqua; */
+}
+.ft-logo img {
+  position: relative;
+  width: 51px;
+  height: 108px;
+  left: -240px;
+  top: -10px;
+  width: 61px;
+  height: 138px;
+  /* left: 40px; */
+  top: -36.44px;
+}
+.footer-1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 15rem;
+  gap: 100px;
   height: 20rem;
-  /* background-color: red; */
+  /* background-color: blue; */
   align-content: center;
   padding-top: 5rem;
-  /* width: 100%; */
+  width: 100%;
   /* text-align: center; */
+}
+.footer-1-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 198px;
 }
 .products h4 {
   margin-bottom: 1rem;
@@ -28,7 +66,6 @@
 }
 .resources h4 {
   margin-bottom: 1rem;
-
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
@@ -37,7 +74,6 @@
 }
 .resources h5 {
   margin-bottom: 0.5rem;
-
   font-family: "Manrope";
   font-style: normal;
   font-weight: 500;
@@ -46,7 +82,6 @@
 }
 .company h4 {
   margin-bottom: 1rem;
-
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
@@ -61,23 +96,11 @@
   font-size: 14px;
   line-height: 150%;
 }
-
-.ft-logo img {
-  position: relative;
-  /* width: 51px;
-  height: 108px;
-  left: 200px;
-  top: -10px; */
-  width: 61px;
-  height: 138px;
-  left: -60px;
-  top: -36.44px;
-}
 .divider {
   position: relative;
-  width: 1170px;
+  width: 1100px;
   height: 1px;
-  left: 470px;
+  left: 360px;
   top: 0px;
   border-top: 1px solid black;
   margin-bottom: 32px;
@@ -88,14 +111,16 @@
   flex-direction: row;
   justify-content: center;
   height: 57px;
-  gap: 520px;
-  border-left: 20px;
+  /* gap: 520px; */
+  /* border-left: 50px; */
 }
 .footer2-text {
   display: flex;
   align-items: center;
   padding: 0px;
   gap: 24px;
+  position: relative;
+  left: -310px;
 }
 .icon {
   height: 18px;
@@ -107,6 +132,8 @@
   align-items: center;
   padding: 0px;
   gap: 12px;
+  position: relative;
+  right: -140px;
 }
 .foot-note {
   font-family: "Manrope";
@@ -121,4 +148,6 @@
   margin: auto;
   /* background-color: red; */
   margin-bottom: 74px;
+  position: relative;
+  left: -5rem;
 }

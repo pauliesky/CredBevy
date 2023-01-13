@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+  margin-top: 168px;
+}
+.hero-title {
+  font-family: "Recoleta Alt";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 131px;
+  text-align: center;
+  /* background-color: red; */
+}
+.text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.download-btn {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: aqua; */
+  text-align: center;
+  align-items: center;
+  width: 30rem;
+  height: 5rem;
+  padding-top: 3rem;
+  gap: 16px;
+  margin-top: 40px;
+}
+.btn-white {
+  border-radius: 30px;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  width: 185px;
+  height: 66px;
+  align-items: center;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.btn-black {
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  width: 185px;
+  height: 66px;
+  align-items: center;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.gplaylogo {
+  position: relative;
+  left: -15px;
+  /* right: 17%; */
+  /* top: 55%; */
+  bottom: -10px;
+  /* border: 1.5px solid #292d32; */
+  /* background: #000; */
+}
+.applelogo {
+  position: relative;
+  left: -15px;
+  /* right: 17%; */
+  /* top: 55%; */
+  bottom: -10px;
+  /* border: 1.5px solid #292d32; */
+  /* background: #000; */
+  font-size: 20px;
+}
