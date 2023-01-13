@@ -1,7 +1,8 @@
 import React from 'react'
 import './Home.css'
-import  FAQ from '../Faq'
-
+import FAQ from '../Faq'
+import TESTIMONIAL from '../Testimonials'
+import DOWNLOAD from '../Download'
 
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { AiOutlineApple } from "react-icons/ai";
@@ -81,7 +82,8 @@ function Home() {
         </div>
       </div>
       <FAQ />
-    
+      <TESTIMONIAL />
+      <DOWNLOAD />
     </div>
   )
 }

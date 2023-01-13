@@ -73,3 +73,52 @@
   left: -60px;
   top: -36.44px;
 }
+.divider {
+  position: relative;
+  width: 1170px;
+  height: 1px;
+  left: 470px;
+  top: 0px;
+  border-top: 1px solid black;
+  margin-bottom: 32px;
+}
+.footer2 {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 57px;
+  gap: 520px;
+  border-left: 20px;
+}
+.footer2-text {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+}
+.icon {
+  height: 18px;
+  width: 18px;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+}
+.foot-note {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  justify-content: center;
+  /* width: 1250px; */
+  height: 21px;
+  margin: auto;
+  /* background-color: red; */
+  margin-bottom: 74px;
+}

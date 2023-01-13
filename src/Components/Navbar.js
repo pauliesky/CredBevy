@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { FaAngleDown } from "react-icons/fa";
-import logoImg from '../Images/B.png'
+import logoImg from '../Images/Credbevy Logo.svg'
 
 function Navbar() {
 

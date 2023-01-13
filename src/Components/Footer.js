@@ -1,6 +1,8 @@
 import React from 'react'
 import './Footer.css'
-import logoImg from '../Images/B.png'
+import logoImg from '../Images/Credbevy Logo.svg'
+import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+
 
 function Footer() {
   return (
@@ -30,8 +32,25 @@ function Footer() {
           <h5>Team</h5>
         </div>
       </div>
-      <div></div>
-      <div></div>
+
+      <hr className='divider' />
+      <div className='footer2'>
+        <div className='footer2-text'>
+          <div>2021 Relume. All right reserved</div>
+          <div>Privacy</div>
+          <div>Terms of Service</div>
+          <div>Cookies Settings</div>
+        </div>
+        <div className='footer-icons'>
+          <div className='icon'><FaFacebookF /></div>
+          <div  className='icon'><FaInstagram /></div>
+          <div  className='icon'><FaTwitter /></div>
+          <div  className='icon'><FaLinkedin /></div>
+        </div>
+      </div>
+      <div className='foot-note'>
+        <p>CredBevy and featured clients are financial technology companies and not a bank. Banking services are provided by Credbevy's partner banks who are Member FDIC.</p>
+      </div>
     </div>
   )
 }

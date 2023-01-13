@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+}
+.download-container {
+  background: rgba(140, 0, 255, 0.77);
+  width: 1042px;
+  height: 380px;
+  left: 0px;
+  top: 0px;
+  /* margin: 0px 199px; */
+  border-radius: 20px;
+}
+.download-container p {
+  font-family: "Recoleta Alt";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  position: relative;
+  width: 637px;
+  height: 72px;
+  left: 202px;
+  top: 102px;
+  color: white;
+}
+.download-button {
+  position: relative;
+  width: 402px;
+  height: 66px;
+  left: 320px;
+  top: 114px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  /* gap: 32px; */
+}
