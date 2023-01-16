@@ -7,8 +7,9 @@
 .feature-container {
   display: flex;
   flex-direction: row;
-  padding: 5rem 9rem 0 9rem;
+  padding: 5rem 6rem 0 21rem;
   gap: 100px;
+  /* background-color: red; */
 }
 .feature-content-1 h3,
 .feature-content-2 h3 {
@@ -40,6 +41,11 @@
   color: #8c8c8c;
   margin-bottom: 24px;
 }
+.feature-content-3 {
+  /* background-color: green; */
+  margin-left: 10rem;
+}
+
 .feature-content-2-img {
   width: 417px;
   height: 301px;

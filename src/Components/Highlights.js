@@ -55,14 +55,15 @@ export default function Highlights() {
           <div className='sec3-img'><img alt='seci-img' src={sec4Img}></img></div>
         </div>
       </div>
-      <div className='home-v'>
-        {/* <div className="overlay"></div> */}
-        <img alt='img' className='hm-video' src={phoneUsage} ></img>
-        <div className='video-text'>
-          <p>See how it works in less than a minute</p>
+      <div className='highlight'>
+        <div className='Highlight-image'>
+          {/* <div className="overlay"></div> */}
+          <img alt='img' className='HL-img' src={phoneUsage} />
+          <p className='highlight-text'>See how it works in less <br/> than a minute</p>
           <div className='play-btn'><FaPlayCircle /></div>
         </div>
       </div>
+      
 
     </>
   )

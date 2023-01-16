@@ -97,14 +97,17 @@
   line-height: 150%;
 }
 .divider {
-  position: relative;
-  width: 1100px;
-  height: 1px;
-  left: 360px;
-  top: 0px;
-  border-top: 1px solid black;
-  margin-bottom: 32px;
+  align-items: center;
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
 }
+.divider > hr {
+  width: 1100px;
+  margin-right: 10rem;
+  border: 2px solid black;
+}
+
 .footer2 {
   /* background-color: red; */
   display: flex;

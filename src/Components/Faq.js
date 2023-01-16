@@ -9,26 +9,34 @@ export default function Faq() {
     <>
       <div className='questions'>
         <h1>FREQUENTLY ASKED QUESTIONS</h1>
-        <div className='question'>
-          <h3>WHAT IS CREDBEVY?</h3> <IoChevronDown />
-        </div>
-        <div className='question'>
-          <h3>WHAT IS CREDBEVY?</h3> <IoChevronDown />
-        </div>
-        <div className='question'>
-          <h3>WHAT IS CREDBEVY?</h3> <IoChevronDown />
-        </div>
-        <div className='question'>
-          <h3>WHAT IS CREDBEVY?</h3> <IoChevronDown />
-        </div>
-        <div className='question'>
-          <h3>WHAT IS CREDBEVY?</h3> <IoChevronDown />
-        </div>
-        <div className='faqbtn-container'>
-          <div className='faq-btn'>
-            <p>See All</p> <BsArrowRight className={'arrow-right'} />
+        <div className='faq'>
+          <hr></hr>
+          <div className='question'>
+            <h3>WHAT IS CREDBEVY?</h3> <IoChevronDown />
+          </div>
+          <hr></hr>
+          <div className='question'>
+            <h3>WHAT IS CREDBEVY?</h3> <IoChevronDown />
+          </div>
+          <hr></hr>
+          <div className='question'>
+            <h3>WHAT IS CREDBEVY?</h3> <IoChevronDown />
+          </div>
+          <hr></hr>
+          <div className='question'>
+            <h3>WHAT IS CREDBEVY?</h3> <IoChevronDown />
+          </div>
+          <hr></hr>
+          <div className='question'>
+            <h3>WHAT IS CREDBEVY?</h3> <IoChevronDown />
+          </div>
+          <div className='faqbtn-container'>
+            <div className='faq-btn'>
+              <p>See All</p> <BsArrowRight className={'arrow-right'} />
+            </div>
           </div>
         </div>
+
       </div>
 
 

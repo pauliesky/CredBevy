@@ -37,7 +37,7 @@ function Footer() {
 
         </div>
       </div>
-      <hr className='divider' />
+      <div className='divider'> <hr></hr></div>
       <div className='footer2'>
         <div className='footer2-text'>
           <div>2021 Relume. All right reserved</div>

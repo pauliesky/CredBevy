@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Manrope:wght@500&family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Manrope&family=Montserrat:wght@500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -70,7 +73,7 @@
   /* top: 55%; */
   bottom: -10px;
   /* border: 1.5px solid #292d32; */
-  /* background: #000; */
+  background: white;
 }
 .applelogo {
   position: relative;
