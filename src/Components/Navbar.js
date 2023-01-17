@@ -1,6 +1,5 @@
 import React from 'react'
 import './Navbar.css'
-import { FaAngleDown } from "react-icons/fa";
 import logoImg from '../Images/Credbevy Logo.svg'
 import { Link } from 'react-router-dom';
 
@@ -11,19 +10,48 @@ function Navbar() {
   }
   return (
     <>
-      <div className='navbar-container'>
-        <nav className='navbar'>
-          <Link to='/'><div className='nav-logo'><img src={logoImg} alt='logo-img'></img></div></Link>
+      <nav className='navbar'>
+        <div className='nav-logo'>
+          <Link to='/'>
+            <div>
+              <img src={logoImg} alt='logo-img'></img>
+            </div>
+          </Link>
+        </div>
+        <div>
           <ul className='nav-links'>
-            <Link to='/products'  className='nav-links'><li>Products<FaAngleDown className='arrow-down' /></li></Link>
-            <Link to='/features'  className='nav-links'><li>Features<FaAngleDown className='arrow-down' /></li></Link>
-            <Link to='/partners'  className='nav-links'><li>Partners<FaAngleDown className='arrow-down' /></li></Link>
-            <Link to='/company'  className='nav-links'><li>Company<FaAngleDown className='arrow-down' /></li></Link>
+            <Link style={{ textDecoration: 'none' }} to='/products'>
+              <div className='nav-link'>
+                <div><li>Products</li></div>
+                <div className=''>
+                  <i className='bx bx-chevron-down ' ></i>
+                </div>
+              </div>
+            </Link>
+            <Link style={{ textDecoration: 'none' }} to='/features'>
+              <div className='nav-link'>
+                <div><li>Features</li></div>
+                <div><i class='bx bx-chevron-down' ></i></div>
+              </div>
+            </Link>
+            <Link style={{ textDecoration: 'none' }} to='/features'>
+              <div className='nav-link'>
+                <div><li>Partners</li></div>
+                <div><i class='bx bx-chevron-down' ></i></div>
+              </div>
+            </Link>
+            <Link style={{ textDecoration: 'none' }} to='/features'>
+              <div className='nav-link'>
+                <div><li>Company</li></div>
+                <div><i class='bx bx-chevron-down' ></i></div>
+              </div>
+            </Link>
           </ul>
-          <div className='get-started-btn' onClick={loginHandler}
-          >Get Started</div>
-        </nav>
-      </div>
+        </div>
+        <div className='nav__btn' onClick={loginHandler}>
+          <div className='nav__btn-content'>Get Started</div>
+        </div>
+      </nav>
 
     </>
 

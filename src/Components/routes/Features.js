@@ -1,5 +1,5 @@
 import React from 'react'
-import './Features.css'
+// import './Features.css'
 import ftImg from '../../Images/download.jpg'
 
 function Features() {

@@ -11,9 +11,9 @@
   justify-content: center;
   margin-top: 100px;
   /* background-color: red; */
+  position: relative;
 }
 .download-container {
-  background-color: black;
   background: rgba(17, 17, 17, 0.77);
   width: 1042px;
   height: 380px;
@@ -21,6 +21,13 @@
   top: 0px;
   /* margin: 0px 199px; */
   border-radius: 20px;
+}
+
+.liq18 {
+  width: 1050px;
+  height: 550px;
+  position: absolute;
+  bottom: -210px;
 }
 .download-container p {
   font-family: "Recoleta Alt";

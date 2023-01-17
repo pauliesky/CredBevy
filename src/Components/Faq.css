@@ -5,73 +5,65 @@
   padding: 0;
   box-sizing: border-box;
 }
-.questions {
-  /* background-color: red; */
-  /* margin-top: 5rem; */
-  display: flex;
-  /* justify-content: center; */
-  flex-direction: column;
-  align-items: center;
-  /* width: 100%; */
-  /* margin-left: 25rem; */
-}
 
-.faq {
-  /* background-color: blue; */
+.FAQ {
+  position: absolute;
   width: 1042px;
+  height: 1808px;
+  left: 199px;
+  top: 4350px;
+  background: #000;
 }
 
-.faq hr {
-  border: 1px solid black;
-}
-.questions h1 {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-.question {
-  height: 50px;
-  width: 100%;
-  padding: 3rem 1rem;
+.questions {
   display: flex;
-  gap: 50rem;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 150%;
-  /* background-color: blue; */
-  align-items: center;
-}
-
-.faqbtn-container {
-  margin-top: 3rem;
-  display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 17px 30px;
-  /* gap: 32px; */
-  /* width: 163px;
-  height: 58px; */
+  padding: 0px;
+  gap: 64px;
+  background: red;
+  position: absolute;
+  width: 957px;
+  height: 803px;
+  /* left: 241px; */
+  /* bottom: 1919px; */
 }
-.faq-btn {
-  background: #8003cd;
-  display: flex;
-  gap: 2rem;
-  padding: 1rem;
-  border-radius: 30px;
-  color: white;
-  font-family: "Manrope";
+
+.question__title {
+  width: 626px;
+  height: 72px;
+
+  font-family: "Recoleta Alt";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
-  cursor: pointer;
+  font-size: 48px;
+  line-height: 150%;
+  /* identical to box height, or 72px */
+
+  /* Text colour */
+
+  color: #111111;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
-.arrow-right {
-  color: white;
-  font-size: 1.5rem;
+.question__1 {
+  box-sizing: border-box;
+
+  width: 957px;
+  height: 109px;
+
+  /* Text colour */
+
+  border-top: 0.5px solid #111111;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }

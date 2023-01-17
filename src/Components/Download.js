@@ -1,7 +1,8 @@
 import React from 'react'
-import './Download.css'
+// import './Download.css'
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { AiOutlineApple } from "react-icons/ai";
+// import liquid18 from '../Images/liquid-18.png'
 
 
 export default function Download() {
@@ -10,6 +11,7 @@ export default function Download() {
     <>
       <div className='download'>
         <div className='download-container'>
+          {/* <img src={liquid18} alt='liq18' className='liq18'></img> */}
           <p>Download the CredBevy App</p>
           <div className='download-button'>
             <div className='download-btn'>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Testimonials.css'
+// import './Testimonials.css'
 import appStore from '../Images/App Store.png'
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Footer.css'
+// import './Footer.css'
 import logoImg from '../Images/Credbevy Logo.svg'
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
