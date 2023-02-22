@@ -1,10 +1,10 @@
 import React from 'react'
 import './Home.css'
-import FAQ from '../Faq'
-import TESTIMONIAL from '../Testimonials'
-import DOWNLOAD from '../Download'
-import HIGHLIGHTS from '../Highlights'
-import HERO from '../Hero'
+import FAQ from '../Home/Faq'
+import TESTIMONIAL from '../Home/Testimonials'
+import DOWNLOAD from '../Home/Download'
+import HIGHLIGHTS from '../Home/Highlights'
+import HERO from '../Home/Hero'
 
 
 function Home() {

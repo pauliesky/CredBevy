@@ -1,9 +1,9 @@
 import React from 'react'
 import './Hero.css'
-import ImgPink from '../Images/Ellipse 1.png'
-import ImgPink1 from '../Images/Ellipse 5.png'
-import ImgPurple from '../Images/Ellipse 4.png'
-import ImgBlue from '../Images/Ellipse 3.png'
+import ImgPink from './Images/Ellipse 1.png'
+import ImgPink1 from './Images/Ellipse 5.png'
+import ImgPurple from './Images/Ellipse 4.png'
+import ImgBlue from './Images/Ellipse 3.png'
 
 export default function Hero() {
   return (

@@ -11,7 +11,6 @@
 }
 .feature-container {
   animation: fadeIn 1s forwards;
-  /* transition: all 3s ease-in; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import logoImg from '../Images/Credbevy Logo.svg'
+import logoImg from '../Home/Images/Credbevy Logo.svg'
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 
@@ -26,7 +26,7 @@ function Footer() {
               <h5>Blog</h5>
               <h5>Security</h5>
             </div>
-            <div className='company'>
+            <div className='footer__company'>
               <h4>Company</h4>
               <h5>About</h5>
               <h5>Contact</h5>

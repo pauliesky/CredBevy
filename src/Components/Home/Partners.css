@@ -1,0 +1,114 @@
+.partners {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: red;
+}
+.partners__container {
+  animation: fadeIn 1s forwards;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 0px;
+  padding: 5rem 0rem;
+  z-index: 1;
+  position: absolute;
+  top: 7rem;
+  background-color: white;
+  width: 90%;
+  height: 64vh;
+  border-radius: 2rem;
+  opacity: 0;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.partners__content-1 h3,
+.partners__content-2 h3 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 117%;
+  margin-bottom: 32px;
+}
+.partners__content-1 h4,
+.partners__content-2 h4 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 117%;
+  color: #8003cd;
+  margin-bottom: 8px;
+}
+.partners__content-1 p,
+.partners__content-2 p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  color: #8c8c8c;
+  margin-bottom: 24px;
+}
+.partners__content-3 {
+  background: black;
+}
+.partners__content-2-img {
+  width: 417px;
+  height: 301px;
+  position: relative;
+  overflow: hidden;
+  /* mix-blend-mode: normal; */
+  border-radius: 16px;
+}
+.partners__content-2-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.get-started-ft-btn {
+  background: white;
+  border-radius: 30px;
+  padding: 17px 30px;
+  width: 140px;
+  height: 55px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  top: 220px;
+  left: 150px;
+  right: 0;
+}
+
+.partners__content-2-text {
+  position: absolute;
+  text-align: left;
+  top: 0;
+  bottom: 0;
+  /* left: 0;
+  right: 0; */
+  left: 19px;
+  top: 46px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 117%;
+  color: white;
+  /* width: 291px;
+  height: 120px; */
+}

@@ -63,7 +63,7 @@
   font-size: 14px;
   line-height: 150%;
 }
-.company h4 {
+.footer__company h4 {
   margin-bottom: 1rem;
   font-family: "Manrope";
   font-style: normal;
@@ -71,7 +71,7 @@
   font-size: 18px;
   line-height: 150%;
 }
-.company h5 {
+.footer__company h5 {
   margin-bottom: 0.5rem;
   font-family: "Manrope";
   font-style: normal;

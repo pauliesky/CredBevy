@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import logoImg from '../Images/Credbevy Logo.svg'
+import logoImg from '../Home/Images/Credbevy Logo.svg'
 import { Link } from 'react-router-dom';
 import Features from './Features';
+import Partners from './Partners';
+import Company from './Company';
 
 function Navbar() {
 
@@ -11,6 +13,8 @@ function Navbar() {
   }
 
   const [open, setOpen] = useState(false)
+  const [show, setShow] = useState(false)
+  const [display, setDisplay] = useState(false)
   return (
     <>
       <nav className='navbar'>
@@ -39,13 +43,13 @@ function Navbar() {
             </Link>
             <Link style={{ textDecoration: 'none' }} >
               <div className='nav-link'>
-                <div><li>Partners</li></div>
+                <div><li onClick={() => setShow(!show)} >Partners</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </Link>
             <Link style={{ textDecoration: 'none' }} >
               <div className='nav-link'>
-                <div><li>Company</li></div>
+                <div><li onClick={() => setDisplay(!display)}>Company</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </Link>
@@ -55,7 +59,9 @@ function Navbar() {
           <div className='nav__btn-content'>Get Started</div>
         </div>
       </nav>
-      {open && <Features /> }
+      {open && <Features />}
+      {show && <Partners />}
+      {display && <Company />}
 
     </>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Features.css'
-import ftImg from '../Images/download.jpg'
+import ftImg from '../Home/Images/download.jpg'
 
 function Features() {
 
@@ -11,7 +11,6 @@ function Features() {
     <>
       <div className='feature__wrapper'>
         <div className='feature-container'>
-
           <div className='feature-content-1'>
             <div><h3>Features</h3></div>
             <div>

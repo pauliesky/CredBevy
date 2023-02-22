@@ -1,10 +1,10 @@
 import React from 'react'
 import './Highlights.css'
 
-import sec1Img from '../Images/iPhone 13-1.png'
-import sec2Img from '../Images/iPhone 13-2.png'
-import sec3Img from '../Images/iPhone 13-3.png'
-import sec4Img from '../Images/iPhone 13-4.png'
+import sec1Img from '../Home/Images/iPhone 13-1.png'
+import sec2Img from '../Home/Images/iPhone 13-2.png'
+import sec3Img from '../Home/Images/iPhone 13-3.png'
+import sec4Img from '../Home/Images/iPhone 13-4.png'
 
 
 export default function Highlights() {

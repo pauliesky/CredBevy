@@ -2,7 +2,7 @@ import React from 'react'
 import { FaStar } from 'react-icons/fa'
 
 import './Testimonials.css'
-import appStore from '../Images/App Store.png'
+import appStore from '../Home/Images/App Store.png'
 
 
 export default function Testimonials() {
