@@ -4,7 +4,7 @@ import './LendingPartners.css'
 export default function LendingPartners() {
   return (
     <div>
-      hw
+      LendingPartners
     </div>
   )
 }
