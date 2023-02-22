@@ -6,59 +6,52 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* .hero {
+  position: relative;
+} */
 .hero__container {
-  position: absolute;
-  width: 1362px;
-  height: 407px;
-  left: -57px;
-  top: 201px;
-  /* background-color: red; */
+  margin-top: 7rem;
+  /* padding-top: 5rem; */
+  position: relative;
 }
 .pink {
   position: absolute;
-  width: 135px;
-  height: 135px;
-  left: 1227px;
+  left: 85%;
   top: 0px;
 }
 .pink1 {
   position: absolute;
-  width: 34px;
-  height: 34px;
-  left: 373px;
+  left: 20%;
   top: 100px;
 }
 .purple {
   position: absolute;
-  width: 34px;
-  height: 34px;
-  left: 373px;
-  top: 100px;
+  left: 80%;
+  top: 336px;
 }
 .blue {
   position: absolute;
-  width: 135px;
-  height: 135px;
   left: 0px;
-  top: 67px;
+  top: 60px;
 }
 .hero__title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-  gap: 24px;
-  position: absolute;
-  width: 708px;
-  height: 357px;
-  left: 423px;
-  top: 50px;
-  /* background-color: red; */
+  justify-content: center;
+  padding-top: 3rem;
+  /* padding: 0px; */
+  /* gap: 24px; */
+  /* position: absolute; */
+  /* width: 708px; */
+  /* height: 357px; */
+  /* left: 423px;
+  top: 50px; */
+  /* background-color: blue; */
 }
 
 .hero__title-head {
-  width: 708px;
-  height: 262px;
+  /* height: 262px; */
   font-family: "Recoleta Alt";
   font-style: normal;
   font-weight: 700;
@@ -68,11 +61,8 @@
   /* Text colour */
   color: #111111;
   /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
-.her__title-text {
+.hero__title-text {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 500;
@@ -83,24 +73,17 @@
 }
 
 .download-btn {
+  margin-top: 3rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
+  justify-content: center;
   gap: 32px;
-  position: absolute;
-  width: 402px;
-  height: 66px;
-  left: 519px;
-  top: 648px;
+  /* height: 66px; */
 }
 .white__button .bx {
   width: 24px;
   height: 24px;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .white__button {
   display: flex;
@@ -113,10 +96,6 @@
   height: 66px;
   background: #ffffff;
   border-radius: 30px;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .white__button-text {
@@ -152,9 +131,6 @@
   background: #111111;
   border-radius: 30px;
   /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .black__button-text {
   width: 85px;
@@ -168,7 +144,4 @@
   /* Gray / gray-1 */
   color: #ffffff;
   /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }

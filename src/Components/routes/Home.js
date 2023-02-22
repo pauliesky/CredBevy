@@ -10,12 +10,11 @@ import HERO from '../Hero'
 function Home() {
   return (
     <div className='home'>
-      
       <HERO />
       <HIGHLIGHTS />
       <FAQ />
-      {/* <TESTIMONIAL /> */}
-      {/* <DOWNLOAD /> */}
+      <TESTIMONIAL />
+      <DOWNLOAD />
     </div>
   )
 }

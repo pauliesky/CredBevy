@@ -12,19 +12,22 @@ export default function Highlights() {
     <>
       <div className='features'>
         <div className='feature__1'>
-          <div className='feature__1-head' >
-            <p>Loan app like you've never seen before</p>
+          <div className='feature__1-content'>
+            <div className='feature__1-head' >
+              <p>Loan app like you've never seen before</p>
+            </div>
+            <div className='feature__1-body'><p>
+              Credbevy aims to be your one-stop shop for all matters relating to loans. Loan offers, credit scores, approval chances, and more.
+              Get Started</p>
+            </div>
+            <div className='feature__1-button'><p>Get Started</p></div>
+
           </div>
-          <div className='feature__1-body'><p>
-            Credbevy aims to be your one-stop shop for all matters relating to loans. Loan offers, credit scores, approval chances, and more.
-            Get Started</p>
-          </div>
-          <div className='feature__1-button'><p>Get Started</p></div>
+
           <div className='feature__1-image'>
             <img alt='seci-img' src={sec1Img}></img>
           </div>
         </div>
-
         <div className='feature__2'>
           <div className='feature__2-image'>
             <div className='feature__2-img'>
@@ -46,13 +49,13 @@ export default function Highlights() {
             <div className='feature__3-head'>
               <p>Bevy Store</p>
             </div>
-            <div className='feature__3-body' ><p>Credbevy allows you to view your credit ratings without charge and provides advice on how to improve them.</p>
+            <div className='feature__3-body'>
+              <p>Credbevy allows you to view your credit ratings without charge and provides advice on how to improve them.</p>
             </div>
           </div>
           <div className='feature__3-image'>
             <div className='feature__3-img'>
               <img alt='seci-img' src={sec1Img}></img></div>
-
           </div>
         </div>
         <div className='feature__4'>
@@ -83,7 +86,7 @@ export default function Highlights() {
         <div className='feature__video'>
           <div className='feature__video-content'>
             <p>
-              See how it works in lessthan a minute</p>
+              See how it works in less than a minute</p>
           </div>
           <div className='feature__video-button'>
             <i class='bx bx-play-circle' ></i>

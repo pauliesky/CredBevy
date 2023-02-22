@@ -5,74 +5,41 @@
   padding: 0;
   box-sizing: border-box;
 }
-.navbar-container {
-  position: absolute;
-  width: 1040.5px;
-  height: 64.56px;
-  left: 200px;
-  top: 40px;
-  background-color: blue;
-}
+
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 99px;
-  padding: 0px;
-  position: absolute;
-  width: 1040.5px;
-  height: 64.56px;
-  left: 200px;
-  top: 40px;
-  /* background-color: red; */
+  position: relative;
+  top: 2rem;
+  height: 65px;
 }
 .nav-logo {
-  /* width: 51.5px; */
-  height: 64.56px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  height: 65px;
 }
 .nav-logo img {
-  position: absolute;
   width: 61px;
-  height: 138px;
-  left: -5.7px;
-  top: -36.44px;
+  height: 65px;
 }
 .nav-links {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 20px;
-  width: 518px;
   height: 44px;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   list-style: none;
+
+  margin: 0rem 15rem 0rem 20rem;
 }
 
 .nav-link {
-  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  gap: 8px;
-  width: 116px;
-  height: 44px;
-  /* background-color: red*/
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  gap: 5px;
 }
 .nav-link li {
-  /* margin: 0px 30px; */
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
@@ -85,44 +52,23 @@
   flex-grow: 0;
 }
 
-/* .nav__link-icon {
-  position: absolute;
-  left: 17%;
-  right: 17%;
-  top: 37.29%;
-  bottom: 33.14%;
-  font-size: 1.5px;
-} */
 .nav__btn {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 17px 30px;
-  gap: 10px;
-  width: 140px;
   height: 55px;
   /* Primary */
   background: #8003cd;
   border-radius: 30px;
   /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .nav__btn-content {
-  width: 80px;
   height: 21px;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 150%;
-  /* identical to box height, or 21px */
-  /* White */
   color: #ffffff;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }

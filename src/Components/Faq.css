@@ -1,69 +1,56 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Manrope&family=Montserrat:wght@500&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.FAQ {
-  position: absolute;
-  width: 1042px;
-  height: 1808px;
-  left: 199px;
-  top: 4350px;
-  background: #000;
-}
-
-.questions {
+.faq {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  gap: 64px;
-  background: red;
-  position: absolute;
-  width: 957px;
-  height: 803px;
-  /* left: 241px; */
-  /* bottom: 1919px; */
+  /* height: 100vh; */
 }
-
-.question__title {
-  width: 626px;
-  height: 72px;
-
-  font-family: "Recoleta Alt";
+.faq__head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+.item {
+  margin-bottom: 5px;
+  padding: 2rem 2rem;
+  border-top: 1px solid black;
+}
+.accordion {
+  padding: 5rem 20rem;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+  line-height: 1.5rem;
+}
+.faq__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq__btn-content {
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 14px;
   line-height: 150%;
-  /* identical to box height, or 72px */
-
-  /* Text colour */
-
-  color: #111111;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.question__1 {
-  box-sizing: border-box;
-
-  width: 957px;
-  height: 109px;
-
-  /* Text colour */
-
-  border-top: 0.5px solid #111111;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: #ffffff;
+  width: 10rem;
+  background: #8003cd;
+  border-radius: 30px;
+  padding: 17px 30px;
+  height: 55px;
+  cursor: pointer;
 }

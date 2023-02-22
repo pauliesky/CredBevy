@@ -4,54 +4,32 @@
   box-sizing: border-box;
 }
 .footer-1-container {
-  /* background: red; */
-  /* height: 50rem; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  /* height: 20rem; */
-  /* background-color: black; */
-  /* position: absolute;
-  width: 1440px;
-  height: 593px;
-  left: 0px;
-  bottom: 0px; */
+  margin-top: 10rem;
 }
 .ft-logo {
-  width: 51.5px;
-  height: 64.56px;
-  /* margin-right: 150px; */
-  /* background-color: aqua; */
+  width: 61px;
 }
 .ft-logo img {
-  position: relative;
-  width: 51px;
-  height: 108px;
-  left: -240px;
-  top: -10px;
   width: 61px;
-  height: 138px;
-  /* left: 40px; */
-  top: -36.44px;
 }
 .footer-1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 100px;
+  /* gap: 20rem; */
   height: 20rem;
-  /* background-color: blue; */
   align-content: center;
   padding-top: 5rem;
-  width: 100%;
-  /* text-align: center; */
 }
 .footer-1-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 198px;
+  gap: 14rem;
 }
 .products h4 {
   margin-bottom: 1rem;
@@ -108,27 +86,21 @@
   justify-content: center;
 }
 .divider > hr {
-  width: 1100px;
-  margin-right: 10rem;
-  border: 2px solid black;
+  width: 64rem;
+  border: 1px solid black;
 }
 
 .footer2 {
-  /* background-color: red; */
+  /* background-color: yellow; */
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 57px;
-  /* gap: 520px; */
-  /* border-left: 50px; */
 }
 .footer2-text {
   display: flex;
   align-items: center;
-  padding: 0px;
-  gap: 24px;
-  position: relative;
-  left: -310px;
+  gap: 1rem;
 }
 .icon {
   height: 18px;
@@ -138,10 +110,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
-  gap: 12px;
-  position: relative;
-  right: -140px;
+  margin-left: 5rem;
+  gap: 1rem;
 }
 .foot-note {
   font-family: "Manrope";
@@ -151,11 +121,6 @@
   line-height: 21px;
   display: flex;
   justify-content: center;
-  /* width: 1250px; */
   height: 21px;
-  margin: auto;
-  /* background-color: red; */
-  margin-bottom: 74px;
-  position: relative;
-  left: -5rem;
+  padding-bottom: 5rem;
 }

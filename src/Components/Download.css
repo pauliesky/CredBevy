@@ -10,48 +10,70 @@
   display: flex;
   justify-content: center;
   margin-top: 100px;
-  /* background-color: red; */
-  position: relative;
 }
 .download-container {
   background: rgba(17, 17, 17, 0.77);
   width: 1042px;
   height: 380px;
-  left: 0px;
-  top: 0px;
-  /* margin: 0px 199px; */
   border-radius: 20px;
 }
 
 .liq18 {
-  width: 1050px;
-  height: 550px;
-  position: absolute;
-  bottom: -210px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 450px;
+}
+.liq18 img {
+  height: 450px;
+  z-index: 1;
 }
 .download-container p {
   font-family: "Recoleta Alt";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  line-height: 150%;
-  position: relative;
-  width: 637px;
-  height: 72px;
-  left: 202px;
-  top: 102px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
   color: white;
+  margin-top: 6rem;
 }
 .download-button {
-  position: relative;
-  width: 402px;
   height: 66px;
-  left: 320px;
-  top: 114px;
-  /* background-color: red; */
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  /* gap: 32px; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.download__btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.btn__white {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 30px;
+  border-radius: 30px;
+  gap: 16px;
+}
+.btn__black {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 30px;
+  border-radius: 30px;
+  gap: 16px;
 }
