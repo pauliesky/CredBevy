@@ -8,6 +8,8 @@ import Contact from './Components/Contact/ContactUs'
 import AboutUs from './Components/AboutUs/AboutUs';
 import FAQs from './Components/FAQs/FAQs';
 import ScoreRating from './Components/ScoreRating/ScoreRating';
+import LoanOffers from './Components/LoanOffers/LoanOffers';
+import Transfer from './Components/Transfer/Transfer';
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
           <Route path='/contactus' element={<Contact />} />
           <Route path='/FAQs' element={<FAQs />} />
           <Route path='/ScoreRating' element={<ScoreRating />} />
+          <Route path='/LoanOffers' element={<LoanOffers />} />
+          <Route path='/Transfer' element={<Transfer />} />
         </Routes>
         <Footer />
       </Router>

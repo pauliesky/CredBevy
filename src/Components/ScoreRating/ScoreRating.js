@@ -10,7 +10,6 @@ import Download from '../Home/Download'
 function ScoreRating() {
   return (
     <>
-
       <div className='scoreRate__hero'>
         <div className='scoreRate__head' >
           <h5>Features</h5>

@@ -15,7 +15,8 @@ function Features() {
           <div className='feature-content-1'>
             <div><h3>Features</h3></div>
             <div>
-              <h4>Multiple loan offers</h4>
+              <Link to='/LoanOffers'>  <h4>Multiple loan offers</h4> </Link>
+
               <p>Get  instant loan disbursed to your account <br /> under 24 hrs of application.</p>
             </div>
             <div>
@@ -24,7 +25,8 @@ function Features() {
               <p>View your credit score rating and know <br /> where or how to improve it.</p>
             </div>
             <div>
-              <h4>Free Transfer</h4>
+              <Link to='/Transfer'> <h4>Free Transfer</h4>  </Link>
+
               <p>Transfer money for free from your loan <br /> wallets to any bank account.</p>
             </div>
             <div>
