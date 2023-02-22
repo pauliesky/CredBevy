@@ -30,7 +30,8 @@ function Features() {
               <p>Transfer money for free from your loan <br /> wallets to any bank account.</p>
             </div>
             <div>
-              <h4>Pay Bills</h4>
+              <Link to='/Bills' > <h4>Pay Bills</h4> </Link>
+
               <p>Pay for your airtime, data, light, water, cable <br /> bill at your convinience</p>
             </div>
           </div>
@@ -38,7 +39,9 @@ function Features() {
             <div><h3>Integrations</h3></div>
             <div><h4>API Integrations</h4>
               <p>Get  instant loan disbursed to your account <br />under 24 hrs of application.</p></div>
-            <div><h4>Partner Integrations</h4>
+            <div>
+              <Link to='/PartnersIntegrations'><h4>Partner Integrations</h4></Link>
+
               <p>Get  instant loan disbursed to your account <br /> under 24 hrs of application.</p></div>
           </div>
           <div className='feature-content-3'>

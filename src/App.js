@@ -10,6 +10,9 @@ import FAQs from './Components/FAQs/FAQs';
 import ScoreRating from './Components/ScoreRating/ScoreRating';
 import LoanOffers from './Components/LoanOffers/LoanOffers';
 import Transfer from './Components/Transfer/Transfer';
+import Bills from './Components/Bills/Bills';
+import PartnersIntegrations from './Components/Integrations/PartnersIntegrations';
+import LendingPartners from './Components/LendingPartners/LendingPartners';
 
 
 function App() {
@@ -25,6 +28,9 @@ function App() {
           <Route path='/ScoreRating' element={<ScoreRating />} />
           <Route path='/LoanOffers' element={<LoanOffers />} />
           <Route path='/Transfer' element={<Transfer />} />
+          <Route path='/Bills' element={<Bills />} />
+          <Route path='/PartnersIntegrations' element={<PartnersIntegrations />} />
+          <Route path='/LendingPartners' element={<LendingPartners />} />
         </Routes>
         <Footer />
       </Router>

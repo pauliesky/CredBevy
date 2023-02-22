@@ -22,7 +22,9 @@ function Partners() {
           </div>
           <div className='partners__content-2'>
             <div><h3>Help & Support</h3></div>
-            <div><h4>Customer Hub</h4>
+            <div>
+              <Link to='./LendingPartners'> <h4>Customer Hub</h4>  </Link>
+
               <p>Get  instant loan disbursed to your account <br />under 24 hrs of application.</p></div>
             <div>
               <Link to='/FAQs'> <h4>FAQs</h4> </Link>
