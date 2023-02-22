@@ -6,6 +6,8 @@ import Footer from './Components/Home/Footer'
 import Home from './Components/routes/Home';
 import Contact from './Components/Contact/ContactUs'
 import AboutUs from './Components/AboutUs/AboutUs';
+import FAQs from './Components/FAQs/FAQs';
+import ScoreRating from './Components/ScoreRating/ScoreRating';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/aboutus' element={<AboutUs />} />
           <Route path='/contactus' element={<Contact />} />
+          <Route path='/FAQs' element={<FAQs />} />
+          <Route path='/ScoreRating' element={<ScoreRating />} />
         </Routes>
         <Footer />
       </Router>

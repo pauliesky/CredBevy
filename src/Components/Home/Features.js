@@ -1,6 +1,7 @@
 import React from 'react'
 import './Features.css'
 import ftImg from '../Home/Images/download.jpg'
+import { Link } from 'react-router-dom'
 
 function Features() {
 
@@ -18,7 +19,8 @@ function Features() {
               <p>Get  instant loan disbursed to your account <br /> under 24 hrs of application.</p>
             </div>
             <div>
-              <h4>Credit Score</h4>
+              <Link to='/ScoreRating'> <h4>Credit Score</h4>  </Link>
+
               <p>View your credit score rating and know <br /> where or how to improve it.</p>
             </div>
             <div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Partners.css'
 // import ftImg from '../Home/Images/download.jpg'
-
+import { Link } from 'react-router-dom'
 function Partners() {
 
   const loginHandler = () => {
@@ -18,13 +18,16 @@ function Partners() {
               <h4>Latest Articles and Research</h4>
               <p>Get  instant loan disbursed to your account <br /> under 24 hrs of application.</p>
             </div>
-      
+
           </div>
           <div className='partners__content-2'>
             <div><h3>Help & Support</h3></div>
             <div><h4>Customer Hub</h4>
               <p>Get  instant loan disbursed to your account <br />under 24 hrs of application.</p></div>
-            <div><h4>FAQs</h4>
+            <div>
+              <Link to='/FAQs'> <h4>FAQs</h4> </Link>
+
+
               <p>Get  instant loan disbursed to your account <br /> under 24 hrs of application.</p></div>
             <div><h4>API Documentation</h4>
               <p>Get  instant loan disbursed to your account <br /> under 24 hrs of application.</p></div>

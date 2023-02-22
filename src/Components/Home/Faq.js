@@ -1,6 +1,11 @@
 import React from 'react'
 import './Faq.css'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
+
+
+
+
 function Faq() {
 
   const [selected, setSelected] = useState()
@@ -34,10 +39,11 @@ function Faq() {
         </div>
 
       </div>
-
-      <div className='faq__btn'>
-        <div className='faq__btn-content'>See All   <i className='bx bx-chevron-right ' ></i></div>
-      </div>
+      <Link to='/FAQs'>
+        <div className='faq__btn'>
+          <div className='faq__btn-content'>See All   <i className='bx bx-chevron-right'></i></div>
+        </div>
+      </Link>
     </>
   )
 }
