@@ -13,6 +13,8 @@ import Transfer from './Components/Transfer/Transfer';
 import Bills from './Components/Bills/Bills';
 import PartnersIntegrations from './Components/Integrations/PartnersIntegrations';
 import LendingPartners from './Components/LendingPartners/LendingPartners';
+import News from './Components/News/News';
+
 
 
 function App() {
@@ -31,6 +33,7 @@ function App() {
           <Route path='/Bills' element={<Bills />} />
           <Route path='/PartnersIntegrations' element={<PartnersIntegrations />} />
           <Route path='/LendingPartners' element={<LendingPartners />} />
+          <Route path='/News' element={<News/>} />
         </Routes>
         <Footer />
       </Router>

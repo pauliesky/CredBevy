@@ -28,7 +28,8 @@ function Company() {
               <h3>Career</h3>
             </div>
             <div>
-              <h3>News and Media</h3>
+              <Link to='/News'> <h3>News and Media</h3>  </Link>
+
             </div>
 
           </div>
