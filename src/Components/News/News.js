@@ -7,7 +7,7 @@ function News() {
       <div className='News__head' >
         <div className='News__head-title' >
           <h2>
-            CredBevy's News
+            CredBevy News
           </h2>
         </div>
         <div className='News__head-body' >
