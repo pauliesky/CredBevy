@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logoImg from '../Home/Images/Credbevy Logo.svg'
 import { Link } from 'react-router-dom';
@@ -15,6 +15,24 @@ function Navbar() {
   const [open, setOpen] = useState(false)
   const [show, setShow] = useState(false)
   const [display, setDisplay] = useState(false)
+
+
+  // useEffect(() => {
+
+  //   const closeDropDown = e => {
+
+  //     if (e.path[0].tagName !== 'nav-link') {
+  //       setOpen(false)
+  //     } else {
+
+  //     }
+  //   }
+
+  //   document.body.addEventListener('click', closeDropDown)
+  //   return () => document.body.addEventListener('click', closeDropDown)
+  // }, []);
+
+
   return (
     <>
       <nav className='navbar'>
@@ -43,7 +61,7 @@ function Navbar() {
             </Link>
             <Link style={{ textDecoration: 'none' }} >
               <div className='nav-link'>
-                <div><li onClick={() => setShow(!show)} >Partners</li></div>
+                <div><li onClick={() => setShow(!show)}>Partners</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </Link>
@@ -60,6 +78,7 @@ function Navbar() {
         </div>
       </nav>
       {open && <Features />}
+
       {show && <Partners />}
       {display && <Company />}
 

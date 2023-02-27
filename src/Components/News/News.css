@@ -1,5 +1,3 @@
-
-
 .News__head {
   margin-top: 10rem;
   display: flex;
@@ -8,7 +6,6 @@
   align-items: center;
   text-align: center;
 }
-
 .News__head-title {
   width: 990px;
   /* height: 262px; */
@@ -54,6 +51,7 @@
   border: none;
 }
 .News__grid-container {
+  margin-top: 5rem;
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: center;
@@ -64,12 +62,112 @@
   grid-column-end: 4;
   background: #e5eaef;
   border-radius: 4px;
-  height: 269px;
+  height: 333px;
+  width: 1040px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
+.News__grid-item1-image {
+  width: 50%;
+}
+.News__grid-item1-content {
+  background-color: #fef9fe;
+  gap: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.News__grid-item1-content-head {
+  font-family: "Recoleta Alt";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  width: 390px;
 
+  /* Text/#333333 */
+
+  color: #333333;
+}
+.News__grid-item1-content-body {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  width: 422px;
+  /* Text/#333333 */
+
+  color: #333333;
+}
+.News__grid-item1-content-profile {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.News__grid-item1-content-profile-img {
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  /* Grey 2 */
+  background: #e5eaef;
+}
 .News__grid-item {
   width: 290px;
-  height: 269px;
+  height: 569px;
   background: #e5eaef;
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.News__grid-item-image {
+  height: 60%;
+}
+.News__grid-item-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fef9fe;
+  padding: 0.5rem;
+  height: 50%;
+  gap: 1rem;
+  justify-content: center;
+}
+.News__grid-item-content-title {
+  font-family: "Recoleta Alt";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+
+  /* Text/#333333 */
+
+  color: #333333;
+}
+.News__grid-item-content-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.News__grid-item-content-body {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  /* or 200% */
+
+  /* Text/#333333 */
+
+  color: #333333;
+}
+.News__grid-item-content-profile-img {
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  background: #e5eaef;
 }
