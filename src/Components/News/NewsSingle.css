@@ -1,0 +1,85 @@
+.NewsSingle__Section-1 {
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* padding: 100px 200px; */
+}
+.NewsSingle__Section-1-title {
+  font-family: "Recoleta Alt";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+  width: 1040px;
+  height: 174px;
+  /* Text/#333333 */
+  margin-bottom: 5rem;
+  color: #333333;
+}
+.NewsSingle__Section-1-image {
+  width: 1040px;
+  height: 437px;
+  background: #e5eaef;
+  border-radius: 4px;
+  margin-bottom: 3rem;
+}
+.NewsSingle__Section-1-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1040px;
+  height: 59px;
+  align-items: center;
+}
+
+.NewsSingle__Section-1-socials-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.NewsSingle__Section-1-body {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  width: 1040px;
+  height: 221px;
+  color: #000000;
+}
+.facebook-icon {
+  color: #337fff;
+  width: 58px;
+  height: 58px;
+  font-size: 29px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-icon {
+  color: radial-gradient(
+    102.89% 102.88% at 60.65% 104.95%,
+    rgba(140, 58, 170, 0) 64%,
+    #8c3aaa 100%
+  );
+  font-size: 32px;
+}
+.twitter-icon {
+  color: #33ccff;
+  font-size: 30px;
+}
+
+.tiktok-icon {
+  color: #69c9d0;
+  font-size: 29px;
+}
+
+.linkedin-icon {
+  color: #006699;
+}
