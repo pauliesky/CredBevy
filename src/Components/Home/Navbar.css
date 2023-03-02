@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 2rem;
+  top: 2.5rem;
   height: 65px;
 }
 .nav-logo {
@@ -26,7 +25,6 @@
   flex-direction: row;
   height: 44px;
   list-style: none;
-
   margin: 0rem 8rem 0rem 15rem;
 }
 
@@ -37,6 +35,15 @@
   align-items: center;
   padding: 10px;
   gap: 5px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  background: red;
+  /* Text colour */
+  color: #111111;
 }
 .nav-link li {
   font-family: "Manrope";
