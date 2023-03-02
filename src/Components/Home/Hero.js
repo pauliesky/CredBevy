@@ -16,7 +16,7 @@ export default function Hero() {
           <img alt='ellipse 4' className='blue' src={ImgBlue} ></img>
           <div className='hero__title'>
             <p className='hero__title-head'>One app,<br />all things credit</p>
-            <div className='hero__title-text'><p>Facilitationg loan transactions<br />between lenders and borrowers</p></div>
+            <div className='hero__title-text'><p>Facilitationg loan transactions between <span id='purple' >lenders </span> and <span id='purple' >borrowers</span></p></div>
           </div>
         </div>
 
