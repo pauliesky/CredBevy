@@ -41,7 +41,6 @@
   font-size: 16px;
   line-height: 150%;
   /* identical to box height, or 24px */
-  background: red;
   /* Text colour */
   color: #111111;
 }
@@ -77,4 +76,10 @@
   font-size: 14px;
   line-height: 150%;
   color: #ffffff;
+}
+.bx {
+  /* width: 20px; */
+  color: #292d32;
+ 
+  /* font-size: 1.5px; */
 }

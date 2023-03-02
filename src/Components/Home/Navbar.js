@@ -78,7 +78,6 @@ function Navbar() {
         </div>
       </nav>
       {open && <Features />}
-
       {show && <Partners />}
       {display && <Company />}
 
