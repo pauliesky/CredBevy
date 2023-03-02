@@ -1,0 +1,128 @@
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+.calculator-container {
+  width: 1040px;
+}
+.calculator-title {
+  height: 131px;
+
+  font-family: "Recoleta Alt";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 131px;
+  /* identical to box height */
+
+  text-align: center;
+  margin-bottom: 2rem;
+  /* Text colour */
+
+  color: #111111;
+}
+.calculator-subtitle {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  text-align: center;
+
+  /* Text/#333333 */
+
+  color: #333333;
+  margin-bottom: 10rem;
+}
+
+.calculator-form {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 1040px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding-top: 6rem;
+}
+
+.calculator-form-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5rem;
+  /* width: 856px;
+  height: 379px; */
+  margin-bottom: 5rem;
+}
+.calculator-form-input {
+  width: 359px;
+  height: 79px;
+  display: flex;
+  flex-direction: column;
+}
+.calculator-form-input label {
+  height: 19px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+
+  /* Text/#333333 */
+
+  color: #333333;
+  margin-bottom: 0.5rem;
+  margin-left: 0.1rem;
+}
+.calculator-form-input input {
+  width: 359px;
+  height: 56px;
+  border: none;
+  /* Gray / gray-3 */
+
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.calculator-content-title {
+  font-family: "Recoleta Alt";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+
+  /* Primary */
+
+  color: #8003cd;
+}
+.calculator-content-body {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  /* Text/#333333 */
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #333333;
+}
+.calculator-content-footer {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  width: 1040px;
+  height: 240px;
+  color: #000000;
+}

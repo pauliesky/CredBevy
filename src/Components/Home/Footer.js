@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import logoImg from '../Home/Images/Credbevy Logo.svg'
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -22,7 +23,8 @@ function Footer() {
             <div className='resources'>
               <h4>Resources</h4>
               <h5>Guides</h5>
-              <h5>EMI Calculator</h5>
+              <Link to='/Calculator'><h5>EMI Calculator</h5></Link>
+
               <h5>Blog</h5>
               <h5>Security</h5>
             </div>
@@ -44,7 +46,7 @@ function Footer() {
         <div className='footer2-text'>
           <div>2021 Resume. All right reserved</div>
           <div>Privacy</div>
-          <div>Terms of Service</div>
+          <Link to='/Terms&Conditions' > <div>Terms of Service</div> </Link>
           <div>Cookies Settings</div>
         </div>
         <div className='footer-icons'>

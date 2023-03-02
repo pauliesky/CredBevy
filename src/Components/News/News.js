@@ -39,8 +39,6 @@ function News() {
               </div>
             </div>
         </div>
-
-
         <div className='News__grid-item'>
           <div className='News__grid-item-image'></div>
           <div className='News__grid-item-content'>
@@ -55,7 +53,9 @@ function News() {
 
           </div>
         </div>
-        <div className='News__grid-item'>   <div className='News__grid-item-image'></div>
+        <div className='News__grid-item'>
+          <div className='News__grid-item-image'>
+          </div>
           <div className='News__grid-item-content'>
 
             <div className='News__grid-item-content-title' >Credbevy raises unknown amount in indisclosed round</div>

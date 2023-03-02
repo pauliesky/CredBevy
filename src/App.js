@@ -15,6 +15,8 @@ import PartnersIntegrations from './Components/Integrations/PartnersIntegrations
 import LendingPartners from './Components/LendingPartners/LendingPartners';
 import News from './Components/News/News';
 import NewsSingle from './Components/News/NewsSingle';
+import TermsAndConditions from './Components/T&C/TermsAndConditions';
+import Calculator from './Components/E.M.I/Calculator';
 
 
 
@@ -34,7 +36,10 @@ function App() {
           <Route path='/Bills' element={<Bills />} />
           <Route path='/PartnersIntegrations' element={<PartnersIntegrations />} />
           <Route path='/LendingPartners' element={<LendingPartners />} />
-          <Route path='/News' element={<News />} /><Route path='/NewsSingle' element={<NewsSingle />} />
+          <Route path='/News' element={<News />} />
+          <Route path='/NewsSingle' element={<NewsSingle />} />
+          <Route path='/Terms&Conditions' element={<TermsAndConditions />} />
+          <Route path='/Calculator' element={<Calculator />} />
         </Routes>
         <Footer />
       </Router>
