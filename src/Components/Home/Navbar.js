@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import './Navbar.css'
 import logoImg from '../Home/Images/Credbevy Logo.svg'
 import { Link } from 'react-router-dom';
@@ -9,9 +9,9 @@ import Button from './Utilities/Button';
 
 function Navbar() {
 
-  const loginHandler = () => {
-    console.log('logged in')
-  }
+  // const loginHandler = () => {
+  //   console.log('logged in')
+  // }
 
   const [open, setOpen] = useState(false)
   const [show, setShow] = useState(false)

@@ -1,10 +1,12 @@
 import React from 'react'
 import './Highlights.css'
+import Button from './Utilities/Button';
 
 import sec1Img from '../Home/Images/iPhone 13-1.png'
 import sec2Img from '../Home/Images/iPhone 13-2.png'
 import sec3Img from '../Home/Images/iPhone 13-3.png'
 import sec4Img from '../Home/Images/iPhone 13-4.png'
+
 
 
 export default function Highlights() {
@@ -20,13 +22,9 @@ export default function Highlights() {
               Credbevy aims to be your one-stop shop for all matters relating to loans. Loan offers, credit scores, approval chances, and more.
               Get Started</p>
             </div>
-            <div className='feature__1-button'><p>Get Started</p></div>
-
+            <Button label={'Get Started'} />
           </div>
-
-          <div className='feature__1-image'>
             <img alt='seci-img' src={sec1Img}></img>
-          </div>
         </div>
         <div className='feature__2'>
           <div className='feature__2-image'>
