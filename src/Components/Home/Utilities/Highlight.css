@@ -1,0 +1,48 @@
+.highlight__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1040px;
+  height: 483px;
+  margin-top: 4rem;
+  gap: 8rem;
+}
+.hightlight__frame {
+  width: 473px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.hightlight__frame img {
+  width: 373px;
+}
+.highlight__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 410px;
+  height: 104px;
+}
+.highlight__body {
+  width: 410px;
+  height: 48px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.04em;
+  color: #111111;
+}
+.highlight__title {
+  width: 315px;
+  height: 48px;
+  font-family: "Recoleta Alt";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #111111;
+}
