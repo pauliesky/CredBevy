@@ -1,0 +1,37 @@
+.download__button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  border: none;
+  background-color: #fef9fe;
+  cursor: pointer;
+}
+
+.download__button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 30px;
+  gap: 16px;
+  width: 185px;
+  height: 66px;
+  border-radius: 30px;
+}
+
+.download__button-icon {
+  font-size: 24px;
+}
+.download__button-text {
+  width: 85px;
+  height: 32px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 117%;
+  /* or 16px */
+  text-align: left;
+}

@@ -4,8 +4,20 @@ import ImgPink from './Images/Ellipse 1.png'
 import ImgPink1 from './Images/Ellipse 5.png'
 import ImgPurple from './Images/Ellipse 4.png'
 import ImgBlue from './Images/Ellipse 3.png'
+import DownloadButton from './Utilities/DownloadButton'
+import { UilAppleAlt } from '@iconscout/react-unicons'
+
 
 export default function Hero() {
+  const buttonStyleWhite = {
+    backgroundColor: 'white'
+  }
+  const buttonStyleBlack = {
+    backgroundColor: 'black',
+    color: 'white'
+  }
+
+
   return (
     <>
       <div className='hero'>
@@ -16,19 +28,25 @@ export default function Hero() {
           <img alt='ellipse 4' className='blue' src={ImgBlue} ></img>
           <div className='hero__title'>
             <p className='hero__title-head'>One app,<br />all things credit</p>
-            <div className='hero__title-text'><p>Facilitationg loan transactions between <span id='purple' >lenders </span> and <span id='purple' >borrowers</span></p></div>
+
+
+            <div className='hero__title-text'><p>Facilitationg loan transactions between <span id='purple' >lenders </span> and <span id='purple' >borrowers</span></p>
+
+            </div>
           </div>
         </div>
 
-        <div className='download-btn'>
-          <div className='white__button'>
-            <div><i class='bx bxl-play-store' ></i></div>
-            <div className='white__button-text'> Download on Playstore</div>
-          </div>
-          <div className='black__button'>
-            <div><i class='bx bxl-apple'></i></div>
-            <div className='black__button-text'>Download on Appstore</div>
-          </div>
+        <div className='hero__download-button'>
+          <DownloadButton
+            label={`Download on  ${'PlayStore'}   `}
+            buttonStyle={buttonStyleWhite}
+            icon={<i class="uit uit-google-play"></i>}
+          />
+          <DownloadButton
+            label={'Download on AppStore'}
+            buttonStyle={buttonStyleBlack}
+            icon={<UilAppleAlt />}
+          />
         </div>
 
       </div>

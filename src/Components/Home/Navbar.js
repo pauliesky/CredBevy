@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Features from './Features';
 import Partners from './Partners';
 import Company from './Company';
+import Button from './Utilities/Button';
 
 function Navbar() {
 
@@ -73,9 +74,7 @@ function Navbar() {
             </Link>
           </ul>
         </div>
-        <div className='nav__btn' onClick={loginHandler}>
-          <div className='nav__btn-content'>Get Started</div>
-        </div>
+        <Button label={'Get Started'} />
       </nav>
       {open && <Features />}
       {show && <Partners />}

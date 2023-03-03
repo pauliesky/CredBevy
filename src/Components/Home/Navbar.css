@@ -57,29 +57,10 @@
   flex-grow: 0;
 }
 
-.nav__btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 17px 30px;
-  height: 55px;
-  /* Primary */
-  background: #8003cd;
-  border-radius: 30px;
-  /* Inside auto layout */
-}
-.nav__btn-content {
-  height: 21px;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 150%;
-  color: #ffffff;
-}
+
 .bx {
   /* width: 20px; */
   color: #292d32;
- 
+
   /* font-size: 1.5px; */
 }

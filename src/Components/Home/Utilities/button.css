@@ -1,0 +1,22 @@
+.button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 25px;
+  width: 140px;
+  height: 55px;
+  background: #8003cd;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.button__container-text {
+  width: 90px;
+  height: 21px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
