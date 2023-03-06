@@ -4,6 +4,8 @@ import Download from '../Home/Download'
 import iPhone13_7 from '../Home/Images/iPhone 13-7.png'
 import iPhone13_8 from '../Home/Images/iPhone 13-8.png'
 // import iPhone13_8 from '../Home/Images/iPhone 13-8.png'
+import Button from '../Home/Utilities/Button'
+
 
 
 
@@ -16,7 +18,7 @@ function Transfer() {
           <h5>Features</h5>
         </div>
         <div className='Transfer__title'>
-         Instant Transfers
+          Instant Transfers
         </div>
       </div>
       <div className='Transfer__body-1' >
@@ -30,7 +32,7 @@ function Transfer() {
               <div className='Transfer__1-body'><p>
                 Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
               </div>
-              <div className='Transfer__1-button'><p>Get Started</p></div>
+              <Button label={'Get Started'} />
 
             </div>
             <img alt='seci-img' src={iPhone13_7}></img>

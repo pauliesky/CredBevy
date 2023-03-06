@@ -6,6 +6,7 @@ import iPhone13_7 from '../Home/Images/iPhone 13-7.png'
 import liquid1 from '../Home/Images/1.png'
 import Frame325_2 from '../Home/Images/Frame 325 (2).png'
 import Frame325_3 from '../Home/Images/Frame 325 (3).png'
+import Button from '../Home/Utilities/Button'
 
 function PartnersIntegrations() {
   return (
@@ -30,7 +31,9 @@ function PartnersIntegrations() {
               <div className='PartnersIntegration__1-body'><p>
                 Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
               </div>
-              <div className='PartnersIntegration__1-button'><p>Get Started</p></div>
+              <Button label={'Get Started'} />
+
+
 
             </div>
             <img alt='seci-img' src={Frame325}></img>
@@ -47,7 +50,8 @@ function PartnersIntegrations() {
               <div className='PartnersIntegration__2-body'><p>
                 Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
               </div>
-              <div className='PartnersIntegration__2-button'><p>Get Started</p></div>
+              <Button label={'Get Started'} />
+
 
             </div>
             <img alt='seci-img' src={iPhone13_7}></img>
@@ -64,7 +68,8 @@ function PartnersIntegrations() {
               <div className='PartnersIntegration__3-body'><p>
                 Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
               </div>
-              <div className='PartnersIntegration__3-button'><p>Get Started</p></div>
+              <Button label={'Get Started'} />
+
 
             </div>
             <img alt='seci-img' src={liquid1}></img>
@@ -81,7 +86,8 @@ function PartnersIntegrations() {
               <div className='PartnersIntegration__4-body'><p>
                 Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
               </div>
-              <div className='PartnersIntegration__4-button'><p>Get Started</p></div>
+              <Button label={'Get Started'} />
+
 
             </div>
             <img alt='seci-img' src={Frame325_2}></img>
@@ -98,7 +104,8 @@ function PartnersIntegrations() {
               <div className='PartnersIntegration__5-body'><p>
                 Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
               </div>
-              <div className='PartnersIntegration__5-button'><p>Get Started</p></div>
+              <Button label={'Get Started'} />
+
 
             </div>
             <img alt='seci-img' src={Frame325_3}></img>

@@ -10,6 +10,7 @@ import Highlight from './Utilities/Highlight';
 
 
 
+
 export default function Highlights() {
 
 
@@ -76,16 +77,22 @@ export default function Highlights() {
           body={'With Credbevy, you have a number of easy loan repayment choices at your disposal.'} />
       </div>
 
-      <div className='feature__video'>
-        <div className='feature__video-content'>
-          <p>
-            See how it works in less than a minute</p>
-        </div>
-        <div className='feature__video-button'>
-          <i class='bx bx-play-circle' ></i>
+      <div className='highlight__video'>
+        <div className='highlight__video-content'>
+
+          <div className='highlight__video-title'>
+            <p>
+              See how it works in less than a minute</p>
+          </div>
+          <div className='highlight__video-button'>
+            <i class="uil uil-play-circle"></i>
+          </div>
+
+
         </div>
 
       </div>
+
 
     </>
   )

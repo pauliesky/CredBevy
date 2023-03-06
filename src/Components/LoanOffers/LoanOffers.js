@@ -4,6 +4,7 @@ import Download from '../Home/Download'
 import iPhone13_7 from '../Home/Images/iPhone 13-7.png'
 import iPhone13_8 from '../Home/Images/iPhone 13-8.png'
 import iPhone13_9 from '../Home/Images/iPhone 13-9.png'
+import Button from '../Home/Utilities/Button'
 
 function LoanOffers() {
   return (
@@ -27,7 +28,10 @@ function LoanOffers() {
               <div className='loanOffer__1-body'><p>
                 Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
               </div>
-              <div className='loanOffer__1-button'><p>Get Started</p></div>
+              
+                <Button label={'Get Started'} />
+           
+
 
             </div>
             <img alt='seci-img' src={iPhone13_7}></img>

@@ -1,4 +1,4 @@
-import React, {  useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import './Navbar.css'
 import logoImg from '../Home/Images/Credbevy Logo.svg'
 import { Link } from 'react-router-dom';
@@ -13,9 +13,8 @@ function Navbar() {
   //   console.log('logged in')
   // }
 
-  const [open, setOpen] = useState(false)
-  const [show, setShow] = useState(false)
-  const [display, setDisplay] = useState(false)
+  // 
+  // onClick = {() => setOpen(!open)}
 
 
   // useEffect(() => {
@@ -34,6 +33,43 @@ function Navbar() {
   // }, []);
 
 
+
+
+
+  // const [open, setOpen] = useState(false)
+
+  // useEffect(() => {
+  //   const handler = () => setShowMenu(false);
+  //   window.addEventListener('click', handler);
+  //   return () => {
+  //     window.removeEventListener('click', handler);
+  //   };
+  // }, [showMenu]);
+  const [navItem, setNavItem] = useState(Features)
+  const [showMenu, setShowMenu] = useState(false)
+  const [show, setShow] = useState(false)
+  const [display, setDisplay] = useState(false)
+  const dropdownRef = useRef(null)
+  useEffect(() => {
+
+    const pageClickEvent = (e) => {
+      if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
+        setShowMenu(!showMenu);
+      }
+    }
+    if (showMenu) {
+      window.addEventListener('click', pageClickEvent)
+    }
+    return () => {
+      window.removeEventListener('click', pageClickEvent)
+    }
+
+  }, [])
+
+
+
+
+
   return (
     <>
       <nav className='navbar'>
@@ -46,39 +82,42 @@ function Navbar() {
         </div>
         <div>
           <ul className='nav-links'>
-            <Link style={{ textDecoration: 'none' }}>
+            <div >
               <div className='nav-link'>
                 <div><li>Products</li></div>
                 <div className=''>
                   <i className='bx bx-chevron-down ' ></i>
                 </div>
               </div>
-            </Link>
-            <Link style={{ textDecoration: 'none' }} >
+            </div>
+            <div  >
               <div className='nav-link'>
-                <div><li onClick={() => setOpen(!open)}>Features</li></div>
+
+                <div ><li onClick={() => setShowMenu(!showMenu)} >Features</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
-            </Link>
-            <Link style={{ textDecoration: 'none' }} >
+            </div>
+            <div  >
               <div className='nav-link'>
-                <div><li onClick={() => setShow(!show)}>Partners</li></div>
+                <div><li onClick={() => setShow(!show)}  >Partners</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
-            </Link>
-            <Link style={{ textDecoration: 'none' }} >
+            </div>
+            <div  >
               <div className='nav-link'>
-                <div><li onClick={() => setDisplay(!display)}>Company</li></div>
+                <div><li onClick={() => setDisplay(!display)} >Company</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
-            </Link>
+            </div>
           </ul>
         </div>
         <Button label={'Get Started'} />
       </nav>
-      {open && <Features />}
+      {showMenu && <Features />}
       {show && <Partners />}
       {display && <Company />}
+      {/* {showMenu && <Partners />} */}
+      {/* {open && <Features />} */}
 
     </>
 

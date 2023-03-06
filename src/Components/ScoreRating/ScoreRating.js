@@ -4,6 +4,8 @@ import sec1Img from '../Home/Images/iPhone 13-1.png'
 import Iphone13 from '../Home/Images/iPhone 13-5.png'
 import Iphone12 from '../Home/Images/iPhone 13-6.png'
 import Download from '../Home/Download'
+import Button from '../Home/Utilities/Button'
+
 
 
 
@@ -29,7 +31,7 @@ function ScoreRating() {
                 Credbevy aims to be your one-stop shop for all matters relating to loans. Loan offers, credit scores, approval chances, and more.
                 Get Started</p>
               </div>
-              <div className='scoreRate__1-button'><p>Get Started</p></div>
+              <Button label={'Get Started'} />
 
             </div>
             <img alt='seci-img' src={sec1Img}></img>

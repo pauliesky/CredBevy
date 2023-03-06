@@ -1,0 +1,77 @@
+.Testimonial-container {
+  display: flex;
+  height: 286.89px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.test {
+  text-align: center;
+  width: 324px;
+  height: 286.89px;
+  background: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.1rem 1.4rem;
+  gap: 28px;
+}
+.test {
+  text-align: center;
+  width: 324px;
+  height: 286.89px;
+  background: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.1rem 1.4rem;
+  gap: 28px;
+}
+.t-name {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+}
+.T-Rate {
+  color: #f4c418;
+}
+.T-Review {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.T-btn {
+  width: 98px;
+  height: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding: 0px;
+}
+.T-btn p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  /* background-color: red; */
+  width: 68px;
+  height: 18px;
+  color: #000000;
+}
+.T-btn img {
+  height: 25px;
+  width: 25px;
+}

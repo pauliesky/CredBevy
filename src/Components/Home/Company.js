@@ -12,13 +12,13 @@ function Company() {
         <div className='company__container' >
           <div className='company__content-1'>
 
-            <Link to='/aboutus'>
+            <Link to='/aboutus' style={{ textDecoration: 'none'}}>
               <div>
                 <h3>About us</h3>
               </div>
             </Link>
 
-            <Link to='/contactus'>
+            <Link to='/contactus' style={{ textDecoration: 'none' }}>
               <div>
                 <h3>Contact Us</h3>
               </div>
@@ -28,7 +28,7 @@ function Company() {
               <h3>Career</h3>
             </div>
             <div>
-              <Link to='/News'> <h3>News and Media</h3>  </Link>
+              <Link to='/News' style={{ textDecoration: 'none' }}> <h3>News and Media</h3>  </Link>
 
             </div>
 

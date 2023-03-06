@@ -2,6 +2,7 @@ import React from 'react'
 import './LendingPartners.css'
 import Coin from '../Home/Images/Coinbase.png'
 import Download from '../Home/Download'
+import Partner from '../Home/Utilities/Partner'
 export default function LendingPartners() {
   return (
 
@@ -20,99 +21,43 @@ export default function LendingPartners() {
 
       </div>
       <div className='lendingPartners__grid'  >
-        <div className='lendingPartners__grid-item'>
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
+        <Partner companyName={'Company Name'}
+          companyDetails={'Company Name Technologies solution limited'} />
 
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div>
-
-        </div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
-        <div className='lendingPartners__grid-item'>
-          <img alt='' src={Coin}  ></img>
-          <div className='lendingPartners__grid-item_title' >Company Name</div>
-          <div className='lendingPartners__grid-item_body' >Company Name Technologies solution limited
-          </div></div>
       </div>
       <Download />
     </>

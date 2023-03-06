@@ -2,7 +2,9 @@ import React from 'react'
 import './Faq.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-
+import Button from './Utilities/Button'
+import { BsArrowRight } from "react-icons/bs";
+import { SlArrowDown, SlArrowUp } from "react-icons/sl";
 
 
 
@@ -17,8 +19,34 @@ function Faq() {
 
     setSelected(i)
   }
+  const arrowStyle = {
+    color: 'white',
+    fontSize: '20px',
+    paddingTop: '.2rem'
+  }
+  const data = [
+    {
+      question: 'WHAT IS CREDBEVY?',
+      answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg'
+    },
+    {
+      question: 'WHAT IS CREDBEVY?',
+      answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg '
+    },
+    {
+      question: 'WHAT IS CREDBEVY?',
+      answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg '
+    },
+    {
+      question: 'WHAT IS CREDBEVY?',
+      answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg '
+    },
+    {
+      question: 'WHAT IS CREDBEVY?',
+      answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg '
+    },
 
-
+  ]
   return (
     <>
       <div className='faq__head'> <h1>Frequently Asked Questions</h1> </div>
@@ -29,8 +57,9 @@ function Faq() {
             <div className='item'>
               <div className='title' onClick={() => toggle(i)}>
                 <h2>{item.question}</h2>
-                <span> {selected === i ? '-' : '+'}</span>
+                <div> {selected === i ? [<SlArrowUp />] : [<SlArrowDown />]}  </div>
               </div>
+
               <div className={selected === i ? 'content show' : 'content'}>
                 {item.answer}
               </div>
@@ -39,37 +68,17 @@ function Faq() {
         </div>
 
       </div>
-      <Link to='/FAQs'>
+
+
+      <Link to='/FAQs' style={{ textDecoration: 'none' }}>
         <div className='faq__btn'>
-          <div className='faq__btn-content'>See All   <i className='bx bx-chevron-right'></i></div>
+          <Button label={'See All'} icon={[<BsArrowRight style={arrowStyle} />]} />
         </div>
       </Link>
     </>
   )
 }
 
-const data = [
-  {
-    question: 'WHAT IS CREDBEVY?',
-    answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg'
-  },
-  {
-    question: 'WHAT IS CREDBEVY?',
-    answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg '
-  },
-  {
-    question: 'WHAT IS CREDBEVY?',
-    answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg '
-  },
-  {
-    question: 'WHAT IS CREDBEVY?',
-    answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg '
-  },
-  {
-    question: 'WHAT IS CREDBEVY?',
-    answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg '
-  },
 
-]
 
 export default Faq

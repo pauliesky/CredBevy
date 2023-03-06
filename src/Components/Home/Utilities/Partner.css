@@ -1,0 +1,31 @@
+.lendingPartners__grid-item {
+  background-color: white;
+  /* padding: 10px; */
+  color: white;
+  border: 1px solid;
+  width: 358px;
+  height: 231px;
+  border-radius: 4px;
+  padding: 28px;
+  color: black;
+  border: none;
+}
+.lendingPartners__grid-item img {
+  margin-bottom: 1.5rem;
+}
+
+.lendingPartners__grid-item_title {
+  margin-bottom: 1.5rem;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.lendingPartners__grid-item_body {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+}

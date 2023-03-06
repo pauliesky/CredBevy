@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 24rem;
 }
 .Transfer__head {
   font-family: "Manrope";
@@ -26,6 +27,8 @@
   color: #111111;
   width: 517px;
   margin-bottom: 7rem;
+  width: 780px;
+  height: 131px;
 }
 .Transfer__body-1 {
   margin-bottom: 3rem;

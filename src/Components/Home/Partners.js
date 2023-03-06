@@ -23,11 +23,11 @@ function Partners() {
           <div className='partners__content-2'>
             <div><h3>Help & Support</h3></div>
             <div>
-              <Link to='./LendingPartners'> <h4>Customer Hub</h4>  </Link>
+              <Link to='./LendingPartners' style={{ textDecoration: 'none' }}> <h4>Customer Hub</h4>  </Link>
 
               <p>Get  instant loan disbursed to your account <br />under 24 hrs of application.</p></div>
             <div>
-              <Link to='/FAQs'> <h4>FAQs</h4> </Link>
+              <Link to='/FAQs' style={{ textDecoration: 'none' }}> <h4>FAQs</h4> </Link>
 
 
               <p>Get  instant loan disbursed to your account <br /> under 24 hrs of application.</p></div>

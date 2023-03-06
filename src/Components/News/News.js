@@ -2,6 +2,7 @@ import React from 'react'
 import './News.css'
 import Download from '../Home/Download'
 import { Link } from 'react-router-dom'
+import Newss from '../Home/Utilities/Newss'
 
 function News() {
   return (
@@ -25,132 +26,48 @@ function News() {
 
 
         <div className='News__grid-item1'>
-          
-            <div className='News__grid-item1-image'></div>
-            <div className='News__grid-item1-content'>
-            <Link  to='/NewsSingle'>
+
+          <div className='News__grid-item1-image'></div>
+          <div className='News__grid-item1-content'>
+            <Link to='/NewsSingle'>
               <div className='News__grid-item1-content-head'><h4>Credbevy raises unknown amount in undisclosed round funding </h4></div></Link>
-              <div className='News__grid-item1-content-body'><p>
-                News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......</p>
-              </div>
-              <div className='News__grid-item1-content-profile'>
-                <div className='News__grid-item1-content-profile-img' ></div>
-                <div>Oripeloye Timilehin</div>
-              </div>
+            <div className='News__grid-item1-content-body'><p>
+              News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......</p>
             </div>
-        </div>
-        <div className='News__grid-item'>
-          <div className='News__grid-item-image'></div>
-          <div className='News__grid-item-content'>
-
-            <div className='News__grid-item-content-title' >Credbevy raises unknown amount in indisclosed round</div>
-            <div className='News__grid-item-content-body'>News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......</div>
-            <div className='News__grid-item-content-profile'>
-              <div className='News__grid-item-content-profile-img' ></div>
+            <div className='News__grid-item1-content-profile'>
+              <div className='News__grid-item1-content-profile-img' ></div>
               <div>Oripeloye Timilehin</div>
-
             </div>
-
           </div>
         </div>
-        <div className='News__grid-item'>
-          <div className='News__grid-item-image'>
-          </div>
-          <div className='News__grid-item-content'>
-
-            <div className='News__grid-item-content-title' >Credbevy raises unknown amount in indisclosed round</div>
-            <div className='News__grid-item-content-body'>News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......</div>
-            <div className='News__grid-item-content-profile'>
-              <div className='News__grid-item-content-profile-img' ></div>
-              <div>Oripeloye Timilehin</div>
-
-            </div>
-
-          </div></div>
-        <div className='News__grid-item'>   <div className='News__grid-item-image'></div>
-          <div className='News__grid-item-content'>
-
-            <div className='News__grid-item-content-title' >Credbevy raises unknown amount in indisclosed round</div>
-            <div className='News__grid-item-content-body'>News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......</div>
-            <div className='News__grid-item-content-profile'>
-              <div className='News__grid-item-content-profile-img' ></div>
-              <div>Oripeloye Timilehin</div>
-
-            </div>
-
-          </div></div>
-        <div className='News__grid-item'>   <div className='News__grid-item-image'></div>
-          <div className='News__grid-item-content'>
-
-            <div className='News__grid-item-content-title' >Credbevy raises unknown amount in indisclosed round</div>
-            <div className='News__grid-item-content-body'>News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......</div>
-            <div className='News__grid-item-content-profile'>
-              <div className='News__grid-item-content-profile-img' ></div>
-              <div>Oripeloye Timilehin</div>
-
-            </div>
-
-          </div></div>
-        <div className='News__grid-item'>   <div className='News__grid-item-image'></div>
-          <div className='News__grid-item-content'>
-
-            <div className='News__grid-item-content-title' >Credbevy raises unknown amount in indisclosed round</div>
-            <div className='News__grid-item-content-body'>News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......</div>
-            <div className='News__grid-item-content-profile'>
-              <div className='News__grid-item-content-profile-img' ></div>
-              <div>Oripeloye Timilehin</div>
-
-            </div>
-
-          </div></div>
-        <div className='News__grid-item'>   <div className='News__grid-item-image'></div>
-          <div className='News__grid-item-content'>
-
-            <div className='News__grid-item-content-title' >Credbevy raises unknown amount in indisclosed round</div>
-            <div className='News__grid-item-content-body'>News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......</div>
-            <div className='News__grid-item-content-profile'>
-              <div className='News__grid-item-content-profile-img' ></div>
-              <div>Oripeloye Timilehin</div>
-
-            </div>
-
-          </div></div>
-        <div className='News__grid-item'>   <div className='News__grid-item-image'></div>
-          <div className='News__grid-item-content'>
-
-            <div className='News__grid-item-content-title' >Credbevy raises unknown amount in indisclosed round</div>
-            <div className='News__grid-item-content-body'>News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......</div>
-            <div className='News__grid-item-content-profile'>
-              <div className='News__grid-item-content-profile-img' ></div>
-              <div>Oripeloye Timilehin</div>
-
-            </div>
-
-          </div></div>
-        <div className='News__grid-item'>   <div className='News__grid-item-image'></div>
-          <div className='News__grid-item-content'>
-
-            <div className='News__grid-item-content-title' >Credbevy raises unknown amount in indisclosed round</div>
-            <div className='News__grid-item-content-body'>News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......</div>
-            <div className='News__grid-item-content-profile'>
-              <div className='News__grid-item-content-profile-img' ></div>
-              <div>Oripeloye Timilehin</div>
-
-            </div>
-
-          </div></div>
-        <div className='News__grid-item'>   <div className='News__grid-item-image'></div>
-          <div className='News__grid-item-content'>
-
-            <div className='News__grid-item-content-title' >Credbevy raises unknown amount in indisclosed round</div>
-            <div className='News__grid-item-content-body'>News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......</div>
-            <div className='News__grid-item-content-profile'>
-              <div className='News__grid-item-content-profile-img' ></div>
-              <div>Oripeloye Timilehin</div>
-
-            </div>
-
-          </div></div>
+        <Newss
+          newsTitle={'Credbevy raises unknown amount in indisclosed round'}
+          newsContent={'News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......'} newsProfileName={'Oripeloye Timilehin'} />
+        <Newss
+          newsTitle={'Credbevy raises unknown amount in indisclosed round'}
+          newsContent={'News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......'} newsProfileName={'Oripeloye Timilehin'} />
+        <Newss
+          newsTitle={'Credbevy raises unknown amount in indisclosed round'}
+          newsContent={'News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......'} newsProfileName={'Oripeloye Timilehin'} />
+        <Newss
+          newsTitle={'Credbevy raises unknown amount in indisclosed round'}
+          newsContent={'News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......'} newsProfileName={'Oripeloye Timilehin'} />
+        <Newss
+          newsTitle={'Credbevy raises unknown amount in indisclosed round'}
+          newsContent={'News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......'} newsProfileName={'Oripeloye Timilehin'} />
+        <Newss
+          newsTitle={'Credbevy raises unknown amount in indisclosed round'}
+          newsContent={'News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......'} newsProfileName={'Oripeloye Timilehin'} />
+        <Newss
+          newsTitle={'Credbevy raises unknown amount in indisclosed round'}
+          newsContent={'News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......'} newsProfileName={'Oripeloye Timilehin'} />
+        <Newss
+          newsTitle={'Credbevy raises unknown amount in indisclosed round'}
+          newsContent={'News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......'} newsProfileName={'Oripeloye Timilehin'} />
+        <Newss
+          newsTitle={'Credbevy raises unknown amount in indisclosed round'}
+          newsContent={'News related to Credbevy all around the world gathered here. News related to Credbevy all around the world gathered hereNews related to Credbevy all around the world gathered here.......'} newsProfileName={'Oripeloye Timilehin'} />
+   
       </div>
 
       <Download />

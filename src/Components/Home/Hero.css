@@ -3,33 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* .hero {
-  position: relative;
-} */
+.hero {
+  margin-top: 6.3rem;
+}
 .hero__container {
-  margin-top: 7rem;
   /* padding-top: 5rem; */
   position: relative;
 }
 .pink {
   position: absolute;
-  left: 78%;
+  left: 1226px;
   top: 0px;
 }
 .pink1 {
   position: absolute;
-  left: 25%;
+  left: 373px;
   top: 100px;
 }
 .purple {
   position: absolute;
-  left: 76%;
+  left: 1204px;
   top: 336px;
 }
 .blue {
   position: absolute;
   left: 0px;
-  top: 60px;
+  top: 67px;
 }
 .hero__title {
   display: flex;
@@ -58,6 +57,7 @@
   /* Text colour */
   color: #111111;
   /* Inside auto layout */
+  margin-top: 3rem;
 }
 .hero__title-text {
   font-family: "Manrope";
@@ -70,12 +70,13 @@
   color: #333333;
   width: 374px;
   height: 71px;
+  margin-top: 1.5rem;
 }
 #purple {
   color: #8003cd;
 }
 .hero__download-button {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
