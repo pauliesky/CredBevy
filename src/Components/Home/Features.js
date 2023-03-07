@@ -2,11 +2,15 @@ import React from 'react'
 import './Features.css'
 import ftImg from '../Home/Images/download.jpg'
 import { Link } from 'react-router-dom'
+import Button from './Utilities/Button'
 
 function Features() {
 
-  const loginHandler = () => {
-    console.log('logged in')
+  const buttonStyleWhite = {
+    backgroundColor: 'white'
+  }
+  const buttonTextStyleBlack = {
+    color: 'black'
   }
   return (
     <>
@@ -45,11 +49,13 @@ function Features() {
               <p>Get  instant loan disbursed to your account <br /> under 24 hrs of application.</p></div>
           </div>
           <div className='feature-content-3'>
-            <div className='feature-content-2-img'>
-              <img alt='img' src={ftImg} />
-              <h2 className='feature-content-2-text'>Try out CredBevy <br /> today, it will change <br /> the way you think <br /> about loans</h2>
-              <div className='get-started-ft-btn' onClick={loginHandler}
-              >Get Started</div>
+            <div className='feature-content-3-img'>
+              {/* <img alt='img' src={ftImg} /> */}
+              <h2 className='feature-content-3-text'>Try out CredBevy <br /> today, it will change <br /> the way you think <br /> about loans</h2>
+            </div>
+            <div className='feature__button'>
+              <Button buttonStyle={buttonStyleWhite}
+                buttonTextStyle={buttonTextStyleBlack} label={'Get Started'} />
             </div>
           </div>
         </div>
