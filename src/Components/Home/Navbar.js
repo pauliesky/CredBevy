@@ -9,43 +9,6 @@ import Button from './Utilities/Button';
 
 function Navbar() {
 
-  // const loginHandler = () => {
-  //   console.log('logged in')
-  // }
-
-  // 
-  // onClick = {() => setOpen(!open)}
-
-
-  // useEffect(() => {
-
-  //   const closeDropDown = e => {
-
-  //     if (e.path[0].tagName !== 'nav-link') {
-  //       setOpen(false)
-  //     } else {
-
-  //     }
-  //   }
-
-  //   document.body.addEventListener('click', closeDropDown)
-  //   return () => document.body.addEventListener('click', closeDropDown)
-  // }, []);
-
-
-
-
-
-  // const [open, setOpen] = useState(false)
-
-  // useEffect(() => {
-  //   const handler = () => setShowMenu(false);
-  //   window.addEventListener('click', handler);
-  //   return () => {
-  //     window.removeEventListener('click', handler);
-  //   };
-  // }, [showMenu]);
-  // const [navItem, setNavItem] = useState(Features)
   const [showMenu, setShowMenu] = useState(false)
   const [show, setShow] = useState(false)
   const [display, setDisplay] = useState(false)
@@ -109,13 +72,9 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <div className='nav-logo'>
           <Link to='/'>
-            <div>
-              <img src={logoImg} alt='logo-img'></img>
-            </div>
+              <img   className='navbar__image'  src={logoImg} alt='logo-img'></img>
           </Link>
-        </div>
         <div>
           <ul className='nav-links'>
             <div >

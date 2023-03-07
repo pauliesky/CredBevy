@@ -5,6 +5,7 @@
 }
 .hero {
   margin-top: 6.3rem;
+
 }
 .hero__container {
   /* padding-top: 5rem; */
@@ -12,23 +13,23 @@
 }
 .pink {
   position: absolute;
-  left: 1116px;
+  left: 82%;
   top: 0px;
 }
 .pink1 {
   position: absolute;
-  left: 373px;
-  top: 100px;
+  left: 23%;
+  top: 30%;
 }
 .purple {
   position: absolute;
-  left: 1100px;
-  top: 336px;
+  left: 80%;
+  top: 80%;
 }
 .blue {
   position: absolute;
   left: 0px;
-  top: 67px;
+  top: 20%;
 }
 .hero__title {
   display: flex;

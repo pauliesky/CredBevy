@@ -3,11 +3,6 @@
   src: url(./Components/fonts/recoleta-font/RecoletaAlt-Bold.ttf);
 }
 
-/* @font-face {
-  font-family: "Manrope";
-  src: url(./Components/fonts/Manrope/Manrope-Regular.woff);
-} */
-
 @font-face {
   font-family: "Manrope";
   src: url(./Components/fonts/Manrope/Manrope-Light.woff);

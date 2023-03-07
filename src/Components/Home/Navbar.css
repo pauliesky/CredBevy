@@ -13,10 +13,8 @@
   top: 2.5rem;
   height: 65px;
 }
-.nav-logo {
-  height: 65px;
-}
-.nav-logo img {
+
+.navbar__image {
   width: 61px;
   height: 65px;
 }
@@ -57,7 +55,6 @@
   order: 0;
   flex-grow: 0;
 }
-
 
 .bx {
   /* width: 20px; */
