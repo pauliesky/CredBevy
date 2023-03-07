@@ -1,8 +1,6 @@
 import React from 'react'
 import './Download.css'
-import { IoLogoGooglePlaystore } from "react-icons/io5";
-import { AiOutlineApple } from "react-icons/ai";
-// import liquid18 from '../Images/liquid-18.png'
+// import liquid18 from './Images/liquid18.png'
 import DownloadButton from './Utilities/DownloadButton'
 import { UilAppleAlt } from '@iconscout/react-unicons'
 
@@ -23,13 +21,15 @@ export default function Download() {
 
     <>
       <div className='download'>
+        {/* <img alt='liq' src={liquid18}></img> */}
         <div className='download-container'>
-          <p>Download the CredBevy App</p>
+          <div className='download-container-title'  >  <p>Download the CredBevy App</p>        </div>
+          
           <div className='download-button'>
             <div className='download__btn'>
               <DownloadButton
                 icon={<i class="uit uit-google-play"></i>}
-                label={`Download on  ${'PlayStore'}   `}
+                label={`Download on  ${'PlayStore'} `}
                 buttonStyle={buttonStyleWhite}
               />
               <DownloadButton

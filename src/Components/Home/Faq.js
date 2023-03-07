@@ -27,23 +27,23 @@ function Faq() {
   const data = [
     {
       question: 'WHAT IS CREDBEVY?',
-      answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg'
+      answer: 'CredBevy financial technology (fintech) industry is coming of age. In the face of political and economic challenges and a global pandemic, fintech on the continent is booming. Between 2020 and 2021, the number of tech startups in Africa tripled to around 5,200 companies. Just under half of these are fintechs, which are making it their business to disrupt and augment traditional financial services'
     },
     {
       question: 'WHAT IS CREDBEVY?',
-      answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg '
+      answer: 'CredBevy financial technology (fintech) industry is coming of age. In the face of political and economic challenges and a global pandemic, fintech on the continent is booming. Between 2020 and 2021, the number of tech startups in Africa tripled to around 5,200 companies. Just under half of these are fintechs, which are making it their business to disrupt and augment traditional financial services '
     },
     {
       question: 'WHAT IS CREDBEVY?',
-      answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg '
+      answer: 'CredBevy financial technology (fintech) industry is coming of age. In the face of political and economic challenges and a global pandemic, fintech on the continent is booming. Between 2020 and 2021, the number of tech startups in Africa tripled to around 5,200 companies. Just under half of these are fintechs, which are making it their business to disrupt and augment traditional financial services '
     },
     {
       question: 'WHAT IS CREDBEVY?',
-      answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg '
+      answer: 'CredBevy financial technology (fintech) industry is coming of age. In the face of political and economic challenges and a global pandemic, fintech on the continent is booming. Between 2020 and 2021, the number of tech startups in Africa tripled to around 5,200 companies. Just under half of these are fintechs, which are making it their business to disrupt and augment traditional financial services '
     },
     {
       question: 'WHAT IS CREDBEVY?',
-      answer: 'Lorem bawo ni sowapa bvjsayyberybv rfayverybryb rjfysjybovbyskbvyjfbvb uskjybskbvysuvbkuvb vsuvybskvbyskuvybub ybysubsubvsbvs bsybvsbybyrgfshriubfoeou fhoiosgsoisyb foifhlakufyfhbfffhfhbndrfruiehfi ferbslfbleiurb fyrowyvovywr uybsgshuierb righsirghrnieuuie rgouygowugougoubosbvb kwbrthreevbtvyjwtv vjvbrlvevtbv t jhtblvrtvlrbvt vtjvbrltvbdtjbrv rtvsvblbvrit titvwiytb liutbi lisbtg '
+      answer: 'CredBevy financial technology (fintech) industry is coming of age. In the face of political and economic challenges and a global pandemic, fintech on the continent is booming. Between 2020 and 2021, the number of tech startups in Africa tripled to around 5,200 companies. Just under half of these are fintechs, which are making it their business to disrupt and augment traditional financial services '
     },
 
   ]

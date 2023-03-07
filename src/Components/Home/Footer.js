@@ -66,9 +66,8 @@ function Footer() {
 
       </div>
       <div className='foot-note'>
-        <div className='foot-note__wrapper'  >
+        <div className='foot-note__wrapper'>
           <p>CredBevy and featured clients are financial technology companies and not a bank. Banking services are provided by Credbevy's partner banks who are Member FDIC.</p>
-
         </div>
 
       </div>
