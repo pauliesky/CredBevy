@@ -49,23 +49,59 @@ function Navbar() {
   const [showMenu, setShowMenu] = useState(false)
   const [show, setShow] = useState(false)
   const [display, setDisplay] = useState(false)
-  // const dropdownRef = useRef(null)
-  // useEffect(() => {
 
-  //   const pageClickEvent = (e) => {
-  //     if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
-  //       setShowMenu(!showMenu);
-  //     }
-  //   }
-  //   if (showMenu) {
-  //     window.addEventListener('click', pageClickEvent)
-  //   }
-  //   return () => {
-  //     window.removeEventListener('click', pageClickEvent)
-  //   }
+  const showMenuRef = useRef(null)
+  const showRef = useRef(null)
+  const displayRef = useRef(null)
 
-  // }, [])
 
+  useEffect(() => {
+
+    const pageClickEvent = (e) => {
+      if (showMenuRef.current !== null && !showMenuRef.current.contains(e.target)) {
+        setShowMenu(!showMenu);
+      }
+    }
+    if (showMenu) {
+      window.addEventListener('click', pageClickEvent)
+    }
+    return () => {
+      window.removeEventListener('click', pageClickEvent)
+    }
+
+  }, [showMenu])
+
+  useEffect(() => {
+
+    const pageClickEvent = (e) => {
+      if (showRef.current !== null && !showRef.current.contains(e.target)) {
+        setShow(!show);
+      }
+    }
+    if (show) {
+      window.addEventListener('click', pageClickEvent)
+    }
+    return () => {
+      window.removeEventListener('click', pageClickEvent)
+    }
+
+  }, [show])
+
+  useEffect(() => {
+
+    const pageClickEvent = (e) => {
+      if (displayRef.current !== null && !displayRef.current.contains(e.target)) {
+        setDisplay(!display);
+      }
+    }
+    if (display) {
+      window.addEventListener('click', pageClickEvent)
+    }
+    return () => {
+      window.removeEventListener('click', pageClickEvent)
+    }
+
+  }, [display])
 
 
 
@@ -94,10 +130,9 @@ function Navbar() {
               <div className='nav-link'>
 
                 <div ><li
-                  onClick={() =>
-                    setShowMenu(!showMenu) ||
-                    setShow(false) ||
-                    setDisplay(false)}
+                  ref={showMenuRef}
+                  onClick={() => setShowMenu(!showMenu)
+                  }
                 >Features</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
@@ -105,19 +140,19 @@ function Navbar() {
             <div  >
               <div className='nav-link'>
                 <div><li
-                  onClick={() =>
-                    setShow(!show) ||
-                    setShowMenu(false) ||
-                    setDisplay(false)}   >Partners</li></div>
+                  ref={showRef}
+                  onClick={() => setShow(!show)
+
+                  }   >Partners</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </div>
             <div  >
               <div className='nav-link'>
-                <div><li onClick={() =>
-                  setDisplay(!display) ||
-                  setShow(false) ||
-                  setShowMenu(false)} >Company</li></div>
+                <div><li
+                  ref={displayRef}
+                  onClick={() => setDisplay(!display)
+                  } >Company</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </div>
