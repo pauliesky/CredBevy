@@ -45,26 +45,26 @@ function Navbar() {
   //     window.removeEventListener('click', handler);
   //   };
   // }, [showMenu]);
-  const [navItem, setNavItem] = useState(Features)
+  // const [navItem, setNavItem] = useState(Features)
   const [showMenu, setShowMenu] = useState(false)
   const [show, setShow] = useState(false)
   const [display, setDisplay] = useState(false)
-  const dropdownRef = useRef(null)
-  useEffect(() => {
+  // const dropdownRef = useRef(null)
+  // useEffect(() => {
 
-    const pageClickEvent = (e) => {
-      if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
-        setShowMenu(!showMenu);
-      }
-    }
-    if (showMenu) {
-      window.addEventListener('click', pageClickEvent)
-    }
-    return () => {
-      window.removeEventListener('click', pageClickEvent)
-    }
+  //   const pageClickEvent = (e) => {
+  //     if (dropdownRef.current !== null && !dropdownRef.current.contains(e.target)) {
+  //       setShowMenu(!showMenu);
+  //     }
+  //   }
+  //   if (showMenu) {
+  //     window.addEventListener('click', pageClickEvent)
+  //   }
+  //   return () => {
+  //     window.removeEventListener('click', pageClickEvent)
+  //   }
 
-  }, [])
+  // }, [])
 
 
 
@@ -93,19 +93,31 @@ function Navbar() {
             <div  >
               <div className='nav-link'>
 
-                <div ><li onClick={() => setShowMenu(!showMenu)} >Features</li></div>
+                <div ><li
+                  onClick={() =>
+                    setShowMenu(!showMenu) ||
+                    setShow(false) ||
+                    setDisplay(false)}
+                >Features</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </div>
             <div  >
               <div className='nav-link'>
-                <div><li onClick={() => setShow(!show)}  >Partners</li></div>
+                <div><li
+                  onClick={() =>
+                    setShow(!show) ||
+                    setShowMenu(false) ||
+                    setDisplay(false)}   >Partners</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </div>
             <div  >
               <div className='nav-link'>
-                <div><li onClick={() => setDisplay(!display)} >Company</li></div>
+                <div><li onClick={() =>
+                  setDisplay(!display) ||
+                  setShow(false) ||
+                  setShowMenu(false)} >Company</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </div>
@@ -116,8 +128,6 @@ function Navbar() {
       {showMenu && <Features />}
       {show && <Partners />}
       {display && <Company />}
-      {/* {showMenu && <Partners />} */}
-      {/* {open && <Features />} */}
 
     </>
 

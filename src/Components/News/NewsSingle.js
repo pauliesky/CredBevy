@@ -3,6 +3,7 @@ import React from 'react'
 import './NewsSingle.css'
 import Download from '../Home/Download'
 // import { UilAirplay } from '@iconscout/react-unicons'
+import Button from '../Home/Utilities/Button'
 
 
 function NewsSingle() {
@@ -69,7 +70,7 @@ function NewsSingle() {
               <input type="text" placeholder="Email Address" />
             </div>
             <div className='nav__btn'>
-              <div className='nav__btn-content'>Subscribe</div>
+              <Button label={'Subscribe'} />
             </div>
           </div>
           <div className='newsletter-content-footer' >Expertly curared emails that adds value to you</div>
@@ -102,7 +103,7 @@ function NewsSingle() {
 
               </div>
             </div>
-        
+
             <div className='newssingle__related-articles-content1' >
               <div className='newssingle__related-articles-content-img'></div>
               <div className='newssingle__related-articles-content-title'>Credbevy raises unknown amount in indisclosed round</div>
