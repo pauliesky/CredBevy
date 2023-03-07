@@ -10,7 +10,8 @@ export default function Button({ buttonTextStyle,  buttonStyle, label, handleCli
         style={buttonStyle}
         className='button__container'
         onClick={handleClick}>
-        <div style={buttonTextStyle} className='button__container-text'>{label} </div>
+        <div
+          style={buttonTextStyle} className='button__container-text'>{label} </div>
         <div className='button__container-icon' > {icon} </div>
       </button>
 

@@ -1,20 +1,28 @@
 import React from 'react'
 import './ContactUs.css'
-
+import Button from '../Home/Utilities/Button'
 const ContactUs = () => {
-  const loginHandler = () => {
-    console.log('logged in')
+
+  const buttonStyleSize = {
+    width: '159px',
+    height: '55px',
   }
 
+  const buttonTextSize = {
+    width: '110px',
+    height: '21px',
+  }
 
   const style = {
-    height: '166px',
-    width: '266px',
+    height: '175px',
+    width: '466px',
     padding: '20px',
     backgroundColor: '#f5f5f5',
     border: 'none',
     resize: 'none',
-    borderRadius:'8px',
+    borderRadius: '8px',
+    marginBottom: '6rem'
+
   }
   return (
     <>
@@ -44,10 +52,10 @@ const ContactUs = () => {
             name='message'
             required
           />
-          <div className='contactUs__btn-wrapper' >   <div className='contactUs__btn' onClick={loginHandler}>
-            <div className='contactUs__btn-content'>Get Started</div>
-          </div>    </div>
-          
+          <div className='contactUs__btn-wrapper' >
+            <Button buttonTextStyle={buttonTextSize} buttonStyle={buttonStyleSize} label={'Send Message'} />
+          </div>
+
         </form>
 
       </div>

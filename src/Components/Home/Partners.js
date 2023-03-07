@@ -2,10 +2,16 @@ import React from 'react'
 import './Partners.css'
 // import ftImg from '../Home/Images/download.jpg'
 import { Link } from 'react-router-dom'
+import Button from './Utilities/Button'
+
+
 function Partners() {
 
-  const loginHandler = () => {
-    console.log('logged in')
+  const buttonStyleWhite = {
+    backgroundColor: 'white'
+  }
+  const buttonTextStyleBlack = {
+    color: 'black'
   }
 
   return (
@@ -34,13 +40,23 @@ function Partners() {
             <div><h4>API Documentation</h4>
               <p>Get  instant loan disbursed to your account <br /> under 24 hrs of application.</p></div>
           </div>
-          <div className='partners__content-3'>
+          {/* <div className='partners__content-3'>
             <div className='partners__content-2-img'>
-              {/* <img alt='img' src={ftImg} /> */}
-              <h2 className='partners__content-2-text'>Try out CredBevy <br /> today, it will change <br /> the way you think <br /> about loans</h2>
-              <div className='get-started-ft-btn' onClick={loginHandler}
-              >Get Started</div>
+              <h2 className='partners__content-2-text'>
+                Learn how to increase your credit score rating
+              </h2> 
             </div>
+          </div> */}
+          <div className='partners-content-3'>
+            <div className='partners-content-3-img'>
+              {/* <img alt='img' src={ftImg} /> */}
+              <h2 className='partners-content-3-text'> Learn how to increase your credit score rating</h2>
+            </div>
+            <div className='partners__button'>
+              <Button buttonStyle={buttonStyleWhite}
+                buttonTextStyle={buttonTextStyleBlack} label={'Learn More'} />
+            </div>
+            <div className='partners__footer'><p>Blog</p></div>
           </div>
         </div>
       </div>

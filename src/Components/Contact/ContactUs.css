@@ -23,23 +23,25 @@
   text-align: center;
   color: #111111;
   width: 637px;
-  margin-bottom: 8rem;
+  margin-bottom: 12rem;
 }
 .contactUs__form {
-  background-color: white;
   display: flex;
   flex-direction: column;
   /* width: 25%; */
   padding: 3rem;
   border-radius: 24px;
+  width: 594px;
+  height: 699px;
 }
 .contactUs__form input {
   padding: 0.5rem;
   background-color: #f5f5f5;
   border-radius: 8px;
   border: none;
-  width: 266px;
-  margin-bottom: 1.5rem;
+  width: 466px;
+  height: 56px;
+  margin-bottom: 3rem;
 }
 .contactUs__form label {
   font-family: "Manrope";
@@ -47,33 +49,14 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
+  color: #000000;
+  width: 100px;
+  height: 19px;
+  margin-bottom: 0.25rem;
 }
 .contactUs__btn-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.contactUs__btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* padding: 17px 30px; */
-  width: 50%;
-  height: 55px;
-  /* Primary */
-  background: #8003cd;
-  border-radius: 30px;
-  /* Inside auto layout */
-  cursor: pointer;
-  margin-top: 1.5rem;
-}
-.contactUs__btn-content {
-  height: 21px;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 150%;
-  color: #ffffff;
 }

@@ -13,6 +13,7 @@
 .button__container-text {
   width: 90px;
   height: 21px;
+
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
@@ -20,4 +21,3 @@
   line-height: 150%;
   color: #ffffff;
 }
-
