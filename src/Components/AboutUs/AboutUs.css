@@ -1,5 +1,5 @@
 .aboutUs__hero {
-  margin-top: 7rem;
+  margin-top: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,11 +12,9 @@
   font-weight: 800;
   font-size: 24px;
   line-height: 33px;
-  /* identical to box height */
+
 
   text-align: center;
-
-  /* Gray / gray-7 */
 
   color: #8c8c8c;
   margin-bottom: 3rem;
@@ -35,10 +33,10 @@
   /* Text colour */
 
   color: #111111;
-  margin-bottom: 7rem;
+  margin-bottom: 9rem;
 }
 .aboutUs__body {
-  margin-bottom: 15rem;
+  margin-bottom: 26.3rem;
 }
 .aboutUs__body-1 {
   display: flex;

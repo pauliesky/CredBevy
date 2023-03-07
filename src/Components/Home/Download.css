@@ -18,9 +18,9 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   text-align: center;
-  align-content: center;
+  /* align-content: center; */
 }
 .download img {
   height: 700px;
@@ -59,7 +59,7 @@
   gap: 2.5rem;
   position: absolute;
 }
-.btn__white {
+/* .btn__white {
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -79,4 +79,4 @@
   padding: 17px 30px;
   border-radius: 30px;
   gap: 16px;
-}
+} */
