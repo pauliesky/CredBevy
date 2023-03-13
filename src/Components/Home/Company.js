@@ -33,8 +33,6 @@ function Company() {
             </div>
             </Link>
           </div>
-
-
         </div>
       </div>
     </>

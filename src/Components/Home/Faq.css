@@ -79,3 +79,68 @@
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 676px) {
+  .faq__head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+  }
+
+  .faq__head h1 {
+    width: 313px;
+    height: 36px;
+
+    font-family: "Recoleta Alt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+
+    /* Text colour */
+
+    color: #111111;
+  }
+  .faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 1.3rem;
+    /* height: 100vh; */
+  }
+
+  .title h2 {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+  }
+
+  .faq__btn-content {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #ffffff;
+    width: 10rem;
+    background: #8003cd;
+    border-radius: 30px;
+    padding: 17px 30px;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item {
+    padding: 2rem 2rem 0.5rem 2rem;
+    border-top: 0.5px solid #111111;
+    /* width: 957px; */
+    /* height: 109px; */
+    /* background: blue; */
+  }
+}

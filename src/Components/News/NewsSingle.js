@@ -4,9 +4,24 @@ import './NewsSingle.css'
 import Download from '../Home/Download'
 // import { UilAirplay } from '@iconscout/react-unicons'
 import Button from '../Home/Utilities/Button'
-
+import { UilFacebookF, UilInstagram, UilTwitter, UilLinkedin } from '@iconscout/react-unicons'
+// import { SiTiktok } from "react-icons/si";
+import { FaTiktok } from "react-icons/fa";
 
 function NewsSingle() {
+
+
+  // const color = {
+  //  background: radial-gradient(
+  //   circle at 33% 100%,
+  //   #fed373 4%,
+  //   #f15245 30%,
+  //   #d92e7f 62%,
+  //   #9b36b7 85%,
+  //   #515ecf
+  // );
+  // }
+
   return (
     <>
 
@@ -21,15 +36,18 @@ function NewsSingle() {
           </div>
           <div className='NewsSingle__Section-1-socials-icon'  >
             <div className='facebook-icon'>
-              <i class='bx bxl-facebook'></i>
+              <UilFacebookF />
             </div>
-            <div className='instagram-icon'  >
-              <i class='bx bxl-instagram' ></i>
+            <div className='instagram-icon' >
+              <UilInstagram size="30" />
             </div>
-            <div className='twitter-icon'  ><i class='bx bxl-twitter'></i></div>
-            <div className='tiktok-icon'  ><i class='bx bxl-tiktok' ></i></div>
+            <div className='twitter-icon'  >
+              <UilTwitter /></div>
+            <div className='tiktok-icon'  >
+              <FaTiktok />
+            </div>
             <div className='linkedin-icon'>
-              <i class='bx bxl-linkedin-square'></i>
+              <UilLinkedin />
             </div>
           </div>
 

@@ -21,12 +21,13 @@
 .nav-links {
   display: flex;
   flex-direction: row;
-  height: 44px;
+  height: 55px;
   list-style: none;
-  margin: 0rem 8rem 0rem 15rem;
+  margin-left: 15rem;
 }
 
 .nav-link {
+  margin-top: 0.3rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -55,10 +56,99 @@
   order: 0;
   flex-grow: 0;
 }
-
+.nav__company {
+  margin-right: 8rem;
+}
 .bx {
   /* width: 20px; */
   color: #292d32;
 
   /* font-size: 1.5px; */
+}
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 676px) {
+  .nav-links {
+    display: none;
+  }
+  .nav__company {
+    margin-right: 0rem;
+  }
+
+  .nav__Button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+  }
+  .nav-link {
+    width: 100%;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  .nav-link li {
+    width: 377px;
+  }
+  .nav__links-mobile {
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    position: absolute;
+    /* left: 15rem; */
+    top: 75px;
+    right: 0;
+    /* transition: all 0.5s ease-out; */
+    width: 100%;
+    height: 417px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    gap: 24px;
+    /* padding-top: 55px; */
+  }
+
+  .mobile-menu-icon {
+    position: relative;
+    display: block;
+    /* top: -10px; */
+    /* right: 25px; */
+    background: #000000;
+    font-size: 30px;
+    /* margin: 1rem 2rem; */
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0);
+  }
+
+  .nav-link {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;
+    width: 100%;
+    /* transition: all 0.5s ease; */
+    /* height: 21px; */
+  }
+  .navbar__image {
+    width: 23.13px;
+    height: 29px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 3rem;
+    height: 29px;
+    margin: 0rem 1rem;
+  }
 }

@@ -6,12 +6,17 @@ import Features from './Features';
 import Partners from './Partners';
 import Company from './Company';
 import Button from './Utilities/Button';
+import { UilAlignRight } from '@iconscout/react-unicons'
+import { UilTimes } from '@iconscout/react-unicons'
+import Radium, { StyleRoot } from 'radium';
 
 function Navbar() {
 
   const [showMenu, setShowMenu] = useState(false)
   const [show, setShow] = useState(false)
   const [display, setDisplay] = useState(false)
+
+  const [mobile, setMobile] = useState(false)
 
   const showMenuRef = useRef(null)
   const showRef = useRef(null)
@@ -66,17 +71,24 @@ function Navbar() {
 
   }, [display])
 
+  const sizeStyle = {
+    '@media (max-width: 676px)': {
+      width: '345px',
+      background: 'blue',
+    },
 
+  }
 
 
   return (
     <>
       <nav className='navbar'>
-          <Link to='/'>
-              <img   className='navbar__image'  src={logoImg} alt='logo-img'></img>
-          </Link>
+        <Link to='/'>
+          <img className='navbar__image' src={logoImg} alt='logo-img'></img>
+        </Link>
         <div>
-          <ul className='nav-links'>
+
+          <ul className={mobile ? 'nav__links-mobile' : 'nav-links'} onClick={() => setMobile(false)} >
             <div >
               <div className='nav-link'>
                 <div><li>Products</li></div>
@@ -106,7 +118,7 @@ function Navbar() {
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </div>
-            <div  >
+            <div className='nav__company' >
               <div className='nav-link'>
                 <div><li
                   ref={displayRef}
@@ -115,9 +127,23 @@ function Navbar() {
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </div>
+            <div className='nav__Button'>
+              <StyleRoot>  <Button
+                buttonStyle={sizeStyle}
+                label={'Get Started'} />    </StyleRoot>
+
+            </div>
+
           </ul>
         </div>
-        <Button label={'Get Started'} />
+        <button className='mobile-menu-icon'
+          onClick={() => setMobile(!mobile)}
+        >
+
+
+          {mobile ? <UilTimes /> : <UilAlignRight />}
+
+        </button >
       </nav>
       {showMenu && <Features />}
       {show && <Partners />}
@@ -128,4 +154,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Radium(Navbar)

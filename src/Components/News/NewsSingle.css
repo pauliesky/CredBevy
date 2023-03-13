@@ -69,8 +69,17 @@
   width: 58px;
   height: 58px;
   align-items: center;
+  /* color: white; */
   display: flex;
   justify-content: center;
+ /* background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  ); */
 }
 .twitter-icon {
   color: #33ccff;
@@ -83,13 +92,24 @@
 }
 
 .tiktok-icon {
-  color: #69c9d0;
-  font-size: 30px;
+  /* color: #69c9d0; */
+  font-size: 23px;
   width: 58px;
   height: 58px;
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.tiktok-icon {
+  /* color: #111111;
+  filter: drop-shadow(-5px -5px 0 #24f6f0) contrast(150%) brightness(110%);
+  z-index: -1; */
+}
+
+.tiktok-icon::after {
+  filter: drop-shadow(5px 5px 0 #f70250) contrast(150%) brightness(110%);
+  z-index: -1;
 }
 
 .linkedin-icon {

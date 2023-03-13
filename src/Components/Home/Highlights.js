@@ -44,7 +44,7 @@ export default function Highlights() {
             </div>
             <div className='feature__1-body'><p>
               Credbevy aims to be your one-stop shop for all matters relating to loans. Loan offers, credit scores, approval chances, and more.
-              Get Started</p>
+            </p>
             </div>
             <Button label={'Get Started'} />
           </div>

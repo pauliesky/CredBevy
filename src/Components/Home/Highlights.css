@@ -118,3 +118,130 @@
   cursor: pointer;
   /* position: relative; */
 }
+@media screen and (max-width: 676px) {
+  .features {
+    margin-top: 5.5rem;
+  }
+  .feature__1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 24px;
+    background: white;
+    width: 396px;
+    height: 563px;
+    padding-top: 3.5rem;
+  }
+  .feature__1-head {
+    width: 334px;
+    height: 96px;
+
+    font-family: "Recoleta Alt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+
+    letter-spacing: -0.04em;
+
+    /* Text colour */
+
+    color: #111111;
+  }
+  .feature__1-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+    align-items: center;
+  }
+  .feature__1-body {
+    width: 312px;
+    height: 72px;
+
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    letter-spacing: -0.04em;
+
+    /* Text colour */
+
+    color: #111111;
+  }
+
+  .feature__1 img {
+    padding-top: 2.5rem;
+    width: 275px;
+    height: 563px;
+    margin: auto;
+  }
+
+  .highlight__video {
+    /* content: ""; */
+    background: linear-gradient(
+        0deg,
+        rgba(17, 17, 17, 0.77),
+        rgba(17, 17, 17, 0.77)
+      ),
+      url(../Home/Images/phonee.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100% 395px;
+    /* position: absolute; */
+    /* top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px; */
+    /* opacity: 0.5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .highlight__video {
+    height: 395px;
+    /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+    /* position: relative; */
+    margin-top: 6rem;
+  }
+  .highlight__video-content {
+    width: 404px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .highlight__video-title {
+    width: 404px;
+    height: 96px;
+
+    font-family: "Recoleta Alt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .highlight__video-button {
+    font-size: 7rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    /* position: relative; */
+  }
+}
