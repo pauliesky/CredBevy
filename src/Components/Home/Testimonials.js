@@ -7,12 +7,14 @@ import Testimonial from './Utilities/Testimonial'
 
 export default function Testimonials() {
 
+
+  
   return (
     <>
       <div className='testimony'>
         <h2>Testimonials</h2>
 
-        <div className='Testimonial-container'>
+        <div className='Testimonial-container  mobile__testimonial-container'>
 
           <Testimonial
             testimonialName={'@Alexiscoker'}

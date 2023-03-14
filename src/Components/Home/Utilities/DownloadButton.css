@@ -9,7 +9,7 @@
   cursor: pointer;
 }
 
-.download__button-container {
+/* .download__button-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -19,12 +19,12 @@
   width: 195px;
   height: 66px;
   border-radius: 30px;
-}
+} */
 
 .download__button-icon {
   font-size: 24px;
 }
-.download__button-text {
+/* .download__button-text {
   width: 100px;
   height: 32px;
   font-family: "Manrope";
@@ -33,10 +33,10 @@
   font-size: 14px;
   line-height: 117%;
   text-align: left;
-}
+} */
 
 @media screen and (max-width: 676px) {
-  .download__button-container {
+  /* .download__button-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -47,13 +47,13 @@
     width: 173px;
     height: 44px;
 
-    /* Text colour */
+
 
     background: #111111;
     border-radius: 30px;
-  }
+  } */
 
-  .download__button-text {
+  /* .download__button-text {
     width: 73px;
     height: 28px;
 
@@ -63,5 +63,5 @@
     font-size: 12px;
     line-height: 117%;
   
-  }
+  } */
 }

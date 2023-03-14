@@ -24,15 +24,20 @@ export default function Download() {
         {/* <img alt='liq' src={liquid18}></img> */}
         <div className='download-container'>
           <div className='download-container-title'  >  <p>Download the CredBevy App</p>        </div>
-          
+
           <div className='download-button'>
-            <div className='download__btn'>
+            <div className='download__btn mobile__download-btn'>
               <DownloadButton
+
+                classNameButtonContainer='download__button-container'
+                classNameButtonText='download__button-text'
                 icon={<i class="uit uit-google-play"></i>}
                 label={`Download on  ${'PlayStore'} `}
                 buttonStyle={buttonStyleWhite}
               />
               <DownloadButton
+                classNameButtonContainer='download__button-container'
+                classNameButtonText='download__button-text'
                 label={'Download on AppStore'}
                 buttonStyle={buttonStyleBlack}
                 icon={<UilAppleAlt />}

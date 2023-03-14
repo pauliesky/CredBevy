@@ -1,4 +1,4 @@
-.button__container {
+/* .button__container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
   border-radius: 30px;
   border: none;
   cursor: pointer;
-}
+} */
 .button__container-text {
   width: 90px;
   height: 21px;
@@ -20,4 +20,8 @@
   font-size: 14px;
   line-height: 150%;
   color: #ffffff;
+}
+
+@media screen and (max-width: 676px) {
+ 
 }

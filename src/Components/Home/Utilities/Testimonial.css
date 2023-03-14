@@ -1,35 +1,15 @@
-.Testimonial-container {
-  display: flex;
+.test {
+  text-align: center;
+  width: 324px;
   height: 286.89px;
-  flex-direction: row;
-  justify-content: center;
+  background: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 2rem;
-}
+  padding: 2.1rem 1.4rem;
+  gap: 28px;
 
-.test {
-  text-align: center;
-  width: 324px;
-  height: 286.89px;
-  background: #ffffff;
-  border-radius: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2.1rem 1.4rem;
-  gap: 28px;
-}
-.test {
-  text-align: center;
-  width: 324px;
-  height: 286.89px;
-  background: #ffffff;
-  border-radius: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2.1rem 1.4rem;
-  gap: 28px;
 }
 .t-name {
   font-family: "Manrope";
@@ -74,4 +54,22 @@
 .T-btn img {
   height: 25px;
   width: 25px;
+}
+@media screen and (max-width: 676px) {
+
+.test {
+  text-align: center;
+  width: 324px;
+  height: 286.89px;
+  background: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.1rem 1.4rem;
+  gap: 28px;
+
+}
+
+
 }

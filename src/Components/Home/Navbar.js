@@ -8,15 +8,31 @@ import Company from './Company';
 import Button from './Utilities/Button';
 import { UilAlignRight } from '@iconscout/react-unicons'
 import { UilTimes } from '@iconscout/react-unicons'
-import Radium, { StyleRoot } from 'radium';
+// import { device } from './Device';
+// import styled from 'styled-components'
+
+
+
+
 
 function Navbar() {
+
+
+  // const ButtonResize = styled(Button)`
+
+  //     @media ${device.mobile}{
+  // width: 340px;
+  // background-color:red;
+  //   }
+  //         `
 
   const [showMenu, setShowMenu] = useState(false)
   const [show, setShow] = useState(false)
   const [display, setDisplay] = useState(false)
 
   const [mobile, setMobile] = useState(false)
+
+  // const [responsiveWidth, setResponsiveWidth] = useState(false)
 
   const showMenuRef = useRef(null)
   const showRef = useRef(null)
@@ -73,8 +89,9 @@ function Navbar() {
 
   const sizeStyle = {
     '@media (max-width: 676px)': {
-      width: '345px',
+      width: '545px',
       background: 'blue',
+      color: 'red'
     },
 
   }
@@ -128,10 +145,11 @@ function Navbar() {
               </div>
             </div>
             <div className='nav__Button'>
-              <StyleRoot>  <Button
+              {/* <ButtonResize> </ButtonResize> */}
+              <Button
+                className='mobile__button-container button__container'
                 buttonStyle={sizeStyle}
-                label={'Get Started'} />    </StyleRoot>
-
+                label={'Get Started'} />
             </div>
 
           </ul>
@@ -154,4 +172,4 @@ function Navbar() {
   )
 }
 
-export default Radium(Navbar)
+export default Navbar

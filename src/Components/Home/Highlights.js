@@ -14,12 +14,14 @@ import Highlight from './Utilities/Highlight';
 export default function Highlights() {
 
 
-  const row = {
-    flexDirection: 'row'
-  }
-  const rowReverse = {
-    flexDirection: 'row-reverse'
-  }
+  // const row = {
+  //   flexDirection: 'row'
+
+
+  // }
+  // const rowReverse = {
+  //   flexDirection: 'row-reverse'
+  // }
 
   const D9E1F3 = {
     backgroundColor: '#D9E1F3'
@@ -46,32 +48,39 @@ export default function Highlights() {
               Credbevy aims to be your one-stop shop for all matters relating to loans. Loan offers, credit scores, approval chances, and more.
             </p>
             </div>
-            <Button label={'Get Started'} />
+            <Button
+              className='highlight-button__container   mobile__highlightbutton-container '
+              label={'Get Started'} />
           </div>
           <img alt='seci-img' src={sec1Img}></img>
         </div>
         <Highlight
+          className={'highlight__container-row mobile__highlight-container '}
           frameColor={D9E1F3}
-          highlightStyle={row}
+          // highlightStyle={row}
           image={sec2Img}
           title={'Multiple loan offers'}
           body={'You may compare the loan estimates you receive from several lenders to see which one is giving you the best deal'}
         />
         <Highlight
           frameColor={CFE5EE}
-          highlightStyle={rowReverse}
+
+          className={'highlight__container-rowReverse mobile__highlight-container '}
+          // highlightStyle={rowReverse}
           image={sec1Img}
           title={'Bevy Score'}
           body={'Credbevy allows you to view your credit ratings without charge and provides advice on how to improve them.'} />
         <Highlight
           frameColor={E0F0E6}
-          highlightStyle={row}
+          className={'highlight__container-row mobile__highlight-container '}
+          // highlightStyle={row}
           image={sec3Img}
           title={'Instant Transfers'}
           body={'Credbevy enables you to send immediate transfers to any accepted financial institution of your choosing.'} />
         <Highlight
           frameColor={F5EFE8}
-          highlightStyle={rowReverse}
+          className={'highlight__container-rowReverse mobile__highlight-container '}
+          // highlightStyle={rowReverse}
           image={sec4Img}
           title={'Easy Repayment'}
           body={'With Credbevy, you have a number of easy loan repayment choices at your disposal.'} />

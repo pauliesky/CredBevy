@@ -3,7 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.Testimonial-container {
+  display: flex;
+  height: 286.89px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
 .testimony h2 {
   text-align: center;
   font-family: "Recoleta Alt";
@@ -14,4 +21,32 @@
   margin-top: 6rem;
   margin-bottom: 4rem;
   color: #111111;
+}
+
+@media screen and (max-width: 676px) {
+  .mobile__testimonial-container {
+    display: flex;
+    height: 1030.67px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .testimony h2 {
+    /* width: 146px; */
+    /* height: 36px; */
+    margin-top: 4.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    align-items: center;
+    font-family: "Recoleta Alt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+
+    /* Text colour */
+    color: #111111;
+  }
 }

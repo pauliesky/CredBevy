@@ -37,11 +37,15 @@ export default function Hero() {
 
         <div className='hero__download-button'>
           <DownloadButton
+            classNameButtonContainer='download__button-container mobile-download__button-container'
+            classNameButtonText='download__button-text mobile-download__button-text'
             icon={<i class="uit uit-google-play"></i>}
             label={`Download on ${'PlayStore'}`}
             buttonStyle={buttonStyleWhite}
           />
           <DownloadButton
+            classNameButtonContainer='download__button-container mobile-download__button-container'
+            classNameButtonText='download__button-text mobile-download__button-text'
             label={'Download on AppStore'}
             buttonStyle={buttonStyleBlack}
             icon={<UilAppleAlt />}

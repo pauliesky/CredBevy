@@ -1,15 +1,32 @@
 import React from 'react'
 // import sec2Img from '../Images/iPhone 13-2.png'
 import './Highlight.css'
+// import { device } from '../Device';
+// import styled from 'styled-components'
 
-export default function Highlight({ title, body, highlightStyle,image,frameColor }) {
+export default function Highlight({ className, title, body, highlightStyle, image, frameColor }) {
+
+
+
+  //   const FlexDirection = styled.div`
+
+  // @media ${device.mobile}{
+  //   // flex-direction: column;
+  //   background-color:red;
+  // }
+  // `
+
+
   return (
     <>
-      <div className='highlight__container'
-        style={highlightStyle}
+      {/* <FlexDirection></FlexDirection> */}
+      <div
+        className={className}
+      // className='highlight__container'
+      style={highlightStyle}
       >
         <div className='hightlight__frame'
-        style={frameColor}
+          style={frameColor}
         >
           <img alt='seci-img' src={image}></img>
         </div>
