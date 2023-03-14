@@ -62,17 +62,33 @@ function Footer() {
 
       </div>
       <div className='divider'>
-        <hr></hr>
+        <div className='line' ></div>
       </div>
       <div className='footer2'>
 
         <div className='footer2__wrapper'>
           <div className='footer2-text'>
-            <div className='all_right'>2023 CredBevy. All right reserved.</div>
-            <div className='under_line'  >Privacy</div>
-            <Link to='/Terms&Conditions' style={{ textDecoration: 'none' }} > <div className='under_line'>Terms of Service</div> </Link>
-            <div className='under_line'>Cookies Settings</div>
+            <div className='all_right'>
+              2023 CredBevy. All right reserved.
+            </div>
+
+            <div className='footer2-text2'  >
+              <div className='under_line'>
+                Privacy
+              </div>
+              <Link to='/Terms&Conditions' style={{ textDecoration: 'none' }} >
+                <div className='under_line'>
+                  Terms of Service
+                </div>
+              </Link>
+              <div className='under_line'>
+                Cookies Settings
+              </div>
+            </div>
+
+
           </div>
+
           <div className='footer-icons'>
             <div className='icon'><FaFacebookF /></div>
             <div className='icon'><FaInstagram /></div>
