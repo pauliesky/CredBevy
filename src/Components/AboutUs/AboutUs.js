@@ -17,21 +17,21 @@ function AboutUs() {
       </div>
 
       <div className='aboutUs__body'>
-        <div className='aboutUs__body-1' >
+        <div className='aboutUs__body-1 column__reverse' >
           <img src={story1} alt='story1'></img>
           <div className='aboutUs__body-1-text' >
             <h2>Our Story</h2>
             <p> Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
           </div>
         </div>
-        <div className='aboutUs__body-1' >
+        <div className='aboutUs__body-1 column' >
           <div className='aboutUs__body-1-text' >
             <h2>Our Mission</h2>
             <p> Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
           </div>
           <img src={story2} alt='story1'></img>
         </div>
-        <div className='aboutUs__body-1' >
+        <div className='aboutUs__body-1  column__reverse ' >
           <img src={story3} alt='story1'></img>
           <div className='aboutUs__body-1-text' >
             <h2>Our Vision</h2>
@@ -40,7 +40,7 @@ function AboutUs() {
         </div>
       </div>
 
-      <Download/>
+      <Download />
     </>
   )
 }

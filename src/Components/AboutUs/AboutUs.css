@@ -13,7 +13,6 @@
   font-size: 24px;
   line-height: 33px;
 
-
   text-align: center;
 
   color: #8c8c8c;
@@ -43,6 +42,7 @@
   flex-direction: row;
   justify-content: center;
   gap: 10rem;
+  margin-bottom: 4rem;
 }
 
 .aboutUs__body-1 img {
@@ -78,4 +78,42 @@
   /* Text colour */
 
   color: #111111;
+}
+
+@media screen and (max-width: 676px) {
+  .aboutUs__title {
+    width: 185px;
+    height: 54px;
+    font-family: "Recoleta Alt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #111111;
+    margin-bottom: 9rem;
+  }
+  .column__reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2.5rem;
+    margin-bottom: 4rem;
+
+    justify-content: center;
+  }
+  .column {
+    gap: 2.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutUs__body-1 img {
+    width: 396px;
+    height: 323px;
+  }
+
+  .aboutUs__body {
+    margin-bottom: 13rem;
+  }
 }
