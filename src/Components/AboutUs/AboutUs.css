@@ -109,11 +109,45 @@
   }
 
   .aboutUs__body-1 img {
-    width: 396px;
+    width: 356px;
     height: 323px;
   }
 
   .aboutUs__body {
     margin-bottom: 13rem;
+  }
+
+  .aboutUs__body-1-text h2 {
+    font-family: "Recoleta Alt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #111111;
+    width: 188px;
+    height: 48px;
+  }
+
+  .aboutUs__body-1-text p {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    width: 386px;
+    height: 48px;
+    letter-spacing: -0.04em;
+
+    /* Text colour */
+
+    color: #111111;
+  }
+
+  .aboutUs__body-1-text {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
