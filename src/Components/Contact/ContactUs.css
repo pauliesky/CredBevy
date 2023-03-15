@@ -61,3 +61,81 @@
   justify-content: center;
   align-items: center;
 }
+
+.contactus-button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 25px;
+  width: 140px;
+  height: 55px;
+  background: #8003cd;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.textarea {
+  height: 175px;
+  width: 466px;
+  resize: none;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 5rem;
+}
+@media screen and (max-width: 676px) {
+  .contactUs__title {
+    font-family: "Recoleta Alt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #111111;
+    width: 266px;
+    margin-bottom: 4rem;
+  }
+
+  .contactUs__form {
+    display: flex;
+    flex-direction: column;
+    /* width: 25%; */
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 396px;
+    height: 546px;
+    background-color: white;
+  }
+
+  .contactUs__form input {
+    padding: 0.5rem;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    border: none;
+    width: 333px;
+    height: 56px;
+    margin-bottom: 3rem;
+  }
+
+  .contactUs__form label {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    width: 100px;
+    height: 19px;
+    margin-bottom: 0.25rem;
+  }
+  .textarea {
+    width: 333px;
+    height: 175px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    resize: none;
+    margin-bottom: 4rem;
+    padding: 1.5rem;
+  }
+}

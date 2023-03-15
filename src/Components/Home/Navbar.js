@@ -99,13 +99,21 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
-        <Link to='/'>
-          <img className='navbar__image' src={logoImg} alt='logo-img'></img>
-        </Link>
-        <div>
+      <nav className={mobile ? 'nav__links-mobile' : 'navbar'}                >
 
-          <ul className={mobile ? 'nav__links-mobile' : 'nav-links'} onClick={() => setMobile(false)} >
+
+        {/* <div className='img-div'  >   <img className='navbar__image' src={logoImg} alt='logo-img'></img>    </div> */}
+
+
+        <div className='nav__components'>
+          <Link to='/'>
+            <img className='navbar__image' src={logoImg} alt='logo-img'></img>
+          </Link>
+          <ul
+            className={mobile ? 'null' : 'nav-links'}
+            // className='nav-links'
+            onClick={() => setMobile(false)} >
+
             <div >
               <div className='nav-link'>
                 <div><li>Products</li></div>
@@ -145,7 +153,6 @@ function Navbar() {
               </div>
             </div>
             <div className='nav__Button'>
-              {/* <ButtonResize> </ButtonResize> */}
               <Button
                 className='mobile__button-container button__container'
                 buttonStyle={sizeStyle}
@@ -157,9 +164,7 @@ function Navbar() {
         <button className='mobile-menu-icon'
           onClick={() => setMobile(!mobile)}
         >
-
-
-          {mobile ? <UilTimes /> : <UilAlignRight />}
+          {mobile ? <UilTimes className='times' /> : <UilAlignRight />}
 
         </button >
       </nav>

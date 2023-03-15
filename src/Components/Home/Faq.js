@@ -72,7 +72,10 @@ function Faq() {
 
       <Link to='/FAQs' style={{ textDecoration: 'none' }}>
         <div className='faq__btn'>
-          <Button label={'See All'} icon={[<BsArrowRight style={arrowStyle} />]} />
+          <Button
+            className={'faq-button__container'}
+
+            label={'See All'} icon={[<BsArrowRight style={arrowStyle} />]} />
         </div>
       </Link>
     </>

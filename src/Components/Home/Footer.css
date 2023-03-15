@@ -175,7 +175,12 @@
 .footer__arrowdown {
   display: none;
 }
-
+.footer2-text2 {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  /* margin-top: 1.5rem; */
+}
 @media screen and (max-width: 676px) {
   .footer-1-container {
     display: flex;
@@ -273,10 +278,10 @@
     display: none;
   }
 
-  .divider .line{
+  .divider .line {
     display: block;
     margin-top: 0rem;
-    width: 356px;
+    width: 360px;
     height: 0px;
     border-bottom: 1px solid #111111;
   }

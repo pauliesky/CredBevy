@@ -13,17 +13,16 @@ const ContactUs = () => {
     height: '21px',
   }
 
-  const style = {
-    height: '175px',
-    width: '466px',
-    padding: '20px',
-    backgroundColor: '#f5f5f5',
-    border: 'none',
-    resize: 'none',
-    borderRadius: '8px',
-    marginBottom: '6rem'
-
-  }
+  // const style = {
+  //   height: '175px',
+  //   width: '466px',
+  //   padding: '20px',
+  //   backgroundColor: '#f5f5f5',
+  //   border: 'none',
+  //   resize: 'none',
+  //   borderRadius: '8px',
+  //   marginBottom: '6rem',
+  // }
   return (
     <>
       <div className='contactUs__wrapper'>
@@ -46,14 +45,18 @@ const ContactUs = () => {
           />
           <label>Your Message</label>
           <textarea
-            className="textarea"
-            style={style}
-            type='textarea'
-            name='message'
-            required
-          />
+          className="textarea"
+          // style={style}
+          // type='textarea'
+          // name='message'
+          // required
+          ></textarea>
           <div className='contactUs__btn-wrapper' >
-            <Button buttonTextStyle={buttonTextSize} buttonStyle={buttonStyleSize} label={'Send Message'} />
+            <Button
+              className='contactus-button__container'
+              buttonTextStyle={buttonTextSize}
+              buttonStyle={buttonStyleSize}
+              label={'Send Message'} />
           </div>
 
         </form>
