@@ -198,9 +198,9 @@
     border-radius: 30px;
   }
   .mobile-download__button-text {
-    width: 73px;
+    width: 83px;
     height: 28px;
-
+background: red;
     font-family: "Manrope";
     font-style: normal;
     font-weight: 500;
