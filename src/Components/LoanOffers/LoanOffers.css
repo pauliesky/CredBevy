@@ -161,3 +161,217 @@
   width: 383px;
   height: 350px;
 }
+.loanoffer-button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 25px;
+  width: 140px;
+  height: 55px;
+  background: #8003cd;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 676px) {
+  .loanOffer__title {
+    font-family: "Recoleta Alt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #111111;
+    margin-bottom: 6rem;
+    width: 269px;
+    height: 108px;
+  }
+  /* .loanOffer__1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } */
+
+  .loanOffer__1-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 24px;
+    gap: 0rem;
+    background: #d9ffd3;
+    padding: 3.5rem 0rem 0rem 0rem;
+    width: 396px;
+  }
+  .loanOffer__1-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-left: 1.5rem;
+    /* align-items: center; */
+    height: 200px;
+  }
+
+  .loanOffer__1-head {
+    width: 265px;
+    height: 96px;
+    font-family: "Recoleta Alt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+
+    letter-spacing: -0.04em;
+
+    /* Text colour */
+
+    color: #111111;
+  }
+
+  .loanOffer__1-body {
+    width: 305px;
+    height: 63px;
+
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    letter-spacing: -0.04em;
+
+    /* Text colour */
+
+    color: #111111;
+  }
+  .mobile-loanoffer-button__container {
+    position: relative;
+    top: 15rem;
+    padding: 17px 25px;
+    width: 140px;
+    height: 55px;
+    background: #8003cd;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .loanOffer__1-wrapper img {
+    width: 275px;
+    height: 300px;
+  }
+  .loanOffer__1-wrapper-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loanOffer__body-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    background: green;
+    margin-bottom: 32rem;
+    align-items: center;
+  }
+
+  .loanOffer__body-2__content-1 {
+    padding: 1.5rem 0rem 0rem 0rem;
+    background: #fad3ff;
+    border-radius: 24px;
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .loanOffer__body-2__content-1-head {
+    width: 366px;
+    /* height: 64px; */
+
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    /* or 32px */
+
+    /* Text colour */
+
+    color: #111111;
+  }
+
+  .loanOffer__body-2__content-1-body {
+    width: 348px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    letter-spacing: -0.04em;
+    /* Text colour */
+    color: #111111;
+  }
+
+  .loanOffer__body-2__content-1 img {
+    width: 373px;
+    height: 310px;
+  }
+
+  .loanOffer__body-2__content-2 {
+    padding: 2rem 0rem 0rem 0rem;
+    background: #ffd5d3;
+    border-radius: 24px;
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .loanOffer__body-2__content-2-head {
+    width: 364px;
+
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    /* or 32px */
+
+    /* Text colour */
+
+    color: #111111;
+  }
+
+  .loanOffer__body-2__content-2-body {
+    width: 348px;
+
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    letter-spacing: -0.04em;
+
+    /* Text colour */
+
+    color: #111111;
+  }
+
+  .loanOffer__body-2__content-2 img {
+    width: 373px;
+    height: 310px;
+  }
+}

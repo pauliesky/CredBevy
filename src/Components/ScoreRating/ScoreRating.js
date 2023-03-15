@@ -25,14 +25,14 @@ function ScoreRating() {
           <div className='scoreRate__1-wrapper' >
             <div className='scoreRate__1-content'>
               <div className='scoreRate__1-head' >
-                <p>Loan app like you've never seen before</p>
+                <p>See your credit score and how to improve it</p>
               </div>
               <div className='scoreRate__1-body'><p>
-                Credbevy aims to be your one-stop shop for all matters relating to loans. Loan offers, credit scores, approval chances, and more.
-                Get Started</p>
+                Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
               </div>
-              <Button label={'Get Started'} />
-
+              <Button
+                className={'scorerate-button__container  scorerate-button__container'}
+                label={'Get Started'} />
             </div>
             <img alt='seci-img' src={sec1Img}></img>
           </div>

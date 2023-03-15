@@ -251,17 +251,20 @@
     margin-top: 6rem;
   }
   .highlight__video-content {
-    width: 404px;
+    width: 385px;
     height: 244px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+  
+    text-align: center;
+    align-items: center;
   }
 
   .highlight__video-title {
-    width: 404px;
+    width: 365px;
     height: 96px;
-
+   
     font-family: "Recoleta Alt";
     font-style: normal;
     font-weight: 700;
