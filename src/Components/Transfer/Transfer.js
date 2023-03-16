@@ -32,10 +32,17 @@ function Transfer() {
               <div className='Transfer__1-body'><p>
                 Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
               </div>
-              <Button label={'Get Started'} />
+              <Button
+              
+                className={'transfer-button__container'}
+              label={'Get Started'} />
 
             </div>
+            <div  className='transfer__image1' >      
+
             <img alt='seci-img' src={iPhone13_7}></img>
+
+            </div>
           </div>
         </div>
       </div>
@@ -52,8 +59,7 @@ function Transfer() {
         </div>
         <div className='Transfer__body-2__content-2' >
           <div className='Transfer__body-2__content-2-head'  >
-            <h3>Customise your own loans
-              Set your terms</h3>
+            <h3>Customise your own loans Set your terms</h3>
           </div>
           <div className='Transfer__body-2__content-2-body' >
             <p>Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
