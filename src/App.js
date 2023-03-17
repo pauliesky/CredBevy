@@ -17,14 +17,20 @@ import News from './Components/News/News';
 import NewsSingle from './Components/News/NewsSingle';
 import TermsAndConditions from './Components/T&C/TermsAndConditions';
 import Calculator from './Components/E.M.I/Calculator';
+import DropDown from './Components/Home/DropDown';
+import { useState } from 'react';
 
-
+import MediaQuery from './MediaQuery';
 
 function App() {
+
+  const displayMobile = MediaQuery('(max-width: 676px)')
+
+
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        {displayMobile ? <DropDown /> : <Navbar />}
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/aboutus' element={<AboutUs />} />

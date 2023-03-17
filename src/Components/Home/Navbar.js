@@ -10,8 +10,8 @@ import { UilAlignRight } from '@iconscout/react-unicons'
 import { UilTimes } from '@iconscout/react-unicons'
 // import { device } from './Device';
 // import styled from 'styled-components'
-import {DropDownMenu} from './DropDownMenu'
-
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import DropDown from './DropDown';
 
 
 function Navbar() {
@@ -24,6 +24,10 @@ function Navbar() {
   // background-color:red;
   //   }
   //         `
+
+
+
+
 
   const [showMenu, setShowMenu] = useState(false)
   const [show, setShow] = useState(false)
@@ -167,6 +171,8 @@ function Navbar() {
 
         </button >
       </nav>
+
+
       {showMenu && <Features />}
       {show && <Partners />}
       {display && <Company />}
