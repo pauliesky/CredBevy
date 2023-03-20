@@ -12,11 +12,11 @@ export const DropDownData = [
     iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
       {
-        title: 'Multiple Loan offers',
-        path: '/LoanOffers',
+        // title: 'Multiple Loan offers',
+        // path: '/LoanOffers',
         // cName: 'sub-nav',
-        details: 'Get  instant loan disbursed to your account under 24 hrs of application.',
-        icon: <IoIcons.IoIosPaper />,
+        // details: 'Get  instant loan disbursed to your account under 24 hrs of application.',
+        
       }
     ]
 
@@ -32,44 +32,30 @@ export const DropDownData = [
       {
         title: 'Multiple Loan offers',
         path: '/LoanOffers',
-        // cName: 'sub-nav',
-        details: 'Get  instant loan disbursed to your account under 24 hrs of application.',
-        icon: <IoIcons.IoIosPaper />,
+      
       },
       {
         title: 'Credit Score',
         path: '/ScoreRating',
-        // cName: 'sub-nav',
-        details: 'View your credit score rating and know where or how to improve it.',
-        icon: <IoIcons.IoIosPaper />,
+       
       },
       {
         title: 'Free Transfer',
         path: '/Transfer',
-        // cName: 'sub-nav',
-        details: 'Transfer money for free from your loan wallets to any bank account.',
-        icon: <IoIcons.IoIosPaper />,
+
       },
       {
         title: 'Pay Bills',
         path: '/Bills',
-        // cName: 'sub-nav',
-        details: 'Pay for your airtime, data, light, water, cable bill at your convinience',
-        icon: <IoIcons.IoIosPaper />,
+
       },
       {
         title: 'API Integrations',
         path: '/PartnersIntegrations',
-        // cName: 'sub-nav',
-        details: 'Get  instant loan disbursed to your account under 24 hrs of application.',
-        icon: <IoIcons.IoIosPaper />,
       },
       {
         title: 'API Integrations',
-        path: '/PartnersIntegrations',
-        // cName: 'sub-nav',
-        details: 'Get  instant loan disbursed to your account under 24 hrs of application.',
-        icon: <IoIcons.IoIosPaper />,
+       
       },
     ]
   },
@@ -84,29 +70,22 @@ export const DropDownData = [
       {
         title: 'Latest Articles  and Research',
         path: '/',
-        // cName: 'sub-nav',
-        details: 'Get  instant loan disbursed to your account under 24 hrs of application.',
-        icon: <IoIcons.IoIosPaper />,
+       
       },
       {
         title: 'Customer Hub',
         path: '/LendingPartners',
-        // cName: 'sub-nav',
-        details: 'Get  instant loan disbursed to your account under 24 hrs of application.',
-        icon: <IoIcons.IoIosPaper />,
+       
       },
       {
         title: 'FAQs',
         path: '/FAQs',
         // cName: 'sub-nav',
-        details: 'Get  instant loan disbursed to your account under 24 hrs of application.',
-        icon: <IoIcons.IoIosPaper />,
+     
       }, {
         title: 'API Documentation',
         path: '/',
-        // cName: 'sub-nav',
-        details: 'Get  instant loan disbursed to your account under 24 hrs of application.',
-        icon: <IoIcons.IoIosPaper />,
+    
       },
     ]
   },
@@ -121,28 +100,20 @@ export const DropDownData = [
       {
         title: 'About us ',
         path: '/aboutus',
-        // cName: 'sub-nav',
-        icon: <IoIcons.IoIosPaper />,
       },
       {
         title: 'Contact us',
-        path: '//contactus',
-        // cName: 'sub-nav',
-        details: 'Get  instant loan disbursed to your account under 24 hrs of application.',
-        icon: <IoIcons.IoIosPaper />,
+        path: '/contactus',
+  
       },
       {
         title: 'Career',
         path: '/',
-        // cName: 'sub-nav',
-        details: 'Get  instant loan disbursed to your account under 24 hrs of application.',
-        icon: <IoIcons.IoIosPaper />,
+
       }, {
         title: 'News and Media',
         path: '/News',
-        // cName: 'sub-nav',
-        details: 'Get  instant loan disbursed to your account under 24 hrs of application.',
-        icon: <IoIcons.IoIosPaper />,
+
       },
     ]
   },

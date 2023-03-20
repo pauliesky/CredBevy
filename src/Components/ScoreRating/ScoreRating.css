@@ -253,9 +253,12 @@
   }
 
   .scoreRate__body-2 {
+    background-color: red;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 3rem;
     margin-bottom: 29rem;
   }

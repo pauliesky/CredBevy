@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { IoMdHeartEmpty } from 'react-icons/io'
+// import { IoMdHeartEmpty } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
@@ -7,11 +7,11 @@ import styled from 'styled-components'
 const DropDownLink = styled(Link)`
 display:flex;
 flex-direction:row;
-
+background:white;
 justify-content:center;
 align-items:center;
 text-decoration:none;
-margin-bottom:1.5rem;
+margin-bottom:1.1rem;
 gap:13rem;
 // width: 63px;
 height: 21px;
@@ -32,40 +32,22 @@ color: #333333;
 `;
 
 const SideBarLabel = styled.span`
-height: 19px;
-
+// height: 19px;
+background:white;
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
-line-height: 117%;
-/* identical to box height, or 19px */
-
-padding-left:.5rem;
-/* Primary Colour */
-
-color: #8003CD;
-`
-const SideBarText = styled.div`
-width: 261px;
-height: 46px;
-padding-left:.5rem;
-
-/* SUBTITLE/SMALL/14PX */
-
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 117%;
+/* or 16px */
 
-letter-spacing: -0.5px;
+/* Grey 1 */
 
-/* Gray / gray-7 */
-
-color: #8C8C8C;
+color: #8A8B9F;
+padding-left:3rem;
+border-radius: 0px 0px 8px 8px;
 `
+
 
 const DropdownTitle = styled.div`
 width:3.5rem;
@@ -74,24 +56,24 @@ font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 150%;
-/* identical to box height, or 21px */
-
-/* Text/#333333 */
-
 color: #333333;
+background:white;
 
 `
 
 const DropdownLink = styled(Link)`
 background:white;
-height:90px;
+// height:2rem;
 display:flex;
 flex-direction:column;
 text-decoration:none;
 color:white;
 font-size:18px;
-gap:.5rem;
-border:none;
+margin-bottom:1rem;
+// border:none;
+border-radius: 0px 0px 8px 8px;
+
+
 `
 
 
@@ -115,18 +97,13 @@ function DropDownSubMenu({ item }) {
 
         <div>
           {item.subNav && subnav ? item.iconOpened : item.subNav ? item.iconClosed : null}
-
         </div>
       </DropDownLink>
       {subnav && item.subNav.map((item, index) => {
-
         return (
-
           <DropdownLink to={item.path} key={index}>
             <SideBarLabel>{item.title}</SideBarLabel>
-            <SideBarText> { item.details}</SideBarText>
           </DropdownLink>
-
         )
       })}
     </>

@@ -7,6 +7,7 @@ import logoImg from '../Home/Images/Credbevy Logo.svg'
 // import { device } from './Device';
 import { DropDownData } from './DropDownData'
 import DropDownSubMenu from './DropDownSubMenu';
+import Button from './Utilities/Button';
 
 
 const Nav = styled.div`
@@ -27,8 +28,6 @@ const NavIcon = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 `;
 
 const NavImage = styled(Link)`
@@ -39,30 +38,76 @@ height: 2rem;
   align-items: center;
 `;
 
-const DropDownNav = styled.nav`
 
-background: white;
-padding-top:2rem;
-color: black; 
-width: 300px;
-height:300px;
+
+
+
+const NavIcon2 = styled(Link)`
+  font-size: 1rem;
+  height: 2rem;
+
+display:flex;
+flex-direction:center;
+align-items:center;
+`;
+
+const NavLogo = styled(Link)`
+width: 2rem;
+height: 2rem;
+
+`;
+
+
+const NavItems = styled.div`
+
+display:flex;
+flex-direction:row;
 justify-content:center;
-position: absolute;
-// left:0px;
-top: ${({ dropDown }) => (dropDown ? '5rem' : '-1000%')};
-transition:1ms;
-z-index:10;
-// box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
-border-radius: 24px;
+gap:14.6rem;
+margin-bottom:3rem;
 
 `
 
+
+const DropDownNav = styled.nav`
+background: white;
+padding-top:1rem;
+color: black; 
+width: 377px;
+height:417px;
+justify-content:center;
+position: absolute;
+// left:0px;
+top: ${({ dropDown }) => (dropDown ? '0rem' : '-1000%')};
+transition:1ms;
+z-index:10;
+// box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+
+`
+const NavButton = styled.div`
+display:flex;
+flex-direction:row;
+justify-content:center;
+margin-top:3rem;
+// background:white;
+
+`
 const DropDownWrap = styled.div`
-width:100%;
+// width:100%;
+background:white;
+display:flex;
+flex-direction:column;
+// gap:.5rem;
+
 
 `
 
 function DropDown() {
+
+  const sizeStyle = {
+    width: '345px',
+  }
 
   const [dropDown, setDropDown] = useState(false)
 
@@ -76,29 +121,34 @@ function DropDown() {
           <img className='mobile_navbar__image' src={logoImg} alt='logo-img'></img>
         </NavImage>
         <NavIcon onClick={showDropDown} to='#'>
-          {/* <FaIcons.FaBars onClick={showDropDown} /> */}
           {dropDown ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
         </NavIcon>
         <DropDownNav dropDown={dropDown}>
+          <NavItems>
 
-          {/* <NavImage>
-            <img className='mobile_navbar__image' src={logoImg} alt='logo-img'></img>
-          </NavImage>
-          <NavIcon onClick={showDropDown} to='#'>
-            {dropDown ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
-          </NavIcon> */}
+            <NavLogo>
+              <img className='mobile_navbar__image' src={logoImg} alt='logo-img'></img>
+            </NavLogo>
+            <NavIcon2 onClick={showDropDown} to='#'>
+              {dropDown ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
+            </NavIcon2>
 
+          </NavItems>
           <DropDownWrap>
-            {/* <NavIcon to='#'>
-            <AiIcons.AiOutlineClose />
-          </NavIcon> */}
-
             {DropDownData.map((item, index) => {
               return <DropDownSubMenu item={item} key={index} />
             })}
           </DropDownWrap>
-
+          <NavButton>
+            <Button
+              className='button__container'
+              buttonStyle={sizeStyle}
+              label={'Get Started'} />
+          </NavButton>
         </DropDownNav>
+
+
+
       </Nav>
 
     </>
