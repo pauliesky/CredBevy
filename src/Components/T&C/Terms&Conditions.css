@@ -34,5 +34,64 @@
 }
 .terms-contents {
   margin-bottom: 3rem;
- 
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  color: #000000;
+}
+@media screen and (max-width: 676px) {
+  .terms-container {
+    width: 396px;
+
+  }
+  .terms-title {
+    width: 348px;
+    height: 54px;
+
+    font-family: "Recoleta Alt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+
+    /* Text colour */
+
+    color: #111111;
+  }
+
+  .terms-subtitle {
+    width: 373px;
+    height: 48px;
+    margin-bottom: 3rem;
+
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+
+    /* Text/#333333 */
+
+    color: #333333;
+  }
+  .terms-contents {
+    margin-bottom: 3rem;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    /* or 229% */
+
+    color: #000000;
+  }
 }

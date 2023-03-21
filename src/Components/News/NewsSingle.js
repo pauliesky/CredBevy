@@ -34,6 +34,9 @@ function NewsSingle() {
             <div className='News__grid-item1-content-profile-img' ></div>
             <div>Oripeloye Timilehin</div>
           </div>
+          <div className='social__share'  >
+            <p>Share</p>
+          </div>
           <div className='NewsSingle__Section-1-socials-icon'  >
             <div className='facebook-icon'>
               <UilFacebookF />

@@ -181,6 +181,9 @@
   gap: 1rem;
   /* margin-top: 1.5rem; */
 }
+.footer__links {
+  width: 100px;
+}
 @media screen and (max-width: 676px) {
   .footer-1-container {
     display: flex;
@@ -279,7 +282,6 @@
   }
 
   .divider .line {
-  
     margin: 0rem 1rem;
     display: block;
     width: 100%;
