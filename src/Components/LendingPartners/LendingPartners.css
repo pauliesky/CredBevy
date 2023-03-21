@@ -43,3 +43,56 @@
 
   color: #333333;
 }
+
+@media screen and (max-width: 676px) {
+  .LendingPartners__head {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .LendingPartners__head-title {
+    width: 490px;
+    height: 108px;
+    font-family: "Recoleta Alt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+
+    /* Text colour */
+
+    color: #111111;
+  }
+  .LendingPartners__head-body {
+    margin-top: 1rem;
+    width: 373px;
+    height: 71px;
+
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+
+    text-align: center;
+
+    /* Text/#333333 */
+
+    color: #333333;
+  }
+
+.lendingPartners__grid {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+}

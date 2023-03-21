@@ -1,6 +1,6 @@
 import React from 'react'
 import './LendingPartners.css'
-import Coin from '../Home/Images/Coinbase.png'
+// import Coin from '../Home/Images/Coinbase.png'
 import Download from '../Home/Download'
 import Partner from '../Home/Utilities/Partner'
 export default function LendingPartners() {
