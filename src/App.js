@@ -18,7 +18,7 @@ import NewsSingle from './Components/News/NewsSingle';
 import TermsAndConditions from './Components/T&C/TermsAndConditions';
 import Calculator from './Components/E.M.I/Calculator';
 import DropDown from './Components/Home/DropDown';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 import MediaQuery from './MediaQuery';
 

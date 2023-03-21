@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import * as FaIcons from 'react-icons/fa';
@@ -8,6 +8,7 @@ import logoImg from '../Home/Images/Credbevy Logo.svg'
 import { DropDownData } from './DropDownData'
 import DropDownSubMenu from './DropDownSubMenu';
 import Button from './Utilities/Button';
+// import { Dropdown } from 'rsuite';
 
 
 const Nav = styled.div`
@@ -74,7 +75,7 @@ background: white;
 padding-top:1rem;
 color: black; 
 width: 377px;
-height:417px;
+height:490px;
 justify-content:center;
 position: absolute;
 // left:0px;
@@ -110,31 +111,55 @@ function DropDown() {
   }
 
   const [dropDown, setDropDown] = useState(false)
-
   const showDropDown = () => setDropDown(!dropDown)
+
+
+
+  const showMenuReff = useRef(null)
+
+  useEffect(() => {
+
+    const pageClickEvent = (e) => {
+      if (showMenuReff.current !== null && !showMenuReff.current.contains(e.target)) {
+        setDropDown(!dropDown);
+      }
+    }
+    if (dropDown) {
+      window.addEventListener('click', pageClickEvent)
+    }
+    return () => {
+      window.removeEventListener('click', pageClickEvent)
+    }
+  }, [dropDown])
+
+
+
+
 
 
   return (
     <>
-      <Nav>
+      <Nav
+      // ref={showMenuReff}
+      >
         <NavImage>
           <img className='mobile_navbar__image' src={logoImg} alt='logo-img'></img>
         </NavImage>
         <NavIcon onClick={showDropDown} to='#'>
           {dropDown ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
         </NavIcon>
-        <DropDownNav dropDown={dropDown}>
+        <DropDownNav
+          dropDown={dropDown}>
           <NavItems>
-
             <NavLogo>
               <img className='mobile_navbar__image' src={logoImg} alt='logo-img'></img>
             </NavLogo>
             <NavIcon2 onClick={showDropDown} to='#'>
               {dropDown ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
             </NavIcon2>
-
           </NavItems>
-          <DropDownWrap>
+
+          <DropDownWrap   >
             {DropDownData.map((item, index) => {
               return <DropDownSubMenu item={item} key={index} />
             })}

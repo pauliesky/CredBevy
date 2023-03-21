@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 // import { IoMdHeartEmpty } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
@@ -79,18 +79,32 @@ border-radius: 0px 0px 8px 8px;
 
 
 function DropDownSubMenu({ item }) {
-
-
-
   const [subnav, setSubNav] = useState(false)
   const showSubnav = () => setSubNav(!subnav)
 
 
+  const showMenuRef = useRef(null)
+
+  useEffect(() => {
+
+    const pageClickEvent = (e) => {
+      if (showMenuRef.current !== null && !showMenuRef.current.contains(e.target)) {
+        setSubNav(!subnav);
+      }
+    }
+    if (subnav) {
+      window.addEventListener('click', pageClickEvent)
+    }
+    return () => {
+      window.removeEventListener('click', pageClickEvent)
+    }
+  }, [subnav])
+
   return (
-
     <>
-
-      <DropDownLink to={item.path} onClick={item.subNav && showSubnav}>
+      <DropDownLink to={item.path}
+        ref={showMenuRef}
+        onClick={item.subNav && showSubnav}>
         <div>
           <DropdownTitle>  {item.title} </DropdownTitle>
         </div>

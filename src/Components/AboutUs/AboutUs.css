@@ -115,6 +115,10 @@
 
   .aboutUs__body {
     margin-bottom: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .aboutUs__body-1-text h2 {

@@ -241,6 +241,7 @@
     /* Text colour */
 
     color: #111111;
+    
   }
 
   .Transfer__1-wrapper img {
@@ -281,6 +282,7 @@
     justify-content: center;
     gap: 1.5rem;
     margin-bottom: 18rem;
+    align-items: center;
   }
 
   .Transfer__body-2__content-1 {
