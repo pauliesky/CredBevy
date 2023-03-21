@@ -54,3 +54,14 @@
   height: 33px;
   background: #e5eaef;
 }
+
+@media screen and (max-width: 676px) {
+  .News__grid-item {
+    width: 396px;
+    height: 440px;
+    background: #e5eaef;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+}
