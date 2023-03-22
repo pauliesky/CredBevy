@@ -104,14 +104,16 @@
 .footer2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   height: 57px;
 }
 .footer2__wrapper {
-  width: 1080px;
+  /* width: 100%; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 22rem;
 }
 
 .footer2-text {
@@ -170,7 +172,6 @@
   font-weight: 400;
   font-size: 13.5px;
   line-height: 21px;
- 
 }
 
 .footer__arrowdown {
