@@ -108,7 +108,7 @@
   height: 57px;
 }
 .footer2__wrapper {
-  width: 1040px;
+  width: 1080px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -163,13 +163,14 @@
   padding-bottom: 5rem;
 }
 .foot-note__wrapper {
-  width: 1050px;
+  width: 1080px;
   height: 21px;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13.5px;
   line-height: 21px;
+ 
 }
 
 .footer__arrowdown {

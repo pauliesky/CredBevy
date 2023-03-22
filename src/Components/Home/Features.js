@@ -54,7 +54,10 @@ function Features() {
               <h2 className='feature-content-3-text'>Try out CredBevy <br /> today, it will change <br /> the way you think <br /> about loans</h2>
             </div>
             <div className='feature__button'>
-              <Button buttonStyle={buttonStyleWhite}
+              <Button
+
+                className={'feature-button__container'}
+                buttonStyle={buttonStyleWhite}
                 buttonTextStyle={buttonTextStyleBlack} label={'Get Started'} />
             </div>
           </div>

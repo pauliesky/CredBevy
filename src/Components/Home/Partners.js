@@ -53,7 +53,9 @@ function Partners() {
               <h2 className='partners-content-3-text'> Learn how to increase your credit score rating</h2>
             </div>
             <div className='partners__button'>
-              <Button buttonStyle={buttonStyleWhite}
+              <Button
+                className={'partners-button__container'}
+                buttonStyle={buttonStyleWhite}
                 buttonTextStyle={buttonTextStyleBlack} label={'Learn More'} />
             </div>
             <div className='partners__footer'><p>Blog</p></div>

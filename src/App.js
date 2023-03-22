@@ -18,19 +18,34 @@ import NewsSingle from './Components/News/NewsSingle';
 import TermsAndConditions from './Components/T&C/TermsAndConditions';
 import Calculator from './Components/E.M.I/Calculator';
 import DropDown from './Components/Home/DropDown';
-// import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 import MediaQuery from './MediaQuery';
 
 function App() {
 
   const displayMobile = MediaQuery('(max-width: 676px)')
+  const showMenuRef = useRef(null)
 
+  useEffect(() => {
+
+    const pageClickEvent = (e) => {
+      if (showMenuRef.current !== null && !showMenuRef.current.contains(e.target)) {
+        Navbar(!Navbar);
+      }
+    }
+    if (Navbar) {
+      window.addEventListener('click', pageClickEvent)
+    }
+    return () => {
+      window.removeEventListener('click', pageClickEvent)
+    }
+  }, [Navbar])
 
   return (
     <div className="App">
       <Router>
-        {displayMobile ? <DropDown /> : <Navbar />}
+        {displayMobile ? <DropDown /> : <Navbar ref={{ showMenuRef }} />}
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/aboutus' element={<AboutUs />} />

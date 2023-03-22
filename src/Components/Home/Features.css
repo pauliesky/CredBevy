@@ -133,3 +133,15 @@
   align-items: center;
   padding-top: 2.3rem;
 }
+.feature-button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 25px;
+  width: 140px;
+  height: 55px;
+  background: #8003cd;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
