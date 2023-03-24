@@ -8,11 +8,12 @@ const DropDownLink = styled(Link)`
 display:flex;
 flex-direction:row;
 background:white;
+
 justify-content:center;
 align-items:center;
 text-decoration:none;
 margin-bottom:1.1rem;
-gap:13rem;
+gap:15rem;
 // width: 63px;
 height: 21px;
 
@@ -34,9 +35,10 @@ color: #333333;
 const SideBarLabel = styled.span`
 // height: 19px;
 background:white;
+
 font-family: 'Manrope';
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 14px;
 line-height: 117%;
 /* or 16px */
@@ -44,8 +46,7 @@ line-height: 117%;
 /* Grey 1 */
 
 color: #8A8B9F;
-padding-left:3rem;
-border-radius: 0px 0px 8px 8px;
+padding-left:2rem;
 `
 
 
@@ -75,7 +76,21 @@ border-radius: 0px 0px 8px 8px;
 
 
 `
+const SideBarLabel2 = styled.span`
+// height: 19px;
+background:white;
 
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+// margin-top:1rem;
+/* Primary */
+color: #8003CD;
+padding: 0rem 0rem 0rem 2rem;
+`
 
 
 function DropDownSubMenu({ item }) {
@@ -117,6 +132,7 @@ function DropDownSubMenu({ item }) {
         return (
           <DropdownLink to={item.path} key={index}>
             <SideBarLabel>{item.title}</SideBarLabel>
+            <SideBarLabel2>{item.topic}</SideBarLabel2>
           </DropdownLink>
         )
       })}

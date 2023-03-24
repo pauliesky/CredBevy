@@ -49,7 +49,15 @@ export const DropDownData = [
 
       },
       {
+        topic: 'Integrations',
+
+      },
+      {
         title: 'API Integrations',
+        path: '/PartnersIntegrations',
+      },
+      {
+        title: 'Partner Integrations',
         path: '/PartnersIntegrations',
       },
 
@@ -64,8 +72,16 @@ export const DropDownData = [
 
     subNav: [
       {
+        topic: 'News & Resources',
+
+      },
+      {
         title: 'Latest Articles  and Research',
         path: '/',
+
+      },
+      {
+        topic: 'Help & Support',
 
       },
       {

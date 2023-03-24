@@ -12,7 +12,7 @@ import Button from './Utilities/Button';
 
 
 const Nav = styled.div`
-    background-color: #fef9fe;
+    background-color: #fef9fe;  
   height: 65px;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@ const Nav = styled.div`
   position: relative;
   top: 2.5rem;
   width:100%;
-  gap:15rem;
+  gap:16rem;
 `;
 
 const NavIcon = styled(Link)`
@@ -60,12 +60,12 @@ height: 2rem;
 
 
 const NavItems = styled.div`
-
+    background-color: white;
 display:flex;
 flex-direction:row;
 justify-content:center;
-gap:14.6rem;
-margin-bottom:3rem;
+gap:16rem;
+margin-bottom:4rem;
 
 `
 
@@ -75,11 +75,11 @@ background: white;
 padding-top:1rem;
 color: black; 
 width: 377px;
-height:490px;
+height: 417px; 
 justify-content:center;
 position: absolute;
 // left:0px;
-top: ${({ dropDown }) => (dropDown ? '0rem' : '-1000%')};
+top: ${({ dropDown }) => (dropDown ? '-1.5rem' : '-1000%')};
 transition:1ms;
 z-index:10;
 // box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
@@ -90,7 +90,7 @@ const NavButton = styled.div`
 display:flex;
 flex-direction:row;
 justify-content:center;
-margin-top:3rem;
+margin-top:2rem;
 // background:white;
 
 `
@@ -99,7 +99,9 @@ const DropDownWrap = styled.div`
 background:white;
 display:flex;
 flex-direction:column;
-// gap:.5rem;
+gap:0.4rem;
+border-radius: 8px;
+
 
 
 `
@@ -112,8 +114,6 @@ function DropDown() {
 
   const [dropDown, setDropDown] = useState(false)
   const showDropDown = () => setDropDown(!dropDown)
-
-
 
   const showMenuReff = useRef(null)
 
@@ -163,13 +163,14 @@ function DropDown() {
             {DropDownData.map((item, index) => {
               return <DropDownSubMenu item={item} key={index} />
             })}
+            <NavButton>
+              <Button
+                className='button__container'
+                buttonStyle={sizeStyle}
+                label={'Get Started'} />
+            </NavButton>
           </DropDownWrap>
-          <NavButton>
-            <Button
-              className='button__container'
-              buttonStyle={sizeStyle}
-              label={'Get Started'} />
-          </NavButton>
+
         </DropDownNav>
 
 

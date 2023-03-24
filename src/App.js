@@ -25,27 +25,26 @@ import MediaQuery from './MediaQuery';
 function App() {
 
   const displayMobile = MediaQuery('(max-width: 676px)')
-  const showMenuRef = useRef(null)
+  // const showMenuRef = useRef(null)
+  // useEffect(() => {
 
-  useEffect(() => {
-
-    const pageClickEvent = (e) => {
-      if (showMenuRef.current !== null && !showMenuRef.current.contains(e.target)) {
-        Navbar(!Navbar);
-      }
-    }
-    if (Navbar) {
-      window.addEventListener('click', pageClickEvent)
-    }
-    return () => {
-      window.removeEventListener('click', pageClickEvent)
-    }
-  }, [Navbar])
+  //   const pageClickEvent = (e) => {
+  //     if (showMenuRef.current !== null && !showMenuRef.current.contains(e.target)) {
+  //       Navbar(!Navbar);
+  //     }
+  //   }
+  //   if (Navbar) {
+  //     window.addEventListener('click', pageClickEvent)
+  //   }
+  //   return () => {
+  //     window.removeEventListener('click', pageClickEvent)
+  //   }
+  // }, [Navbar])
 
   return (
     <div className="App">
       <Router>
-        {displayMobile ? <DropDown /> : <Navbar ref={{ showMenuRef }} />}
+        {displayMobile ? <DropDown /> : <Navbar />}
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/aboutus' element={<AboutUs />} />

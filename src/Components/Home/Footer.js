@@ -55,7 +55,10 @@ function Footer() {
                 <h5 className='footer__links'>Media</h5>
                 <h5 className='footer__links'>Partners</h5>
                 <h5 className='footer__links'>Team</h5>
-              </div>   </div>
+              </div>
+            
+            
+            </div>
 
           </div>
         </div>
