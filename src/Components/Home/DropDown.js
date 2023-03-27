@@ -80,7 +80,7 @@ margin-bottom:4rem;
 
 
 const DropDownNav = styled.nav`
-background: red;
+background: white;
 padding-top:1rem;
 color: black; 
 width: 377px;

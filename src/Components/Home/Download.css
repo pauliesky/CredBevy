@@ -124,6 +124,17 @@
 
     z-index: 10;
   }
+  .download__image {
+    height: 550px;
+    width: 656px;
+    position: absolute;
+    top: 0px;
+    background-image: url(../Home/Images/liquid18.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 676px 550px;
+    left: 0px;
+  }
   .download {
     display: flex;
     justify-content: center;
@@ -146,17 +157,6 @@
     margin-top: 3rem;
   }
 
-  .download__image {
-    height: 550px;
-    width: 550px;
-    position: absolute;
-    top: 20px;
-    background-image: url(../Home/Images/liquid18.png);
-    background-repeat: no-repeat;
-    background-position: cover;
-    background-size: 550px 550px;
-    left: -55px;
-  }
   .download-container-title p {
     width: 229px;
   }
