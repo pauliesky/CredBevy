@@ -1,6 +1,6 @@
 import React from 'react'
 import './Partners.css'
-// import ftImg from '../Home/Images/download.jpg'
+import liquid20 from '../Home/Images/liquid20.png'
 import { Link } from 'react-router-dom'
 import Button from './Utilities/Button'
 
@@ -40,16 +40,10 @@ function Partners() {
             <div><h4>API Documentation</h4>
               <p>Get  instant loan disbursed to your account <br /> under 24 hrs of application.</p></div>
           </div>
-          {/* <div className='partners__content-3'>
-            <div className='partners__content-2-img'>
-              <h2 className='partners__content-2-text'>
-                Learn how to increase your credit score rating
-              </h2> 
-            </div>
-          </div> */}
+         
           <div className='partners-content-3'>
             <div className='partners-content-3-img'>
-              {/* <img alt='img' src={ftImg} /> */}
+              <img alt='img' src={liquid20} />
               <h2 className='partners-content-3-text'> Learn how to increase your credit score rating</h2>
             </div>
             <div className='partners__button'>

@@ -12,6 +12,8 @@
   position: relative;
   overflow: hidden;
 }
+
+
 .download__overlay {
   width: 1042px;
   height: 380px;
@@ -34,8 +36,6 @@
   text-align: center;
 }
 .download__image {
-  /* width: 1042px; */
-  /* height: 380px; */
   height: 800px;
   width: 800px;
   position: absolute;
@@ -132,8 +132,8 @@
     background-image: url(../Home/Images/liquid18.png);
     background-repeat: no-repeat;
     background-position: cover;
-    background-size: 676px 550px;
-    left: 0px;
+    background-size: 656px 550px;
+    left: -65px;
   }
   .download {
     display: flex;
@@ -142,8 +142,9 @@
     position: relative;
     margin: 4.4rem 1rem;
     border-radius: 50px;
-  }
+  overflow: hidden;
 
+  }
   .download-container-title {
     height: 72px;
     font-family: "Recoleta Alt";

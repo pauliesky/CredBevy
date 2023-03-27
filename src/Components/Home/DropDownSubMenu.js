@@ -16,13 +16,11 @@ margin-bottom:1.1rem;
 gap:15rem;
 // width: 63px;
 height: 21px;
-
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 150%;
-
 color: #333333;
 &:hover {
   cursor:pointer;

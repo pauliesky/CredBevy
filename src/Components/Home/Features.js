@@ -1,6 +1,6 @@
 import React from 'react'
 import './Features.css'
-import ftImg from '../Home/Images/download.jpg'
+import liquid4 from '../Home/Images/liquid4.png'
 import { Link } from 'react-router-dom'
 import Button from './Utilities/Button'
 
@@ -50,7 +50,7 @@ function Features() {
           </div>
           <div className='feature-content-3'>
             <div className='feature-content-3-img'>
-              {/* <img alt='img' src={ftImg} /> */}
+              <img alt='img' src={liquid4} />
               <h2 className='feature-content-3-text'>Try out CredBevy <br /> today, it will change <br /> the way you think <br /> about loans</h2>
             </div>
             <div className='feature__button'>
