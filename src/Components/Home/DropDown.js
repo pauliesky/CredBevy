@@ -80,7 +80,7 @@ margin-bottom:4rem;
 
 
 const DropDownNav = styled.nav`
-background: white;
+background:white;
 padding-top:1rem;
 color: black; 
 width: 377px;
@@ -90,7 +90,7 @@ position: absolute;
 // left:0px;
 top: ${({ dropDown }) => (dropDown ? '-1.5rem' : '-1000%')};
 transition:1ms;
-z-index:10;
+z-index:100;
 // box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
 border-radius: 8px;
 
@@ -110,9 +110,8 @@ display:flex;
 flex-direction:column;
 gap:0.4rem;
 border-radius: 8px;
-
-
-
+// position:absolute;
+z-index:10;
 `
 
 function DropDown() {
