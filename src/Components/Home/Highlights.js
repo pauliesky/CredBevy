@@ -1,7 +1,7 @@
 import React from 'react'
 import './Highlights.css'
 import Button from './Utilities/Button';
-
+import liquid15 from './Images/liquid15.png'
 import sec1Img from '../Home/Images/iPhone 13-1.png'
 import sec2Img from '../Home/Images/iPhone 13-2.png'
 import sec3Img from '../Home/Images/iPhone 13-3.png'
@@ -52,7 +52,8 @@ export default function Highlights() {
               className='highlight-button__container   mobile__highlightbutton-container '
               label={'Get Started'} />
           </div>
-          <img alt='seci-img' src={sec1Img}></img>
+          <img src={liquid15} alt='' className='feature__1-liquidImage  feature-liquidImage' ></img>
+          <img className='feature__1-Image' alt='seci-img' src={sec1Img}></img>
         </div>
         <Highlight
           className={'highlight__container-row mobile__highlight-container '}

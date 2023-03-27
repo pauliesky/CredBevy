@@ -11,8 +11,17 @@ import Button from './Utilities/Button';
 // import { Dropdown } from 'rsuite';
 
 
+
+const OverLay = styled.div`
+  background-color: green;  
+  position:relative;
+  height:100vh;
+  width:100%;
+
+`
+
 const Nav = styled.div`
-    background-color: #fef9fe;  
+  background-color: #fef9fe;  
   height: 65px;
   display: flex;
   justify-content: center;
@@ -71,7 +80,7 @@ margin-bottom:4rem;
 
 
 const DropDownNav = styled.nav`
-background: white;
+background: red;
 padding-top:1rem;
 color: black; 
 width: 377px;
@@ -132,13 +141,10 @@ function DropDown() {
     }
   }, [dropDown])
 
-
-
-
-
-
   return (
     <>
+
+
       <Nav
       // ref={showMenuReff}
       >

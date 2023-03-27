@@ -12,13 +12,17 @@
   border-radius: 24px;
   background: white;
   width: 1040px;
+  overflow: hidden;
   height: 483px;
+  position: relative;
 }
+
 .feature__1-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 2.5rem;
+  background: white;
 }
 .feature__1-head {
   width: 390px;
@@ -49,12 +53,20 @@
   color: #111111;
 }
 
-.feature__1 img {
+.feature__1-Image {
   height: 483px;
   padding-top: 3rem;
   width: 423px;
+  z-index: 10;
 }
-
+.feature__1-liquidImage {
+  position: absolute;
+  width: 1300px;
+  height: 1300px;
+  left: 180px;
+  top: -390px;
+  z-index: 9;
+}
 .highlight-button__container {
   display: flex;
   justify-content: center;
@@ -182,6 +194,7 @@
     letter-spacing: -0.04em;
     /* Text colour */
     color: #111111;
+    z-index: 10;
   }
   .feature__1-content {
     display: flex;
@@ -205,19 +218,44 @@
     /* or 24px */
 
     letter-spacing: -0.04em;
-
+    z-index: 10;
     /* Text colour */
 
     color: #111111;
   }
 
-  .feature__1 img {
+  .feature__1-Image {
     padding-top: 2.5rem;
     width: 275px;
     height: 563px;
     margin: auto;
+    z-index: 9;
   }
-
+  .feature-liquidImage {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    left: -180px;
+    top: -250px;
+    /* background: red; */
+    z-index: 9;
+  }
+  .mobile__highlightbutton-container {
+    /* display: flex; */
+    position: relative;
+    top: 270px;
+    right: 90px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 17px 25px;
+    width: 140px;
+    height: 55px;
+    z-index: 10;
+    background: #8003cd;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+  }
   .highlight__video {
     /* content: ""; */
     background: linear-gradient(
@@ -296,21 +334,5 @@
 
     gap: 1rem;
     padding: 0rem 1rem;
-  }
-
-  .mobile__highlightbutton-container {
-    /* display: flex; */
-    position: relative;
-    top: 270px;
-    right: 90px;
-    /* justify-content: center; */
-    /* align-items: center; */
-    padding: 17px 25px;
-    width: 140px;
-    height: 55px;
-    background: #8003cd;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
   }
 }
