@@ -39,7 +39,7 @@
   align-items: center;
   cursor: pointer;
 }
-.title h2 {
+.title > h2 {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
@@ -50,6 +50,18 @@
   max-height: 0;
   overflow: hidden;
   margin: 1rem 0rem;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 150%; */
+  /* or 18px */
+
+  /* text-align: center; */
+
+  /* Text colour */
+
+  color: #111111;
   /* transition: all 0.5s cubic-bezier(0, 1, 0, 1); */
 }
 .content.show {
