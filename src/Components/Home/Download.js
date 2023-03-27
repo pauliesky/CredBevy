@@ -1,6 +1,6 @@
 import React from 'react'
 import './Download.css'
-// import liquid18 from './Images/liquid18.png'
+import liquid18 from './Images/liquid18.png'
 import DownloadButton from './Utilities/DownloadButton'
 import { UilAppleAlt } from '@iconscout/react-unicons'
 
@@ -21,7 +21,8 @@ export default function Download() {
 
     <>
       <div className='download'>
-        {/* <img alt='liq' src={liquid18}></img> */}
+        <span className='download__overlay  mobile-download__overlay'></span>
+        <div className='download__image' alt='liq'></div>
         <div className='download-container'>
           <div className='download-container-title'  >  <p>Download the CredBevy App</p>        </div>
 
