@@ -66,14 +66,14 @@
     width: 366px;
     height: 86px;
     /* padding: 0rem 1rem; */
-    background: red;
+ 
   }
 
   .highlight__body {
     width: 366px;
 
     height: 42px;
-    background: green;
+
     font-family: "Manrope";
     font-style: normal;
     font-weight: 400;
@@ -98,7 +98,7 @@
     /* identical to box height, or 36px */
 
     /* Text colour */
-    background: yellow;
+
 
     color: #111111;
   }
