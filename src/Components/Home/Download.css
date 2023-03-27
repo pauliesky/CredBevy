@@ -34,16 +34,17 @@
   text-align: center;
 }
 .download__image {
-  width: 1042px;
-  height: 380px;
+  /* width: 1042px; */
+  /* height: 380px; */
+  height: 800px;
+  width: 800px;
   position: absolute;
-  display: fixed;
   top: 0px;
   background-image: url(../Home/Images/liquid18.png);
   background-repeat: no-repeat;
   background-position: cover;
   background-size: 800px 800px;
-  left: 400px;
+  /* left: 400px; */
 }
 
 .download-container-title {
@@ -101,7 +102,7 @@
 @media screen and (max-width: 676px) {
   .download-container {
     background: rgba(128, 3, 205, 1);
-    width: 1042px;
+    /* width: 1042px; */
     height: 422px;
     border-radius: 50px;
     display: flex;
@@ -111,7 +112,7 @@
     /* align-content: center; */
   }
   .mobile-download__overlay {
-    width: 1042px;
+    /* width: 1042px; */
     height: 422px;
     border-radius: 50px;
     position: absolute;
@@ -129,6 +130,7 @@
     align-items: center;
     position: relative;
     margin: 4.4rem 1rem;
+    border-radius: 50px;
   }
 
   .download-container-title {
@@ -145,8 +147,8 @@
   }
 
   .download__image {
-    height: 1000px;
-    width: 1000px;
+    height: 550px;
+    width: 550px;
     position: absolute;
     top: 20px;
     background-image: url(../Home/Images/liquid18.png);
