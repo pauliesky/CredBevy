@@ -70,11 +70,17 @@
   /* justify-content: center; */
   padding-left: 1.2rem;
   padding-top: 2.8rem;
+  position: relative;
+  overflow: hidden;
 }
 
-.partners-content-3-img img{
-
-  
+.partners-content-3-img img {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  top: 115px;
+  left: 155px;
+  z-index: 10;
 }
 .partners-content-3-text {
   font-family: "Manrope";
@@ -91,7 +97,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 2.3rem;
+  padding-top: 4rem;
+  z-index: 10;
 }
 .partners__footer {
   font-family: "Manrope";
