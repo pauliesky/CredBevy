@@ -58,22 +58,22 @@
   }
   .hightlight__frame img {
     width: 310px;
-
   }
   .highlight__content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 387px;
+    width: 366px;
     height: 86px;
-    padding: 0rem 1rem;
+    /* padding: 0rem 1rem; */
+    background: red;
   }
 
   .highlight__body {
-    width: 387px;
+    width: 366px;
 
     height: 42px;
-
+    background: green;
     font-family: "Manrope";
     font-style: normal;
     font-weight: 400;
@@ -98,6 +98,7 @@
     /* identical to box height, or 36px */
 
     /* Text colour */
+    background: yellow;
 
     color: #111111;
   }

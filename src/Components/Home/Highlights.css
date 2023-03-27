@@ -197,7 +197,6 @@
   .feature__1-body {
     width: 312px;
     height: 72px;
-
     font-family: "Manrope";
     font-style: normal;
     font-weight: 400;
@@ -294,7 +293,7 @@
     width: 366px;
     height: 500px;
     /* margin-top: 4rem; */
-   
+
     gap: 1rem;
     padding: 0rem 1rem;
   }
