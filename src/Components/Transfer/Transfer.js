@@ -3,7 +3,8 @@ import './Transfer.css'
 import Download from '../Home/Download'
 import iPhone13_7 from '../Home/Images/iPhone 13-7.png'
 import iPhone13_8 from '../Home/Images/iPhone 13-8.png'
-// import iPhone13_8 from '../Home/Images/iPhone 13-8.png'
+import liquid13 from '../Home/Images/liquid13.png'
+import liquid6 from '../Home/Images/liquid6.png'
 import Button from '../Home/Utilities/Button'
 
 
@@ -33,15 +34,15 @@ function Transfer() {
                 Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
               </div>
               <Button
-              
                 className={'transfer-button__container'}
-              label={'Get Started'} />
+                label={'Get Started'} />
 
             </div>
-            <div  className='transfer__image1' >      
+            <img className='transfer__liquidImage' src={liquid13} alt=''></img>
+            <img className='transfer__liquidImage6' src={liquid6} alt=''></img>
 
-            <img alt='seci-img' src={iPhone13_7}></img>
-
+            <div className='transfer__image-container' >
+              <img className='transfer__image' alt='seci-img' src={iPhone13_7}></img>
             </div>
           </div>
         </div>
