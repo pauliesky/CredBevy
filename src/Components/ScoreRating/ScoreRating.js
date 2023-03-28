@@ -3,6 +3,7 @@ import './ScoreRating.css'
 import sec1Img from '../Home/Images/iPhone 13-1.png'
 import Iphone13 from '../Home/Images/iPhone 13-5.png'
 import Iphone12 from '../Home/Images/iPhone 13-6.png'
+import liquid1 from '../Home/Images/liquid1.png'
 import Download from '../Home/Download'
 import Button from '../Home/Utilities/Button'
 
@@ -27,6 +28,7 @@ function ScoreRating() {
               <div className='scoreRate__1-head' >
                 <p>See your credit score and how to improve it</p>
               </div>
+              <img className='scorerate__liquidImage'   src={liquid1} alt=''></img>
               <div className='scoreRate__1-body'><p>
                 Instead of having to download multiple loan app and keep trying your luckto see which ones will offer you a loan </p>
               </div>
@@ -34,7 +36,7 @@ function ScoreRating() {
                 className={'scorerate-button__container  scorerate-button__container'}
                 label={'Get Started'} />
             </div>
-            <img alt='seci-img' src={sec1Img}></img>
+            <img  className='scorerate__iphone'  alt='seci-img' src={sec1Img}></img>
           </div>
         </div>
       </div>

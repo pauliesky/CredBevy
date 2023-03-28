@@ -12,13 +12,6 @@ import Button from './Utilities/Button';
 
 
 
-const OverLay = styled.div`
-  background-color: green;  
-  position:relative;
-  height:100vh;
-  width:100%;
-
-`
 
 const Nav = styled.div`
   background-color: #fef9fe;  
@@ -114,6 +107,13 @@ border-radius: 8px;
 z-index:10;
 `
 
+// const OverLay = styled.div`
+//   background-color: green;  
+//   position:relative;
+//   height:100vh;
+//   width:100%;
+
+// `
 function DropDown() {
 
   const sizeStyle = {
@@ -154,7 +154,9 @@ function DropDown() {
           {dropDown ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
         </NavIcon>
         <DropDownNav
+
           dropDown={dropDown}>
+
           <NavItems>
             <NavLogo>
               <img className='mobile_navbar__image' src={logoImg} alt='logo-img'></img>
@@ -163,7 +165,6 @@ function DropDown() {
               {dropDown ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
             </NavIcon2>
           </NavItems>
-
           <DropDownWrap   >
             {DropDownData.map((item, index) => {
               return <DropDownSubMenu item={item} key={index} />
