@@ -3,6 +3,7 @@ import './Bills.css'
 import Download from '../Home/Download'
 import iPhone13_7 from '../Home/Images/iPhone 13-7.png'
 import iPhone13_9 from '../Home/Images/iPhone 13-9.png'
+// import liquid5 from '../Home/Images/liquid5.png'
 import Button from '../Home/Utilities/Button'
 
 
@@ -34,7 +35,7 @@ function Bills() {
                 label={'Get Started'} />
             </div>
 
-            <div   className='bills-1-body-image'>
+            <div className='bills-1-body-image'>
 
               <img alt='seci-img' src={iPhone13_7}></img>
 

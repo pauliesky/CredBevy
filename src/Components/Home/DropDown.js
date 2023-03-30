@@ -106,14 +106,15 @@ border-radius: 8px;
 // position:absolute;
 z-index:10;
 `
-
-// const OverLay = styled.div`
-//   background-color: green;  
-//   position:relative;
-//   height:100vh;
-//   width:100%;
-
-// `
+const OverLay = styled.div`
+  background: #8003CD;
+  opacity: 0.05;
+  position:absolute;
+  height:90vh;
+  top:-40px;
+  width:100%;
+  z-index:10;
+`
 function DropDown() {
 
   const sizeStyle = {
@@ -122,6 +123,9 @@ function DropDown() {
 
   const [dropDown, setDropDown] = useState(false)
   const showDropDown = () => setDropDown(!dropDown)
+
+  const [overlay, setOverLay] = useState(false)
+  const showOverLay = () => setOverLay(!overlay)
 
   const showMenuReff = useRef(null)
 
@@ -142,26 +146,26 @@ function DropDown() {
 
   return (
     <>
-
-
-      <Nav
-      // ref={showMenuReff}
-      >
+      <Nav>
         <NavImage>
           <img className='mobile_navbar__image' src={logoImg} alt='logo-img'></img>
         </NavImage>
-        <NavIcon onClick={showDropDown} to='#'>
+        <NavIcon onClick={() => {
+          showDropDown();
+          showOverLay();
+        }} to='#'>
           {dropDown ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
         </NavIcon>
-        <DropDownNav
-
-          dropDown={dropDown}>
-
+        {overlay ? <OverLay /> : null}
+        <DropDownNav dropDown={dropDown}>
           <NavItems>
             <NavLogo>
               <img className='mobile_navbar__image' src={logoImg} alt='logo-img'></img>
             </NavLogo>
-            <NavIcon2 onClick={showDropDown} to='#'>
+            <NavIcon2 onClick={() => {
+              showDropDown();
+              showOverLay();
+            }} to='#'>
               {dropDown ? <AiIcons.AiOutlineClose /> : <FaIcons.FaBars />}
             </NavIcon2>
           </NavItems>
@@ -178,9 +182,6 @@ function DropDown() {
           </DropDownWrap>
 
         </DropDownNav>
-
-
-
       </Nav>
 
     </>

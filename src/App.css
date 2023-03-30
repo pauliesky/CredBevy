@@ -12,8 +12,17 @@
   background-color: #fef9fe;
   /* background: red; */
 }
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 676px) {
+.opacity{
+  /* opacity: 0.05; */
+}
+
 }

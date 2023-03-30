@@ -8,7 +8,6 @@ const DropDownLink = styled(Link)`
 display:flex;
 flex-direction:row;
 background:white;
-
 justify-content:center;
 align-items:center;
 text-decoration:none;
@@ -25,9 +24,6 @@ color: #333333;
 &:hover {
   cursor:pointer;
 }
-
-
-
 `;
 
 const SideBarLabel = styled.span`
@@ -40,9 +36,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 117%;
 /* or 16px */
-
 /* Grey 1 */
-
 color: #8A8B9F;
 padding-left:2rem;
 `
