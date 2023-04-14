@@ -1,9 +1,10 @@
+import React, { lazy } from 'react';
 
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Home/Navbar';
 import Footer from './Components/Home/Footer'
-import Home from './Components/routes/Home';
+// import Home from ;
 import Contact from './Components/Contact/ContactUs'
 import AboutUs from './Components/AboutUs/AboutUs';
 import FAQs from './Components/FAQs/FAQs';
@@ -18,9 +19,9 @@ import NewsSingle from './Components/News/NewsSingle';
 import TermsAndConditions from './Components/T&C/TermsAndConditions';
 import Calculator from './Components/E.M.I/Calculator';
 import DropDown from './Components/Home/DropDown';
-import { useState, useEffect, useRef } from 'react';
-
 import MediaQuery from './MediaQuery';
+const Home = lazy(() => import('./Components/routes/Home'))
+
 
 function App() {
 
