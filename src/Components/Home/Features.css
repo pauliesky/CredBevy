@@ -11,8 +11,8 @@
 }
 .feature-container {
   margin-top: 2rem;
-  animation: fadeIn 1s forwards;
-  /* background: red; */
+  animation: fadeIn 0s forwards;
+
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

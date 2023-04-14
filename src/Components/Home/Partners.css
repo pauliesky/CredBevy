@@ -5,7 +5,7 @@
   justify-content: center;
 }
 .partners__container {
-  animation: fadeIn 1s forwards;
+  animation: fadeIn 0s forwards;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

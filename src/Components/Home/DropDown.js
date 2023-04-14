@@ -110,7 +110,7 @@ const OverLay = styled.div`
   background: #8003CD;
   opacity: 0.05;
   position:absolute;
-  height:90vh;
+  height:80vh;
   top:-40px;
   width:100%;
   z-index:10;

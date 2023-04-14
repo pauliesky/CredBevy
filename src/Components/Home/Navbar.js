@@ -41,6 +41,21 @@ function Navbar() {
   const showRef = useRef(null)
   const displayRef = useRef(null)
 
+  function mouseHandlerCompany() {
+    setDisplay(true)
+    setShow(false)
+    setShowMenu(false)
+  }
+  function mouseHandlerFeatures() {
+    setDisplay(false)
+    setShow(false)
+    setShowMenu(true)
+  }
+  function mouseHandlerPartners() {
+    setDisplay(false)
+    setShow(true)
+    setShowMenu(false)
+  }
 
   useEffect(() => {
 
@@ -128,11 +143,12 @@ function Navbar() {
             <div  >
               <div className='nav-link'>
 
-                <div ><li
-                  ref={showMenuRef}
-                  onClick={() => setShowMenu(!showMenu)
-                  }
-                >Features</li></div>
+                <div>
+                  <li
+                    ref={showMenuRef}
+                    onClick={() => setShowMenu(!showMenu)}
+                    onMouseEnter={mouseHandlerFeatures}
+                  >Features</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </div>
@@ -140,9 +156,10 @@ function Navbar() {
               <div className='nav-link'>
                 <div><li
                   ref={showRef}
-                  onClick={() => setShow(!show)
+                  onClick={() => setShow(!show)}
+                  onMouseEnter={mouseHandlerPartners}
 
-                  }   >Partners</li></div>
+                >Partners</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </div>
@@ -150,8 +167,9 @@ function Navbar() {
               <div className='nav-link'>
                 <div><li
                   ref={displayRef}
-                  onClick={() => setDisplay(!display)
-                  } >Company</li></div>
+                  onClick={() => setDisplay(!display)}
+                  onMouseEnter={mouseHandlerCompany}
+                >Company</li></div>
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </div>
