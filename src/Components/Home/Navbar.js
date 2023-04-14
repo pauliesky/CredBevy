@@ -11,7 +11,7 @@ import { UilTimes } from '@iconscout/react-unicons'
 // import { device } from './Device';
 // import styled from 'styled-components'
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import DropDown from './DropDown';
+// import DropDown from './DropDown';
 
 
 function Navbar() {
