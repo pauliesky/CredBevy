@@ -1,13 +1,19 @@
 .company {
-  display: flex;
-  flex-direction: row;
+
+  position: absolute;
+
+  top: 0rem;
+
+  left: 45rem;
+
   align-items: center;
-  justify-content: center;
+ 
 }
 .company__container {
   animation: fadeIn 0s forwards;
   display: flex;
   flex-direction: row;
+  /* justify-content: center; */
   height: 0px;
   padding: 0rem 0rem 0rem 3rem;
   z-index: 1;
