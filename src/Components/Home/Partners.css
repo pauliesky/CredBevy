@@ -44,7 +44,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 117%;
-  color: #8003cd;
+  color: var(--purple);
   margin-bottom: 8px;
 }
 .partners__content-1 p,
@@ -55,12 +55,12 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: -0.5px;
-  color: #8c8c8c;
+  color: var(--light-gray);
   margin-bottom: 24px;
 }
 
 .partners-content-3 {
-  background: #111111;
+  background: var(--black);
   mix-blend-mode: normal;
   border-radius: 16px;
   width: 417px;
@@ -107,7 +107,7 @@
   font-size: 24px;
   line-height: 117%;
   /* identical to box height, or 28px */
-  color: #ffffff;
+  color: var(--white);
 }
 .partners-button__container {
   display: flex;
@@ -116,7 +116,7 @@
   padding: 17px 25px;
   width: 140px;
   height: 55px;
-  background: #8003cd;
+  background: var(--purple);
   border-radius: 30px;
   border: none;
   cursor: pointer;

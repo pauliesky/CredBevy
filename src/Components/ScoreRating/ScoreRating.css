@@ -12,7 +12,7 @@
   font-size: 24px;
   line-height: 33px;
   /* identical to box height */
-  color: #8c8c8c;
+  color: var(--light-gray);
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -24,7 +24,7 @@
   font-size: 96px;
   line-height: 131px;
   text-align: center;
-  color: #111111;
+  color: var(--black);
   width: 517px;
   margin-bottom: 7rem;
 }
@@ -122,7 +122,7 @@
   font-size: 25px;
   line-height: 133%;
   width: 393px;
-  color: #111111;
+  color: var(--black);
 }
 .scoreRate__body-2__content-1-body {
   font-family: "Manrope";
@@ -133,7 +133,7 @@
   /* or 24px */
   width: 390px;
   letter-spacing: -0.04em;
-  color: #111111;
+  color: var(--black);
 }
 .scoreRate__body-2__content-1 img {
   width: 383px;
@@ -158,7 +158,7 @@
   font-size: 25px;
   line-height: 133%;
   width: 393px;
-  color: #111111;
+  color: var(--black);
 }
 .scoreRate__body-2__content-2-body {
   font-family: "Manrope";
@@ -169,7 +169,7 @@
   /* or 24px */
   width: 390px;
   letter-spacing: -0.04em;
-  color: #111111;
+  color: var(--black);
 }
 .scoreRate__body-2__content-2 img {
   width: 383px;
@@ -182,7 +182,7 @@
   padding: 17px 25px;
   width: 140px;
   height: 55px;
-  background: #8003cd;
+  background: var(--purple);
   border-radius: 30px;
   border: none;
   cursor: pointer;
@@ -201,7 +201,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
   }
 
   .scoreRate__1-wrapper {
@@ -230,7 +230,7 @@
 
     /* Gray / gray-1 */
 
-    color: #ffffff;
+    color: var(--white);
   }
   .scoreRate__1-body {
     width: 305px;
@@ -246,7 +246,7 @@
 
     /* Gray / gray-1 */
 
-    color: #ffffff;
+    color: var(--white);
   }
   .scorerate__iphone {
     width: 275px;
@@ -260,7 +260,7 @@
     padding: 17px 25px;
     width: 140px;
     height: 55px;
-    background: #8003cd;
+    background: var(--purple);
     border-radius: 30px;
     border: none;
     cursor: pointer;
@@ -297,7 +297,7 @@
     line-height: 133%;
     width: 350px;
 
-    color: #111111;
+    color: var(--black);
   }
 
   .scoreRate__body-2__content-1-body {
@@ -309,7 +309,7 @@
     /* or 24px */
     width: 348px;
     letter-spacing: -0.04em;
-    color: #111111;
+    color: var(--black);
   }
 
   .scoreRate__body-2__content-1 img {
@@ -336,7 +336,7 @@
     font-size: 24px;
     line-height: 133%;
     width: 344px;
-    color: #111111;
+    color: var(--black);
   }
 
   .scoreRate__body-2__content-2-body {
@@ -348,7 +348,7 @@
     /* or 24px */
     width: 313px;
     letter-spacing: -0.04em;
-    color: #111111;
+    color: var(--black);
   }
 
   .scoreRate__body-2__content-2 img {

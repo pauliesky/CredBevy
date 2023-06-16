@@ -12,7 +12,7 @@
   font-size: 24px;
   line-height: 33px;
   /* identical to box height */
-  color: #8c8c8c;
+  color: var(--light-gray);
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -23,7 +23,7 @@
   font-size: 96px;
   line-height: 131px;
   text-align: center;
-  color: #111111;
+  color: var(--black);
   width: 517px;
   margin-bottom: 7rem;
 }
@@ -92,7 +92,7 @@
   left: 52px;
   top: 348px;
   /* Primary Colour */
-  background: #8003cd;
+  background: var(--purple);
   border-radius: 30px;
 }
 .PartnersIntegration__1-button p {
@@ -106,7 +106,7 @@
   line-height: 150%;
   /* identical to box height, or 21px */
   /* Gray / gray-1 */
-  color: #ffffff;
+  color: var(--white);
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -178,7 +178,7 @@
   left: 52px;
   top: 348px;
   /* Primary Colour */
-  background: #8003cd;
+  background: var(--purple);
   border-radius: 30px;
 }
 .PartnersIntegration__2-button p {
@@ -192,7 +192,7 @@
   line-height: 150%;
   /* identical to box height, or 21px */
   /* Gray / gray-1 */
-  color: #ffffff;
+  color: var(--white);
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -264,7 +264,7 @@
   left: 52px;
   top: 348px;
   /* Primary Colour */
-  background: #8003cd;
+  background: var(--purple);
   border-radius: 30px;
 }
 .PartnersIntegration__3-button p {
@@ -278,7 +278,7 @@
   line-height: 150%;
   /* identical to box height, or 21px */
   /* Gray / gray-1 */
-  color: #ffffff;
+  color: var(--white);
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -350,7 +350,7 @@
   left: 52px;
   top: 348px;
   /* Primary Colour */
-  background: #8003cd;
+  background: var(--purple);
   border-radius: 30px;
 }
 .PartnersIntegration__4-button p {
@@ -364,7 +364,7 @@
   line-height: 150%;
   /* identical to box height, or 21px */
   /* Gray / gray-1 */
-  color: #ffffff;
+  color: var(--white);
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -436,7 +436,7 @@
   left: 52px;
   top: 348px;
   /* Primary Colour */
-  background: #8003cd;
+  background: var(--purple);
   border-radius: 30px;
 }
 .PartnersIntegration__5-button p {
@@ -450,7 +450,7 @@
   line-height: 150%;
   /* identical to box height, or 21px */
   /* Gray / gray-1 */
-  color: #ffffff;
+  color: var(--white);
   /* Inside auto layout */
   flex: none;
   order: 0;

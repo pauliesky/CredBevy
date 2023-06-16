@@ -15,7 +15,7 @@
   font-size: 24px;
   line-height: 33px;
   /* identical to box height */
-  color: #8c8c8c;
+  color: var(--light-gray);
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -26,7 +26,7 @@
   font-size: 96px;
   line-height: 131px;
   text-align: center;
-  color: #111111;
+  color: var(--black);
   width: 517px;
   margin-bottom: 7rem;
 }
@@ -170,7 +170,7 @@
   padding: 17px 25px;
   width: 140px;
   height: 55px;
-  background: #8003cd;
+  background: var(--purple);
   border-radius: 30px;
   border: none;
   cursor: pointer;
@@ -190,7 +190,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
     margin-bottom: 9rem;
   }
   .Bills__1-wrapper {
@@ -226,7 +226,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
   }
   .Bills__1-body {
     width: 305px;
@@ -242,7 +242,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
   }
 
   .Bills__1-wrapper img {
@@ -335,7 +335,7 @@
     padding: 17px 25px;
     width: 140px;
     height: 55px;
-    background: #8003cd;
+    background: var(--purple);
     border-radius: 30px;
     border: none;
     cursor: pointer;

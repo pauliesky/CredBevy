@@ -16,9 +16,9 @@
   text-align: center;
   width: 1040px;
   height: 174px;
-  /* Text/#333333 */
+  /* Text/var(--gray) */
   margin-bottom: 5rem;
-  color: #333333;
+  color: var(--gray);
 }
 .NewsSingle__Section-1-image {
   width: 1040px;
@@ -141,7 +141,7 @@
   align-items: center;
 }
 .newsletter__searchbar input {
-  background: #ffffff;
+  background: var(--white);
   border-radius: 30px;
   width: 496px;
   height: 55px;
@@ -149,7 +149,7 @@
   border: none;
 }
 .newsletter {
-  background: #333333;
+  background: var(--gray);
   height: 500px;
   display: flex;
   justify-content: center;
@@ -182,7 +182,7 @@
   /* identical to box height, or 143% */
   width: 321px;
   height: 20px;
-  color: #ffffff;
+  color: var(--white);
 }
 .newssingle__related-articles {
   display: flex;
@@ -222,7 +222,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
-  color: #8003cd;
+  color: var(--purple);
   margin-bottom: 2.5rem;
 }
 .newssingle__related-articles-content-title {
@@ -232,10 +232,10 @@
   font-size: 20px;
   line-height: 27px;
 
-  /* Text/#333333 */
+  /* Text/var(--gray) */
   width: 284px;
   height: 54px;
-  color: #333333;
+  color: var(--gray);
 }
 .newssingle__related-articles-content-body {
   width: 290px;
@@ -248,9 +248,9 @@
   line-height: 24px;
   /* or 200% */
 
-  /* Text/#333333 */
+  /* Text/var(--gray) */
 
-  color: #333333;
+  color: var(--gray);
 }
 .social__share {
   display: none;
@@ -267,9 +267,9 @@
     line-height: 44px;
     text-align: center;
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
 
-    color: #333333;
+    color: var(--gray);
     margin-bottom: 5rem;
   }
 
@@ -326,7 +326,7 @@
 
     text-align: center;
 
-    color: #ffffff;
+    color: var(--white);
   }
   .newsletter-content-search {
     display: flex;
@@ -334,7 +334,7 @@
     gap: 2rem;
   }
   .newsletter__searchbar input {
-    background: #ffffff;
+    background: var(--white);
     border-radius: 30px;
     width: 359px;
     height: 55px;
@@ -389,9 +389,9 @@
     font-size: 20px;
     line-height: 27px;
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
 
-    color: #333333;
+    color: var(--gray);
   }
   .newssingle__related-articles-content-body {
     width: 396px;
@@ -404,8 +404,8 @@
     line-height: 24px;
     /* or 200% */
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
 
-    color: #333333;
+    color: var(--gray);
   }
 }

@@ -29,8 +29,8 @@
   text-align: center;
   height: 71px;
   margin-bottom: 10rem;
-  /* Text/#333333 */
-  color: #333333;
+  /* Text/var(--gray) */
+  color: var(--gray);
 }
 .terms-contents {
   margin-bottom: 3rem;
@@ -62,7 +62,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
   }
 
   .terms-subtitle {
@@ -79,9 +79,9 @@
 
     text-align: center;
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
 
-    color: #333333;
+    color: var(--gray);
   }
   .terms-contents {
     margin-bottom: 3rem;

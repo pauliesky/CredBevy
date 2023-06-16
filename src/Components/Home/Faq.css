@@ -20,7 +20,7 @@
 }
 .item {
   padding: 3rem 3rem 1rem 3rem;
-  border-top: 0.5px solid #111111;
+  border-top: 0.5px solid var(--black);
   /* width: 957px; */
   /* height: 109px; */
   /* background: blue; */
@@ -29,7 +29,7 @@
   margin-top: 4rem;
   /* height: 545px; */
   width: 957px;
-  border-bottom: 0.5px solid #111111;
+  border-bottom: 0.5px solid var(--black);
   margin-bottom: 4rem;
 }
 .title {
@@ -61,7 +61,7 @@
 
   /* Text colour */
 
-  color: #111111;
+  color: var(--black);
   /* transition: all 0.5s cubic-bezier(0, 1, 0, 1); */
 }
 .content.show {
@@ -81,9 +81,9 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 150%;
-  color: #ffffff;
+  color: var(--white);
   width: 10rem;
-  background: #8003cd;
+  background: var(--purple);
   border-radius: 30px;
   padding: 17px 30px;
   height: 55px;
@@ -99,7 +99,7 @@
   padding: 17px 25px;
   width: 140px;
   height: 55px;
-  background: #8003cd;
+  background: var(--purple);
   border-radius: 30px;
   border: none;
   cursor: pointer;
@@ -125,7 +125,7 @@
     align-items: center;
     /* Text colour */
     text-align: center;
-    color: #111111;
+    color: var(--black);
   }
   .faq {
     display: flex;
@@ -150,9 +150,9 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 150%;
-    color: #ffffff;
+    color: var(--white);
     width: 10rem;
-    background: #8003cd;
+    background: var(--purple);
     border-radius: 30px;
     padding: 17px 30px;
     height: 55px;
@@ -163,7 +163,7 @@
 
   .item {
     padding: 2rem 2rem 0.5rem 2rem;
-    border-top: 0.5px solid #111111;
+    border-top: 0.5px solid var(--black);
     /* width: 957px; */
     /* height: 109px; */
     /* background: blue; */

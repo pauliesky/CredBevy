@@ -55,7 +55,7 @@
   line-height: 131px;
   text-align: center;
   /* Text colour */
-  color: #111111;
+  color: var(--black);
   /* Inside auto layout */
   margin-top: 3rem;
 }
@@ -67,13 +67,13 @@
   line-height: 32px;
   text-align: center;
   margin-top: 24px;
-  color: #333333;
+  color: var(--gray);
   width: 374px;
   height: 71px;
   margin-top: 1.5rem;
 }
 #purple {
-  color: #8003cd;
+  color: var(--purple);
 }
 .hero__download-button {
   margin-top: 2.5rem;
@@ -153,7 +153,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
     margin-top: 0rem;
   }
 
@@ -167,9 +167,9 @@
 
     text-align: center;
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
     margin-top: 1rem;
-    color: #333333;
+    color: var(--gray);
   }
 
   .hero__download-button {
@@ -194,7 +194,7 @@
 
     /* Text colour */
 
-    background: #111111;
+    background: var(--black);
     border-radius: 30px;
   }
   .mobile-download__button-text {

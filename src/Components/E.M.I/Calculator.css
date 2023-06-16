@@ -21,7 +21,7 @@
   margin-bottom: 2rem;
   /* Text colour */
 
-  color: #111111;
+  color: var(--black);
 }
 .calculator-subtitle {
   font-family: "Manrope";
@@ -33,14 +33,14 @@
 
   text-align: center;
 
-  /* Text/#333333 */
+  /* Text/var(--gray) */
 
-  color: #333333;
+  color: var(--gray);
   margin-bottom: 10rem;
 }
 
 .calculator-form {
-  background: #ffffff;
+  background: var(--white);
   border-radius: 4px;
   width: 1040px;
   height: 540px;
@@ -74,9 +74,9 @@
   font-size: 14px;
   line-height: 19px;
 
-  /* Text/#333333 */
+  /* Text/var(--gray) */
 
-  color: #333333;
+  color: var(--gray);
   margin-bottom: 0.5rem;
   margin-left: 0.1rem;
 }
@@ -100,7 +100,7 @@
 
   /* Primary */
 
-  color: #8003cd;
+  color: var(--purple);
 }
 .calculator-content-body {
   font-family: "Manrope";
@@ -110,10 +110,10 @@
   line-height: 24px;
   /* or 171% */
 
-  /* Text/#333333 */
+  /* Text/var(--gray) */
   margin-top: 3rem;
   margin-bottom: 3rem;
-  color: #333333;
+  color: var(--gray);
 }
 .calculator-content-footer {
   font-family: "Manrope";
@@ -147,7 +147,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
   }
   .calculator-subtitle {
     width: 322px;
@@ -162,14 +162,14 @@
 
     text-align: center;
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
 
-    color: #333333;
+    color: var(--gray);
     margin-bottom: 10rem;
   }
 
   .calculator-form {
-    background: #ffffff;
+    background: var(--white);
     border-radius: 4px;
     width: 396px;
     height: 696px;
@@ -203,9 +203,9 @@
     line-height: 19px;
     text-align: left;
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
 
-    color: #333333;
+    color: var(--gray);
     margin-bottom: 0.5rem;
     margin-left: 0.1rem;
   }
@@ -232,7 +232,7 @@
 
     text-align: center;
 
-    color: #8003cd;
+    color: var(--purple);
   }
 
   .calculator-content-body {
@@ -246,12 +246,12 @@
     line-height: 32px;
     /* or 229% */
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
 
-    color: #333333;
+    color: var(--gray);
     margin-top: 3rem;
     margin-bottom: 3rem;
-    color: #333333;
+    color: var(--gray);
   }
   .calculator-content-footer {
     width: 396px;

@@ -17,7 +17,7 @@
   width: 1190px;
   height: 262px;
   /* Text colour */
-  color: #111111;
+  color: var(--black);
 }
 .lendingPartners__grid {
   margin-top: 5rem;
@@ -39,9 +39,9 @@
   width: 567px;
   text-align: center;
 
-  /* Text/#333333 */
+  /* Text/var(--gray) */
 
-  color: #333333;
+  color: var(--gray);
 }
 
 @media screen and (max-width: 676px) {
@@ -65,7 +65,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
   }
   .LendingPartners__head-body {
     margin-top: 1rem;
@@ -81,9 +81,9 @@
 
     text-align: center;
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
 
-    color: #333333;
+    color: var(--gray);
   }
 
   .lendingPartners__grid {

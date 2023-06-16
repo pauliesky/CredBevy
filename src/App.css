@@ -1,3 +1,13 @@
+:root{
+  --purple: #7E1F86;
+  --black:#111111;
+  --light-gray:#8C8C8C;
+  --gray:#333333;
+  --pink:#fef9fe;
+  --white:#ffffff;
+
+}
+
 @font-face {
   font-family: "Recoleta Alt";
   src: url(./Components/fonts/recoleta-font/RecoletaAlt-Bold.ttf);
@@ -9,7 +19,7 @@
 }
 
 .App {
-  background-color: #fef9fe;
+  background-color: var(--pink);
   /* background: red; */
 }
 

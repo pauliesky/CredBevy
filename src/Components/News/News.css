@@ -18,7 +18,7 @@
 
   /* Text colour */
 
-  color: #111111;
+  color: var(--black);
 }
 .News__head-body {
   margin-top: 1.5rem;
@@ -31,9 +31,9 @@
   width: 567px;
   text-align: center;
 
-  /* Text/#333333 */
+  /* Text/var(--gray) */
 
-  color: #333333;
+  color: var(--gray);
 }
 .News__searchbar {
   display: flex;
@@ -43,7 +43,7 @@
   margin-top: 4rem;
 }
 .News__searchbar input {
-  background: #ffffff;
+  background: var(--white);
   border-radius: 30px;
   width: 783px;
   height: 91px;
@@ -74,7 +74,7 @@
   width: 50%;
 }
 .News__grid-item1-content {
-  background-color: #fef9fe;
+  background-color: var(--pink);
   gap: 1rem;
   width: 50%;
   display: flex;
@@ -89,9 +89,9 @@
   line-height: 44px;
   width: 390px;
 
-  /* Text/#333333 */
+  /* Text/var(--gray) */
 
-  color: #333333;
+  color: var(--gray);
 }
 .News__grid-item1-content-body {
   font-family: "Manrope";
@@ -101,9 +101,9 @@
   line-height: 32px;
   /* or 200% */
   width: 422px;
-  /* Text/#333333 */
+  /* Text/var(--gray) */
 
-  color: #333333;
+  color: var(--gray);
 }
 .News__grid-item1-content-profile {
   display: flex;
@@ -155,7 +155,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
   }
 
   .News__head-body {
@@ -172,12 +172,12 @@
 
     text-align: center;
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
 
-    color: #333333;
+    color: var(--gray);
   }
   .News__searchbar input {
-    background: #ffffff;
+    background: var(--white);
     border-radius: 30px;
     width: 394px;
     height: 72px;
@@ -213,7 +213,7 @@
     height: 340px;
   }
   .News__grid-item1-content {
-    background-color: #fef9fe;
+    background-color: var(--pink);
     gap: 1.5rem;
     width: 100%;
     display: flex;
@@ -231,9 +231,9 @@
     font-size: 24px;
     line-height: 33px;
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
 
-    color: #333333;
+    color: var(--gray);
   }
   .News__grid-item1-content-body {
     width: 396px;
@@ -247,9 +247,9 @@
     line-height: 32px;
     /* or 229% */
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
 
-    color: #333333;
+    color: var(--gray);
   }
 
   .newss__container {

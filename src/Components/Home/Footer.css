@@ -32,7 +32,7 @@
   justify-content: center;
   gap: 15rem;
 
-  border-bottom: 1px solid #111111;
+  border-bottom: 1px solid var(--black);
 }
 .products h4 {
   margin-bottom: 1rem;
@@ -41,7 +41,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 150%;
-  color: #111111;
+  color: var(--black);
 }
 .products h5 {
   margin-bottom: 0.5rem;
@@ -50,10 +50,10 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 150%;
-  color: #111111;
+  color: var(--black);
 }
 .resources h4 {
-  color: #111111;
+  color: var(--black);
   margin-bottom: 1rem;
   font-family: "Manrope";
   font-style: normal;
@@ -62,7 +62,7 @@
   line-height: 150%;
 }
 .resources h5 {
-  color: #111111;
+  color: var(--black);
   margin-bottom: 0.5rem;
   font-family: "Manrope";
   font-style: normal;
@@ -71,7 +71,7 @@
   line-height: 150%;
 }
 .footer__company h4 {
-  color: #111111;
+  color: var(--black);
   margin-bottom: 1rem;
   font-family: "Manrope";
   font-style: normal;
@@ -80,7 +80,7 @@
   line-height: 150%;
 }
 .footer__company h5 {
-  color: #111111;
+  color: var(--black);
   margin-bottom: 0.5rem;
   font-family: "Manrope";
   font-style: normal;
@@ -98,7 +98,7 @@
   display: none;
   margin-top: 5rem;
   width: 1040.13px;
-  border: 1px solid #111111;
+  border: 1px solid var(--black);
 }
 
 .footer2 {
@@ -132,7 +132,7 @@
 
   /* Text colour */
 
-  color: #111111;
+  color: var(--black);
 }
 .under_line {
   text-decoration-line: underline;
@@ -145,7 +145,7 @@
 
   /* Text colour */
 
-  color: #111111;
+  color: var(--black);
 }
 .icon {
   height: 18px;
@@ -233,10 +233,10 @@
     line-height: 150%;
     /* identical to box height, or 21px */
 
-    /* Text/#333333 */
+    /* Text/var(--gray) */
     margin: 0rem;
     padding: 0rem;
-    color: #333333;
+    color: var(--gray);
   }
   .footer__wrapper {
     width: 366px;
@@ -261,7 +261,7 @@
 
   .footer__links-mobile {
     display: block;
-    /* background-color: #fef9fe; */
+    /* background-color: var(--pink); */
     /* background: green; */
     position: absolute;
     right: 0;
@@ -288,7 +288,7 @@
     display: block;
     width: 100%;
     height: 0px;
-    border-bottom: 1px solid #111111;
+    border-bottom: 1px solid var(--black);
   }
 
   .footer2 {
@@ -359,7 +359,7 @@
     /* Text colour */
     /* width: 100%; */
     height: 54px;
-    color: #111111;
+    color: var(--black);
     /* margin: 0rem 1rem; */
   }
 }

@@ -52,7 +52,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 117%;
-  color: #8003cd;
+  color: var(--purple);
   margin-bottom: 8px;
 }
 .feature-content-1 p,
@@ -63,7 +63,7 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: -0.5px;
-  color: #8c8c8c;
+  color: var(--light-gray);
   margin-bottom: 24px;
 }
 .feature-content-3 {
@@ -147,7 +147,7 @@
   padding: 17px 25px;
   width: 140px;
   height: 55px;
-  background: #8003cd;
+  background: var(--purple);
   border-radius: 30px;
   border: none;
   cursor: pointer;

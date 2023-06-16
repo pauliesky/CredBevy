@@ -13,7 +13,7 @@
 .News__grid-item-content {
   display: flex;
   flex-direction: column;
-  background-color: #fef9fe;
+  background-color: var(--pink);
   padding: 0.5rem;
   height: 50%;
   gap: 1rem;
@@ -26,9 +26,9 @@
   font-size: 20px;
   line-height: 27px;
 
-  /* Text/#333333 */
+  /* Text/var(--gray) */
 
-  color: #333333;
+  color: var(--gray);
 }
 .News__grid-item-content-profile {
   display: flex;
@@ -44,9 +44,9 @@
   line-height: 24px;
   /* or 200% */
 
-  /* Text/#333333 */
+  /* Text/var(--gray) */
 
-  color: #333333;
+  color: var(--gray);
 }
 .News__grid-item-content-profile-img {
   border-radius: 50%;

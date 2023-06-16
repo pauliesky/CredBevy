@@ -44,5 +44,5 @@
 
   /* Text colour */
 
-  color: #111111;
+  color: var(--black);
 }

@@ -20,7 +20,7 @@
   line-height: 150%;
   margin-top: 6rem;
   margin-bottom: 4rem;
-  color: #111111;
+  color: var(--black);
 }
 
 @media screen and (max-width: 676px) {
@@ -47,6 +47,6 @@
     /* identical to box height, or 36px */
 
     /* Text colour */
-    color: #111111;
+    color: var(--black);
   }
 }

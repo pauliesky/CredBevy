@@ -12,7 +12,7 @@
   font-size: 24px;
   line-height: 33px;
   /* identical to box height */
-  color: #8c8c8c;
+  color: var(--light-gray);
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -23,7 +23,7 @@
   font-size: 96px;
   line-height: 131px;
   text-align: center;
-  color: #111111;
+  color: var(--black);
   width: 517px;
   margin-bottom: 7rem;
   width: 596px;
@@ -168,7 +168,7 @@
   padding: 17px 25px;
   width: 140px;
   height: 55px;
-  background: #8003cd;
+  background: var(--purple);
   border-radius: 30px;
   border: none;
   cursor: pointer;
@@ -181,7 +181,7 @@
     font-size: 40px;
     line-height: 54px;
     text-align: center;
-    color: #111111;
+    color: var(--black);
     margin-bottom: 6rem;
     width: 269px;
     height: 108px;
@@ -227,7 +227,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
   }
 
   .loanOffer__1-body {
@@ -245,7 +245,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
   }
   .mobile-loanoffer-button__container {
     position: relative;
@@ -253,7 +253,7 @@
     padding: 17px 25px;
     width: 140px;
     height: 55px;
-    background: #8003cd;
+    background: var(--purple);
     border-radius: 30px;
     border: none;
     cursor: pointer;
@@ -305,7 +305,7 @@
     padding: 0rem .5rem;
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
   }
 
   .loanOffer__body-2__content-1-body {
@@ -318,7 +318,7 @@
     /* or 21px */
     letter-spacing: -0.04em;
     /* Text colour */
-    color: #111111;
+    color: var(--black);
   }
 
   .loanOffer__body-2__content-1 img {
@@ -350,7 +350,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
   }
 
   .loanOffer__body-2__content-2-body {
@@ -367,7 +367,7 @@
 
     /* Text colour */
 
-    color: #111111;
+    color: var(--black);
   }
 
   .loanOffer__body-2__content-2 img {
