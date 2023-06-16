@@ -10,12 +10,12 @@
 
 @font-face {
   font-family: "Recoleta Alt";
-  src: url(./Components/fonts/recoleta-font/RecoletaAlt-Bold.ttf);
+  src: url(./Components/fonts/Recoleta/RecoletaAlt-Bold.ttf);
 }
 
 @font-face {
-  font-family: "Manrope";
-  src: url(./Components/fonts/Manrope/Manrope-Light.woff);
+  font-family: "Satoshi";
+  src: url(./Components/fonts/Satoshi/Satoshi-Regular.ttf);
 }
 
 .App {

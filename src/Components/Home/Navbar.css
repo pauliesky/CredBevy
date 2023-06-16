@@ -48,7 +48,7 @@
   align-items: center;
   padding: 10px;
   gap: 5px;
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -59,7 +59,7 @@
   color: var(--black);
 }
 .nav-link li {
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -196,7 +196,7 @@
   }
 
   .nav-link {
-    font-family: "Manrope";
+    font-family: "Satoshi";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;

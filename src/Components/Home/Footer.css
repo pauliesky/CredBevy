@@ -36,7 +36,7 @@
 }
 .products h4 {
   margin-bottom: 1rem;
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -45,7 +45,7 @@
 }
 .products h5 {
   margin-bottom: 0.5rem;
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -55,7 +55,7 @@
 .resources h4 {
   color: var(--black);
   margin-bottom: 1rem;
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -64,7 +64,7 @@
 .resources h5 {
   color: var(--black);
   margin-bottom: 0.5rem;
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -73,7 +73,7 @@
 .footer__company h4 {
   color: var(--black);
   margin-bottom: 1rem;
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -82,7 +82,7 @@
 .footer__company h5 {
   color: var(--black);
   margin-bottom: 0.5rem;
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -123,7 +123,7 @@
 }
 
 .all_right {
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -136,7 +136,7 @@
 }
 .under_line {
   text-decoration-line: underline;
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -167,7 +167,7 @@
 .foot-note__wrapper {
   width: 1080px;
   height: 21px;
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -226,7 +226,7 @@
     width: 36.67px;
   }
   .footer__link-head h4 {
-    font-family: "Manrope";
+    font-family: "Satoshi";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -349,7 +349,7 @@
   .foot-note__wrapper {
     padding: 0rem 1rem;
 
-    font-family: "Manrope";
+    font-family: "Satoshi";
     font-style: normal;
     font-weight: 400;
     font-size: 12px;

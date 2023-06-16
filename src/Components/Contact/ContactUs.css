@@ -6,7 +6,7 @@
   align-items: center;
 }
 .contactUs__head {
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -45,7 +45,7 @@
   margin-bottom: 3rem;
 }
 .contactUs__form label {
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -120,7 +120,7 @@
   }
 
   .contactUs__form label {
-    font-family: "Manrope";
+    font-family: "Satoshi";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;

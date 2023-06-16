@@ -20,7 +20,7 @@
   cursor: pointer;
 }
 .Title h2 {
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -48,7 +48,7 @@
   margin-top: 7rem;
 }
 .Faqs__head {
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -114,7 +114,7 @@
   }
 
   .Title h2 {
-    font-family: "Manrope";
+    font-family: "Satoshi";
     font-style: normal;
     font-weight: 700;
     font-size: 12px;

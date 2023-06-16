@@ -60,7 +60,7 @@
   margin-top: 3rem;
 }
 .hero__title-text {
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -98,7 +98,7 @@
 .download__button-text {
   width: 100px;
   height: 32px;
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -158,7 +158,7 @@
   }
 
   .hero__title-text {
-    font-family: "Manrope";
+    font-family: "Satoshi";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -200,7 +200,7 @@
   .mobile-download__button-text {
     width: 83px;
     height: 28px;
-    font-family: "Manrope";
+    font-family: "Satoshi";
     font-style: normal;
     font-weight: 500;
     font-size: 12px;

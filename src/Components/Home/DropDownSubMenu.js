@@ -14,7 +14,7 @@ const DropDownLink = styled(Link)`
   gap: 15rem;
   // width: 63px;
   height: 21px;
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -29,7 +29,7 @@ const SideBarLabel = styled.span`
   // height: 19px;
   background: white;
 
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -42,7 +42,7 @@ const SideBarLabel = styled.span`
 
 const DropdownTitle = styled.div`
   width: 3.5rem;
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -67,7 +67,7 @@ const SideBarLabel2 = styled.span`
   // height: 19px;
   background: white;
 
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
