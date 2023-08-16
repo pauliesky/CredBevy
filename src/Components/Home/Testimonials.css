@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 .Testimonial-container {
+  margin: 0rem 5rem;
   display: flex;
   height: 286.89px;
   flex-direction: row;

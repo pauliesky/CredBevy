@@ -118,11 +118,7 @@ function Navbar() {
   return (
     <>
       <nav className={mobile ? 'nav__links-mobile' : 'navbar'}                >
-
-
         {/* <div className='img-div'  >   <img className='navbar__image' src={logoImg} alt='logo-img'></img>    </div> */}
-
-
         <div className='nav__components'>
           <Link to='/'>
             <img className='navbar__image' src={logoImg} alt='logo-img'></img>
@@ -131,8 +127,7 @@ function Navbar() {
             className={mobile ? 'null' : 'nav-links'}
             // className='nav-links'
             onClick={() => setMobile(false)} >
-
-            <div >
+            <div>
               <div className='nav-link'>
                 <div><li>Products</li></div>
                 <div className=''>
@@ -140,9 +135,8 @@ function Navbar() {
                 </div>
               </div>
             </div>
-            <div  >
+            <div>
               <div className='nav-link'>
-
                 <div>
                   <li
                     ref={showMenuRef}
@@ -152,7 +146,7 @@ function Navbar() {
                 <div><i class='bx bx-chevron-down' ></i></div>
               </div>
             </div>
-            <div  >
+            <div>
               <div className='nav-link'>
                 <div><li
                   ref={showRef}
@@ -179,7 +173,6 @@ function Navbar() {
                 buttonStyle={sizeStyle}
                 label={'Get Started'} />
             </div>
-
           </ul>
         </div>
         <button className='mobile-menu-icon'

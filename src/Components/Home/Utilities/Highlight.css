@@ -23,11 +23,10 @@
   align-items: flex-start;
   gap: 8px;
   width: 410px;
-  height: 104px;
+
 }
 .highlight__body {
-  width: 410px;
-  height: 48px;
+  max-width: 410px;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 400;
@@ -37,8 +36,7 @@
   color: var(--black);
 }
 .highlight__title {
-  width: 315px;
-  height: 48px;
+  max-width: 315px;
   font-family: "Recoleta Alt";
   font-style: normal;
   font-weight: 700;
@@ -47,7 +45,7 @@
   color: var(--black);
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 778px) {
   .hightlight__frame {
     width: 366px;
     height: 390px;

@@ -9,9 +9,11 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 26rem;
+  padding: 0rem 5rem;
 }
 .footer__wrapper {
-  width: 1040.13px;
+  max-width: 1040.13px;
+  width: 100%;
 }
 .ft-logo {
   width: 61px;
@@ -22,20 +24,21 @@
 .footer-1 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  height: 248px;
+  max-width: 1040.13px;
+  width: 100%;
 }
 .footer-1-content {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 15rem;
-
+ 
+  /* gap: 15rem; */
+  width: 1040px;
+    justify-content: space-between;
+    padding-bottom: 5.625rem;
   border-bottom: 1px solid var(--black);
 }
 .products h4 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
@@ -54,7 +57,7 @@
 }
 .resources h4 {
   color: var(--black);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
@@ -72,7 +75,7 @@
 }
 .footer__company h4 {
   color: var(--black);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
@@ -107,13 +110,16 @@
   justify-content: center;
   align-items: center;
   height: 57px;
+  width: 100%;
+
 }
 .footer2__wrapper {
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 22rem;
+  max-width: 1040px;
+  margin: 0rem 5rem;
 }
 
 .footer2-text {
@@ -163,10 +169,13 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 5rem;
+  width: 100%;
 }
 .foot-note__wrapper {
-  width: 1080px;
-  height: 21px;
+  max-width: 1040px;
+  width: 100%;
+  margin: 0rem 5rem;
+  /* height: 21px; */
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 400;
@@ -184,7 +193,7 @@
   /* margin-top: 1.5rem; */
 }
 .footer__links {
-  width: 100px;
+  /* width: 100px; */
 }
 @media screen and (max-width: 676px) {
   .footer-1-container {

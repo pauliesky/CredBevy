@@ -7,12 +7,11 @@
   margin-top: 6.3rem;
 }
 .hero__container {
-  /* padding-top: 5rem; */
   position: relative;
 }
 .pink {
   position: absolute;
-  left: 82%;
+  left: 80%;
   top: 0px;
 }
 .pink1 {
@@ -36,27 +35,18 @@
   align-items: center;
   justify-content: center;
   padding-top: 3rem;
-  /* padding: 0px; */
-  /* gap: 24px; */
-  /* position: absolute; */
-  /* width: 708px; */
-  /* height: 357px; */
-  /* left: 423px;
-  top: 50px; */
-  /* background-color: blue; */
+
 }
 
 .hero__title-head {
-  /* height: 262px; */
+
   font-family: "Recoleta Alt";
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
   line-height: 131px;
   text-align: center;
-  /* Text colour */
   color: var(--black);
-  /* Inside auto layout */
   margin-top: 3rem;
 }
 .hero__title-text {
@@ -68,8 +58,6 @@
   text-align: center;
   margin-top: 24px;
   color: var(--gray);
-  width: 374px;
-  height: 71px;
   margin-top: 1.5rem;
 }
 #purple {
@@ -91,8 +79,6 @@
   align-items: center;
   padding: 17px 30px;
   gap: 16px;
-  width: 195px;
-  height: 66px;
   border-radius: 30px;
 }
 .download__button-text {
