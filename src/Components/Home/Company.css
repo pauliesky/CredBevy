@@ -1,13 +1,10 @@
 .company {
 
-  position: absolute;
-
-  top: 0rem;
-
-  left: 45rem;
-
+  width: 100%;
+  display: flex;
   align-items: center;
- 
+  justify-content: center;
+  align-items: center;
 }
 .company__container {
   animation: fadeIn 0s forwards;
@@ -15,11 +12,10 @@
   flex-direction: row;
   /* justify-content: center; */
   height: 0px;
-  padding: 0rem 0rem 0rem 3rem;
+  padding: 0rem 7.5rem 0rem 2.5625rem;
   z-index: 1;
   position: absolute;
-  top: 7rem;
-  width: 280px;
+  top: 9rem;
   height: 330px;
   border-radius: 2rem;
   background-color: white;

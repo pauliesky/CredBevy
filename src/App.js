@@ -20,12 +20,13 @@ import TermsAndConditions from './Components/T&C/TermsAndConditions';
 import Calculator from './Components/E.M.I/Calculator';
 import DropDown from './Components/Home/DropDown';
 import MediaQuery from './MediaQuery';
+import ScrollToTop from './Components/ScrollToTop';
 const Home = lazy(() => import('./Components/routes/Home'))
 
 
 function App() {
 
-  const displayMobile = MediaQuery('(max-width: 676px)')
+  const displayMobile = MediaQuery('(max-width: 778px)')
   // const showMenuRef = useRef(null)
   // useEffect(() => {
 
@@ -45,6 +46,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         {displayMobile ? <DropDown /> : <Navbar />}
         <Routes>
           <Route path='/' element={<Home />} />

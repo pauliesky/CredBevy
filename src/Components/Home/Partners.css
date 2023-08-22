@@ -8,15 +8,15 @@
   animation: fadeIn 0s forwards;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  height: 0px;
-  padding: 5rem 0rem;
+  justify-content: space-between;
+  padding: 2.9375rem 3.125rem;
   z-index: 1;
   position: absolute;
-  top: 7rem;
+  top: 9rem;
   background-color: white;
   height: 513px;
-  width: 1138px;
+  max-width: 1138px;
+  width: 100%;
   border-radius: 2rem;
   opacity: 0;
 }
@@ -30,7 +30,7 @@
 }
 .partners__content-1 h3,
 .partners__content-2 h3 {
-  font-family: "Satoshi";
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -39,7 +39,7 @@
 }
 .partners__content-1 h4,
 .partners__content-2 h4 {
-  font-family: "Satoshi";
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -83,7 +83,7 @@
   z-index: 10;
 }
 .partners-content-3-text {
-  font-family: "Satoshi";
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;

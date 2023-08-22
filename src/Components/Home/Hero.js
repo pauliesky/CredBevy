@@ -26,10 +26,10 @@ export default function Hero() {
           <img alt='ellipse 3' className='purple' src={ImgPurple} ></img>
           <img alt='ellipse 4' className='blue' src={ImgBlue} ></img>
           <div className='hero__title'>
-            <p className='hero__title-head'>One app,<br />all things credit</p>
+            <p className='hero__title-head'>Get the Funds,<br />You Need, Fast!</p>
 
 
-            <div className='hero__title-text'><p>Facilitating loan transactions <br/> between <span id='purple' >lenders </span> and <span id='purple' >borrowers</span></p>
+            <div className='hero__title-text'><p>Don't waste time shopping around for the best loan offers. Our loan marketplace lets you compare multiple options in one convenient place</p>
 
             </div>
           </div>

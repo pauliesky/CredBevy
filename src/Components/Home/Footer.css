@@ -45,6 +45,7 @@
   font-size: 18px;
   line-height: 150%;
   color: var(--black);
+cursor: pointer;
 }
 .products h5 {
   margin-bottom: 0.5rem;
@@ -54,6 +55,8 @@
   font-size: 14px;
   line-height: 150%;
   color: var(--black);
+cursor: pointer;
+
 }
 .resources h4 {
   color: var(--black);
@@ -63,6 +66,8 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 150%;
+cursor: pointer;
+
 }
 .resources h5 {
   color: var(--black);
@@ -72,6 +77,8 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 150%;
+cursor: pointer;
+
 }
 .footer__company h4 {
   color: var(--black);
@@ -81,6 +88,8 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 150%;
+cursor: pointer;
+
 }
 .footer__company h5 {
   color: var(--black);
@@ -90,6 +99,8 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 150%;
+cursor: pointer;
+
 }
 .divider {
   align-items: center;
@@ -355,20 +366,14 @@
     padding-bottom: 3rem;
     /* text-align: center; */
   }
-  .foot-note__wrapper {
-    padding: 0rem 1rem;
-
-    font-family: "Satoshi";
+  .foot-note__wrapper {  
+  font-family: "Satoshi";
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
-    /* or 18px */
-
-    /* Text colour */
-    /* width: 100%; */
-    height: 54px;
+    width: 100%;
     color: var(--black);
-    /* margin: 0rem 1rem; */
+    margin: 0rem 1rem;
   }
 }

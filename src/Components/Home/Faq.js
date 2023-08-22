@@ -26,24 +26,24 @@ function Faq() {
   }
   const data = [
     {
-      question: 'WHAT IS CREDBEVY?',
-      answer: 'CredBevy financial technology (fintech) industry is coming of age. In the face of political and economic challenges and a global pandemic, fintech on the continent is booming. Between 2020 and 2021, the number of tech startups in Africa tripled to around 5,200 companies. Just under half of these are fintechs, which are making it their business to disrupt and augment traditional financial services'
+      question: 'What is Credbevy?',
+      answer: 'Credbevy is an online platform that connects borrowers with a wide range of lenders, offering various loan options to meet your financial needs.'
     },
     {
-      question: 'WHAT IS CREDBEVY?',
-      answer: 'CredBevy financial technology (fintech) industry is coming of age. In the face of political and economic challenges and a global pandemic, fintech on the continent is booming. Between 2020 and 2021, the number of tech startups in Africa tripled to around 5,200 companies. Just under half of these are fintechs, which are making it their business to disrupt and augment traditional financial services '
+      question: 'How does Credbevy work?',
+      answer: 'We provide a user-friendly platform where you can browse different loan products, compare terms and rates, and apply for loans that match your requirements. Our network of lenders ensures you have access to a diverse range of financing options.'
     },
     {
-      question: 'WHAT IS CREDBEVY?',
-      answer: 'CredBevy financial technology (fintech) industry is coming of age. In the face of political and economic challenges and a global pandemic, fintech on the continent is booming. Between 2020 and 2021, the number of tech startups in Africa tripled to around 5,200 companies. Just under half of these are fintechs, which are making it their business to disrupt and augment traditional financial services '
+      question: 'Is Credbevy a direct lender?',
+      answer: 'No, we are not a direct lender. We partner with multiple reputable lenders to provide you with a variety of loan options. You can compare and choose the loan that best suits your needs.'
     },
     {
-      question: 'WHAT IS CREDBEVY?',
-      answer: 'CredBevy financial technology (fintech) industry is coming of age. In the face of political and economic challenges and a global pandemic, fintech on the continent is booming. Between 2020 and 2021, the number of tech startups in Africa tripled to around 5,200 companies. Just under half of these are fintechs, which are making it their business to disrupt and augment traditional financial services '
+      question: 'What can I use a personal loan for?',
+      answer: 'Personal loans can be used for a variety of purposes, including debt consolidation, home improvements, medical expenses, education costs, and more.'
     },
     {
-      question: 'WHAT IS CREDBEVY?',
-      answer: 'CredBevy financial technology (fintech) industry is coming of age. In the face of political and economic challenges and a global pandemic, fintech on the continent is booming. Between 2020 and 2021, the number of tech startups in Africa tripled to around 5,200 companies. Just under half of these are fintechs, which are making it their business to disrupt and augment traditional financial services '
+      question: 'How do I apply for a personal loan through Credbevy?',
+      answer: 'Applying for a personal loan is easy. Simply navigate to the personal loans section, choose a loan that matches your needs, and follow the instructions to complete the application.'
     },
 
   ]

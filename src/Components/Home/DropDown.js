@@ -135,12 +135,13 @@ function DropDown() {
   return (
     <>
       <Nav>
-        <NavImage>
-          <img
-            className="mobile_navbar__image"
-            src={logoImg}
-            alt="logo-img"
-          ></img>
+        <NavImage to='/'>
+<Link to='/' >
+<img className="mobile_navbar__image"
+    src={logoImg}
+    alt="logo-img"></img>
+</Link>
+         
         </NavImage>
         <NavIcon
           onClick={() => {
@@ -155,11 +156,14 @@ function DropDown() {
         <DropDownNav dropDown={dropDown}>
           <NavItems>
             <NavLogo>
+              <Link to='/' >    
               <img
                 className="mobile_navbar__image"
                 src={logoImg}
                 alt="logo-img"
               ></img>
+              </Link>
+              
             </NavLogo>
             <NavIcon2
               onClick={() => {

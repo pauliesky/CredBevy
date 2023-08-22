@@ -2,7 +2,8 @@ import React from 'react'
 import './Highlights.css'
 import Button from './Utilities/Button';
 import liquid15 from './Images/liquid15.png'
-import sec1Img from '../Home/Images/iPhone 13-1.png'
+import sec1Img from '../Home/Images/iPhone 14 place holder-1.png'
+import sec5Img from '../Home/Images/iPhone 13-1.png'
 import sec2Img from '../Home/Images/iPhone 13-2.png'
 import sec3Img from '../Home/Images/iPhone 13-3.png'
 import sec4Img from '../Home/Images/iPhone 13-4.png'
@@ -68,7 +69,7 @@ export default function Highlights() {
 
           className={'highlight__container-rowReverse mobile__highlight-container '}
           // highlightStyle={rowReverse}
-          image={sec1Img}
+          image={sec5Img}
           title={'Bevy Score'}
           body={'Credbevy allows you to view your credit ratings without charge and provides advice on how to improve them.'} />
         <Highlight

@@ -16,7 +16,7 @@
 }
 .pink1 {
   position: absolute;
-  left: 23%;
+  left: 18%;
   top: 30%;
 }
 .purple {
@@ -59,6 +59,8 @@
   margin-top: 24px;
   color: var(--gray);
   margin-top: 1.5rem;
+  max-width: 832px;
+  width: 100%;
 }
 #purple {
   color: var(--purple);
@@ -91,7 +93,7 @@
   line-height: 117%;
   text-align: left;
 }
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 778px) {
   .hero {
     margin-top: 5rem;
   }
@@ -104,7 +106,7 @@
   .pink {
     width: 40px;
     position: absolute;
-    left: 80%;
+    left: 87%;
     top: 10px;
   }
   .pink1 {
@@ -148,14 +150,12 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 32px;
-    /* or 229% */
-
-    text-align: center;
-
-    /* Text/var(--gray) */
+    line-height: 20px;
+     text-align: center;
     margin-top: 1rem;
     color: var(--gray);
+    max-width: 374px;
+    width: 100%;
   }
 
   .hero__download-button {

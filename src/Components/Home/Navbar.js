@@ -15,24 +15,15 @@ import { UilTimes } from '@iconscout/react-unicons'
 
 
 function Navbar() {
-
-
   // const ButtonResize = styled(Button)`
-
   //     @media ${device.mobile}{
   // width: 340px;
   // background-color:red;
   //   }
-  //         `
-
-
-
-
-
+  //`
   const [showMenu, setShowMenu] = useState(false)
   const [show, setShow] = useState(false)
   const [display, setDisplay] = useState(false)
-
   const [mobile, setMobile] = useState(false)
 
   // const [responsiveWidth, setResponsiveWidth] = useState(false)
