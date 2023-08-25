@@ -44,7 +44,7 @@
   color: var(--gray);
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 778px) {
   .LendingPartners__head {
     margin-top: 6rem;
     display: flex;

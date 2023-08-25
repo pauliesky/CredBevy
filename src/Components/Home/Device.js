@@ -1,9 +1,7 @@
-
 const size = {
-  mobile: '676px'
-}
+  mobile: "778px",
+};
 
 export const device = {
-  mobile: `(max-width: ${size.mobile})`
-
-}
+  mobile: `(max-width: ${size.mobile})`,
+};

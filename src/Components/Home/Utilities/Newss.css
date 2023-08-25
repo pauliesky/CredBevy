@@ -55,7 +55,7 @@
   background: #e5eaef;
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 778px) {
   .News__grid-item {
     width: 396px;
     height: 440px;

@@ -176,7 +176,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 778px) {
   .Bills__title {
     width: 164px;
     height: 54px;

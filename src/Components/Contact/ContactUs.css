@@ -84,7 +84,7 @@
   border-radius: 8px;
   margin-bottom: 5rem;
 }
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 778px) {
   .contactUs__title {
     font-family: "Recoleta Alt";
     font-style: normal;

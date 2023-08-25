@@ -177,7 +177,7 @@
   border: none;
   cursor: pointer;
 }
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 778px) {
   .loanOffer__title {
     font-family: "Recoleta Alt";
     font-style: normal;

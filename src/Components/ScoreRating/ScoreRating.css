@@ -43,9 +43,10 @@
   border-radius: 24px;
   gap: 5rem;
   background: black;
-  padding: 3rem 5rem 0rem 5rem;
+  padding: 3rem 2rem 0rem 2rem;
   overflow: hidden;
   position: relative;
+  margin: 0rem 1rem;
 }
 
 .scorerate__liquidImage {
@@ -61,10 +62,11 @@
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
+  margin: 0rem 1rem;
 }
 .scoreRate__1-head {
-  width: 390px;
-  height: 120px;
+  max-width: 390px;
+  width: 100%;
   font-family: "Recoleta Alt";
   font-style: normal;
   font-weight: 700;
@@ -78,8 +80,8 @@
 }
 .scoreRate__1-body {
   z-index: 10;
-  width: 410px;
-  height: 72px;
+  max-width: 410px;
+width: 100%;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 400;
@@ -92,8 +94,9 @@
 }
 
 .scorerate__iphone {
-  width: 383px;
-  height: 410px;
+  max-width: 383px;
+  width: 100%;
+  /* height: 410px; */
   z-index: 10;
 }
 
@@ -108,12 +111,14 @@
   padding: 2rem 2rem 0rem 2rem;
   background: #d3fff7;
   border-radius: 24px;
-  width: 492px;
+  max-width: 492px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-left: 1rem;
 }
 .scoreRate__body-2__content-1-head {
   font-family: "Satoshi";
@@ -121,7 +126,8 @@
   font-weight: 700;
   font-size: 25px;
   line-height: 133%;
-  width: 393px;
+  max-width: 393px;
+  width: 100%;
   color: var(--black);
 }
 .scoreRate__body-2__content-1-body {
@@ -130,13 +136,14 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 150%;
-  /* or 24px */
-  width: 390px;
+  max-width: 390px;
+  width: 100%;
   letter-spacing: -0.04em;
   color: var(--black);
 }
 .scoreRate__body-2__content-1 img {
-  width: 383px;
+  max-width: 383px;
+  width: 100%;
   height: 350px;
 }
 
@@ -144,12 +151,14 @@
   padding: 2rem 2rem 0rem 2rem;
   background: #d3ebff;
   border-radius: 24px;
-  width: 492px;
+  max-width: 492px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-right: 1rem;
 }
 .scoreRate__body-2__content-2-head {
   font-family: "Satoshi";
@@ -157,7 +166,8 @@
   font-weight: 700;
   font-size: 25px;
   line-height: 133%;
-  width: 393px;
+  max-width: 393px;
+  width:100%;
   color: var(--black);
 }
 .scoreRate__body-2__content-2-body {
@@ -167,12 +177,14 @@
   font-size: 14px;
   line-height: 150%;
   /* or 24px */
-  width: 390px;
+  max-width: 390px;
+  width: 100%;
   letter-spacing: -0.04em;
   color: var(--black);
 }
 .scoreRate__body-2__content-2 img {
-  width: 383px;
+  max-width: 383px;
+  width: 100%;
   height: 350px;
 }
 .scorerate-button__container {
@@ -187,12 +199,11 @@
   border: none;
   cursor: pointer;
 }
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 778px) {
   .scoreRate__title {
-    width: 216px;
-    height: 108px;
-
-    font-family: "Recoleta Alt";
+    max-width: 216px;
+    width: 100%;
+      font-family: "Recoleta Alt";
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -212,7 +223,7 @@
     gap: 0rem;
     background: black;
     width: 396px;
-    /* height: 563px; */
+    margin: 0rem 1rem;
     align-items: center;
     padding: 3.5rem 0rem 0rem 0rem;
   }
@@ -247,6 +258,7 @@
     max-width: 275px;
     width: 100%;
     height: 290px;
+    margin: 0rem 1rem;
   }
 
   .scorerate-button__container {
@@ -273,7 +285,6 @@
   }
 
   .scoreRate__body-2__content-1 {
-    padding: 2.3rem 0rem 0rem 0rem;
     background: #d3fff7;
     border-radius: 24px;
     max-width: 396px;
@@ -283,7 +294,6 @@
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    /* text-align: center; */
   }
   .scoreRate__body-2__content-1-head {
     font-family: "Satoshi";
@@ -310,7 +320,8 @@ width: 100%;
   }
 
   .scoreRate__body-2__content-1 img {
-    width: 373px;
+    max-width: 373px;
+    width: 100%;
     height: 320px;
   }
 
@@ -318,7 +329,8 @@ width: 100%;
     padding: 2.3rem 0rem 0rem 0rem;
     background: #d3ebff;
     border-radius: 24px;
-    width: 396px;
+    max-width: 396px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -332,7 +344,8 @@ width: 100%;
     font-weight: 700;
     font-size: 24px;
     line-height: 133%;
-    width: 344px;
+    max-width: 344px;
+    width: 100%;
     color: var(--black);
   }
 
@@ -343,13 +356,15 @@ width: 100%;
     font-size: 14px;
     line-height: 150%;
     /* or 24px */
-    width: 313px;
+    max-width: 313px;
+    width: 100%;
     letter-spacing: -0.04em;
     color: var(--black);
   }
 
   .scoreRate__body-2__content-2 img {
-    width: 360px;
+    max-width: 360px;
+    width: 100%;
     height: 304px;
   }
   .scorerate__liquidImage {

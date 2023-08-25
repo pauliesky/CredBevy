@@ -24,7 +24,7 @@
   color: var(--black);
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 778px) {
   .mobile__testimonial-container {
     display: flex;
     height: 1030.67px;

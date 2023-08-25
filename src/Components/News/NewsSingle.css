@@ -255,7 +255,7 @@
 .social__share {
   display: none;
 }
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 778px) {
   .NewsSingle__Section-1-title {
     width: 396px;
     height: 132px;

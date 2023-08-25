@@ -126,7 +126,7 @@
   height: 240px;
   color: #000000;
 }
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 778px) {
   .calculator-container {
     width: 100%;
     display: flex;
