@@ -22,7 +22,6 @@
   position: absolute;
   top: 7rem;
   background-color: white;
-
   border-radius: 1.13rem;
   opacity: 0;
 }
@@ -37,7 +36,7 @@
 
 .feature-content-1 h3,
 .feature-content-2 h3 {
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -46,7 +45,7 @@
 }
 .feature-content-1 h4,
 .feature-content-2 h4 {
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -122,7 +121,7 @@
   bottom: 0;
   left: 19px;
   top: 46px; */
-  font-family: "Manrope";
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;

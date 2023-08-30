@@ -9,7 +9,15 @@ import { UilFacebookF, UilInstagram, UilTwitter, UilLinkedin } from '@iconscout/
 import { FaTiktok } from "react-icons/fa";
 
 function NewsSingle() {
+  const buttonStyleSize = {
+    width: '159px',
+    height: '55px',
+  }
 
+  const buttonTextSize = {
+    width: '110px',
+    height: '21px',
+  }
 
   // const color = {
   //  background: radial-gradient(
@@ -91,7 +99,11 @@ function NewsSingle() {
               <input type="text" placeholder="Email Address" />
             </div>
             <div className='nav__btn'>
-              <Button label={'Subscribe'} />
+              <Button 
+               className='newsletter-subscribe-btn__container'
+               buttonTextStyle={buttonTextSize}
+               buttonStyle={buttonStyleSize}
+              label={'Subscribe'} />
             </div>
           </div>
           <div className='newsletter-content-footer' >Expertly curared emails that adds value to you</div>

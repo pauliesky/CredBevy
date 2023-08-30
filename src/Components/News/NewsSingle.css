@@ -255,6 +255,18 @@
 .social__share {
   display: none;
 }
+.newsletter-subscribe-btn__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 25px;
+  width: 140px;
+  height: 55px;
+  background: var(--purple);
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
 @media screen and (max-width: 778px) {
   .NewsSingle__Section-1-title {
     width: 396px;

@@ -82,10 +82,10 @@
 }
 .calculator-form-input input {
   width: 359px;
-  height: 56px;
   border: none;
-  /* Gray / gray-3 */
-
+ padding: 2rem;
+ font-size: 1rem;
+ font-family: "Satoshi";
   background: #f5f5f5;
   border-radius: 8px;
 }
@@ -126,6 +126,21 @@
   height: 240px;
   color: #000000;
 }
+
+.calculator-btn__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 25px;
+  width: 140px;
+  height: 55px;
+  background: var(--purple);
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+
 @media screen and (max-width: 778px) {
   .calculator-container {
     width: 100%;
