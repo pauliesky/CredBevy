@@ -175,11 +175,14 @@ function Navbar() {
               </div>
             </div>
             <div className="nav__Button">
+              <Link to='/waitlist' >     
               <Button
                 className="mobile__button-container button__container"
                 buttonStyle={sizeStyle}
                 label={"Get Started"}
               />
+              </Link>
+             
             </div>
           </ul>
         </div>

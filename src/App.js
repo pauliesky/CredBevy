@@ -19,6 +19,7 @@ import NewsSingle from './Components/News/NewsSingle';
 import TermsAndConditions from './Components/T&C/TermsAndConditions';
 import Calculator from './Components/E.M.I/Calculator';
 import DropDown from './Components/Home/DropDown';
+import Waitlist from './Components/Waitlist/Waitlist';
 import MediaQuery from './MediaQuery';
 import ScrollToTop from './Components/ScrollToTop';
 const Home = lazy(() => import('./Components/routes/Home'))
@@ -63,6 +64,7 @@ function App() {
           <Route path='/NewsSingle' element={<NewsSingle />} />
           <Route path='/Terms&Conditions' element={<TermsAndConditions />} />
           <Route path='/Calculator' element={<Calculator />} />
+          <Route path='/Waitlist' element={<Waitlist />} />
         </Routes>
         <Footer />
       </Router>

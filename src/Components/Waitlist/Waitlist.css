@@ -1,0 +1,103 @@
+
+/* .waitlist__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: blue;
+    height: 90vh;
+} */
+
+.waitlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 183px;
+}
+
+.waitlist__header{
+    width: 695px;
+    height: 174px;
+    position: relative;
+}
+
+
+.waitlist__title{
+    font-family: 'Recoleta Alt';
+    font-weight: 700;
+    font-size: 64px;
+    position: absolute;
+    top: 0;
+    left: 8px;
+   color:  #333333;
+   text-align: center;
+}
+
+.waitlist__title >span{
+    color: white;
+}
+
+.waitlist__paragraph{
+font-family:"Satoshi";
+font-weight: 700;
+font-size: 14px;
+text-align: center;
+height: 38px;
+width: 405px;
+color: #333333;
+margin-top: 40px;
+}
+.waitlist__field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 86px;
+}
+
+.waitlist__field > input{
+ width: 506px;
+    padding: 13px 48px;
+    border-radius: 4px;
+    border: none;
+    height: 55px;
+}
+
+input:focus{
+    border-color: #FFF;
+}
+::placeholder{
+    color: #8A8B9F;
+font-family: 'Satoshi';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; 
+}
+
+.waitlist__field > button{
+    display: flex;
+padding: 17px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 30px;
+background: #7E1F86;
+color: #FFF;
+font-family:'Satoshi';
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+border: none;
+cursor: pointer;
+}
+
+.waitlist__images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 115px;
+}

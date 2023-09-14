@@ -4,35 +4,46 @@ import formular from "../Home/Images/formular.png";
 import Download from "../Home/Download";
 import { useState } from "react";
 import Button from "../Home/Utilities/Button";
+import { connect } from "react-redux";
+import {
+  expectedAmount,
+  yearlyIncome,
+  loanPeriod,
+  expectedIncomeRate,
+} from "../_actions/index";
 
-function Calculator() {
-  const [expectedAmount, setExpectedAmount] = useState("");
-  const [yearlyIncome, setYearlyIncome] = useState("");
-  const [loanPeriod, setLoanPeriod] = useState("");
-  const [expectedIncomeRate, setExpectedIncomeRate] = useState("");
+function Calculator({ expectedAmount,
+  yearlyIncome,
+  loanPeriod,
+  expectedIncomeRate,
+}) {
+  // const [expectedAmount, setExpectedAmount] = useState("");
+  // const [yearlyIncome, setYearlyIncome] = useState("");
+  // const [loanPeriod, setLoanPeriod] = useState("");
+  // const [expectedIncomeRate, setExpectedIncomeRate] = useState("");
 
-  const handleExpectedAmountChange = (event) => {
-    const result = event.target.value.replace(/\D/g, "");
+  // const handleExpectedAmountChange = (event) => {
+  //   const result = event.target.value.replace(/\D/g, "");
 
-    setExpectedAmount(result);
-  };
-  const handleYearlyIncomeChange = (event) => {
-    const result = event.target.value.replace(/\D/g, "");
+  //   setExpectedAmount(result);
+  // };
+  // const handleYearlyIncomeChange = (event) => {
+  //   const result = event.target.value.replace(/\D/g, "");
 
-    setYearlyIncome(result);
-  };
+  //   setYearlyIncome(result);
+  // };
 
-  const handleLoanPeriodChange = (event) => {
-    const result = event.target.value.replace(/\D/g, "");
+  // const handleLoanPeriodChange = (event) => {
+  //   const result = event.target.value.replace(/\D/g, "");
 
-    setLoanPeriod(result);
-  };
+  //   setLoanPeriod(result);
+  // };
 
-  const handleExpectedIncomeRateChange = (event) => {
-    const result = event.target.value.replace(/\D/g, "");
+  // const handleExpectedIncomeRateChange = (event) => {
+  //   const result = event.target.value.replace(/\D/g, "");
 
-    setExpectedIncomeRate(result);
-  };
+  //   setExpectedIncomeRate(result);
+  // };
 
   // console.log(expectedAmount);
   // console.log(typeof expectedAmount);
@@ -64,7 +75,8 @@ function Calculator() {
                   type="text"
                   required
                   value={expectedAmount}
-                  onChange={handleExpectedAmountChange}
+                  // onChange={handleExpectedAmountChange}
+                    onChange={(e) => expectedAmount(e.target.value.replace(/\D/g, ""))}
                 />
               </div>
               <div className="calculator-form-input">
