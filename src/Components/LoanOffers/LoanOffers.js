@@ -5,6 +5,7 @@ import iPhone13_7 from '../Home/Images/iPhone 13-7.png'
 import iPhone13_8 from '../Home/Images/iPhone 13-8.png'
 import iPhone13_9 from '../Home/Images/iPhone 13-9.png'
 import Button from '../Home/Utilities/Button'
+import Footer from "../Home/Footer";
 
 function LoanOffers() {
   return (
@@ -66,6 +67,7 @@ function LoanOffers() {
         </div>
       </div>
       <Download />
+      <Footer />
     </>
   )
 }

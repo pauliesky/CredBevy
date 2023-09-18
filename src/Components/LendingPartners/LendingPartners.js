@@ -3,6 +3,7 @@ import './LendingPartners.css'
 // import Coin from '../Home/Images/Coinbase.png'
 import Download from '../Home/Download'
 import Partner from '../Home/Utilities/Partner'
+import Footer from "../Home/Footer";
 export default function LendingPartners() {
   return (
 
@@ -60,6 +61,8 @@ export default function LendingPartners() {
 
       </div>
       <Download />
+      <Footer />
+
     </>
 
   )

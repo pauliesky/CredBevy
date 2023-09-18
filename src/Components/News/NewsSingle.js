@@ -7,6 +7,7 @@ import Button from '../Home/Utilities/Button'
 import { UilFacebookF, UilInstagram, UilTwitter, UilLinkedin } from '@iconscout/react-unicons'
 // import { SiTiktok } from "react-icons/si";
 import { FaTiktok } from "react-icons/fa";
+import Footer from "../Home/Footer";
 
 function NewsSingle() {
   const buttonStyleSize = {
@@ -155,6 +156,7 @@ function NewsSingle() {
       </div>
 
       <Download />
+      <Footer />
     </>
   )
 }

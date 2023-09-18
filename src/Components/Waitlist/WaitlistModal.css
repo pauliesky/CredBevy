@@ -1,0 +1,103 @@
+.Modal{
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    margin: auto;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4)
+}
+
+.Modal__content{
+    margin: auto;
+    background: white;
+    width: 50%;
+    max-width: 598px;
+    position: relative;
+    border-radius: 16px;
+}
+
+.cancel__button{
+    position: absolute;
+    right: 0;
+    margin: 24px;
+    cursor: pointer;
+    border: none;
+}
+
+.Modal__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 54px;
+}
+.Modal__tick{
+    width: 116px
+}
+.Modal__title{
+    margin-top: 40px;
+    color:  #333;
+text-align: center;
+font-family: "Recoleta Alt";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.Modal__paragraph{
+    margin-top: 62px;
+    color:  #333;
+text-align: center;
+font-family: Satoshi;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.Modal__Box{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Modal_Email{
+display: flex;
+width: 429px;
+height: 59px;
+padding: 20px 189px 20px 16px;
+align-items: center;
+flex-shrink: 0;
+border-radius: 4px 0px 0px 4px;
+border-top: 1px solid #8A8B9F;
+border-bottom: 1px solid #8A8B9F;
+border-left: 1px solid  #8A8B9F;
+color:  #333;
+text-align: center;
+font-family: "Satoshi";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.Modal_CopyIcon{
+    display: flex;
+    width: 61px;
+    height: 59px;
+    padding: 18px 18px 17px 19px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+background: #7E1F86;
+cursor: pointer;
+}

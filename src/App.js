@@ -66,7 +66,7 @@ function App() {
           <Route path='/Calculator' element={<Calculator />} />
           <Route path='/Waitlist' element={<Waitlist />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );

@@ -1,6 +1,8 @@
 import React from 'react'
 import './Terms&Conditions.css'
 import Download from '../Home/Download'
+import Footer from "../Home/Footer";
+
 
 
 function TermsAndConditions() {
@@ -33,6 +35,7 @@ function TermsAndConditions() {
 
       </div>
       <Download />
+      <Footer />
     </>
   )
 }

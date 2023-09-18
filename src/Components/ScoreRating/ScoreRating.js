@@ -6,6 +6,7 @@ import Iphone12 from '../Home/Images/iPhone 13-6.png'
 import liquid1 from '../Home/Images/liquid1.png'
 import Download from '../Home/Download'
 import Button from '../Home/Utilities/Button'
+import Footer from "../Home/Footer";
 
 
 
@@ -63,6 +64,7 @@ function ScoreRating() {
         </div>
       </div>
       <Download />
+      <Footer />
     </>
   )
 }

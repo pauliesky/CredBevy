@@ -68,8 +68,9 @@ input:focus{
     border-color: #FFF;
 }
 ::placeholder{
-    color: #8A8B9F;
-font-family: 'Satoshi';
+color: #8A8B9F;
+;
+font-family: "Satoshi";
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -100,4 +101,5 @@ cursor: pointer;
     align-items: center;
     gap: 40px;
     margin-top: 115px;
+    margin-bottom: 115px;
 }

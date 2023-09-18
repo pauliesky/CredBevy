@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom'
 import Newss from '../Home/Utilities/Newss'
 // import SweetPagination from "sweetpagination";
 
+import Footer from "../Home/Footer";
+
 function News() {
 
   // const [currentPageData, setCurrentPageData] = useState(new Array(2).fill());
@@ -104,6 +106,7 @@ function News() {
       </div>
 
       <Download />
+      <Footer />
     </>
   )
 }

@@ -6,7 +6,7 @@ import iPhone13_8 from '../Home/Images/iPhone 13-8.png'
 import liquid13 from '../Home/Images/liquid13.png'
 import liquid6 from '../Home/Images/liquid6.png'
 import Button from '../Home/Utilities/Button'
-
+import Footer from "../Home/Footer";
 
 
 
@@ -69,6 +69,7 @@ function Transfer() {
         </div>
       </div>
       <Download />
+      <Footer />
     </>
   )
 }

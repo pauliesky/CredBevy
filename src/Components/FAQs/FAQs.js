@@ -3,6 +3,8 @@ import { useState } from 'react'
 import './FAQs.css'
 import Download from '../Home/Download'
 import { SlArrowDown, SlArrowUp } from "react-icons/sl";
+import Footer from "../Home/Footer";
+
 
 function FAQs() {
 
@@ -46,6 +48,8 @@ function FAQs() {
         </div>
       </div>
       <Download />
+      <Footer />
+
     </>
   )
 }

@@ -6,8 +6,16 @@ import waitlistImage_2 from "../Home/Images/waitlist-image-2.png";
 import waitlistImage_3 from "../Home/Images/waitlist-image-3.png";
 import waitlistImage_4 from "../Home/Images/waitlist-image-4.png";
 import waitlistImage_5 from "../Home/Images/waitlist-image-5.png";
+import { useState } from "react";
+import WaitlistModal from "./WaitlistModal";
 
 const Waitlist = () => {
+  const [openModal, setOpenModal] = useState(false);
+
+  const modalHandler = () => {
+    setOpenModal(true);
+  };
+
   return (
     <>
       <section className="waitlist">
@@ -23,10 +31,18 @@ const Waitlist = () => {
         </p>
       </section>
 
-      <section className="waitlist__field">
-        <input placeholder="Email Adress" />
-        <button>Join Wait list</button>
-      </section>
+      <form
+        action="mailto:papostle37@gmail.com"
+        className="waitlist__field"
+        method="POST"
+      >
+        <input required type="text" placeholder="Email Address" />
+        <button type="submit" value="send" onClick={modalHandler}>
+          Join Wait list
+        </button>
+      </form>
+
+      {/* {openModal && <WaitlistModal />} */}
 
       <section className="waitlist__images">
         <img alt="waitlistImage_1" src={waitlistImage_1} />
@@ -35,6 +51,7 @@ const Waitlist = () => {
         <img alt="waitlistImage_4" src={waitlistImage_4} />
         <img alt="waitlistImage_5" src={waitlistImage_5} />
       </section>
+      {openModal && <WaitlistModal setOpenModal={setOpenModal} />}
     </>
   );
 };

@@ -7,7 +7,7 @@ import liquid1 from '../Home/Images/1.png'
 import Frame325_2 from '../Home/Images/Frame 325 (2).png'
 import Frame325_3 from '../Home/Images/Frame 325 (3).png'
 import Button from '../Home/Utilities/Button'
-
+import Footer from "../Home/Footer";
 function PartnersIntegrations() {
   return (
     <>
@@ -115,6 +115,7 @@ function PartnersIntegrations() {
 
       </div>
       <Download />
+      <Footer />
     </>
   )
 }
