@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 183px;
+    margin-top: 133px;
 }
 
 .waitlist__header{
@@ -22,7 +22,19 @@
     position: relative;
 }
 
-
+.loader__modal{
+    display: flex; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    /* padding-top: 20px;  */
+    margin: auto;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background: rgba(0, 0, 0, 0.40);
+}
 .waitlist__title{
     font-family: 'Recoleta Alt';
     font-weight: 700;

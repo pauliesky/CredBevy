@@ -8,12 +8,51 @@ import waitlistImage_4 from "../Home/Images/waitlist-image-4.png";
 import waitlistImage_5 from "../Home/Images/waitlist-image-5.png";
 import { useState } from "react";
 import WaitlistModal from "./WaitlistModal";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { PropagateLoader } from "react-spinners";
 
 const Waitlist = () => {
   const [openModal, setOpenModal] = useState(false);
+  const [emailValue, setEmailValue] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const modalHandler = () => {
-    setOpenModal(true);
+    // setOpenModal(true);
+    // setLoading(true);
+  };
+
+  const override = {
+    display: "block",
+    margin: "auto",
+    position: "relative",
+    left: "0px",
+    top: "0px",
+  };
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setEmailValue("");
+    setLoading(true);
+
+    emailjs
+      .sendForm(
+        "service_oozd2gs",
+        "template_j5sn2gj",
+        form.current,
+        "2vBs31xnbRlbyw9nS"
+      )
+      .then(
+        (result) => {
+          setOpenModal(true);
+          setLoading(false);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
@@ -31,18 +70,24 @@ const Waitlist = () => {
         </p>
       </section>
 
-      <form
-        action="mailto:papostle37@gmail.com"
-        className="waitlist__field"
-        method="POST"
-      >
-        <input required type="text" placeholder="Email Address" />
-        <button type="submit" value="send" onClick={modalHandler}>
+      <form ref={form} onSubmit={sendEmail} className="waitlist__field">
+        <input
+          required
+          value={emailValue}
+          onChange={(e) => setEmailValue(e.target.value)}
+          type="email"
+          name="user_email"
+          placeholder="Email Address"
+        />
+        <button type="submit" value="Send" onClick={modalHandler}>
           Join Wait list
         </button>
+        {loading && (
+          <div className="loader__modal">
+            <PropagateLoader cssOverride={override} color="#7E1F86" />
+          </div>
+        )}
       </form>
-
-      {/* {openModal && <WaitlistModal />} */}
 
       <section className="waitlist__images">
         <img alt="waitlistImage_1" src={waitlistImage_1} />
