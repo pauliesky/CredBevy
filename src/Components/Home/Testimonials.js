@@ -19,14 +19,14 @@ export default function Testimonials() {
           <Testimonial
             testimonialName={'@Alexiscoker'}
             testimonialRate={[<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStar />]}
-            testimonialReview={'"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."'} />
+            testimonialReview={'I had a positive experience borrowing through this marketplace. The application was straightforward, and the funds were quickly disbursed. Great service!'} />
           <Testimonial
-            testimonialName={'@Alexiscoker'}
+            testimonialName={'@FundsInHand'}
             testimonialRate={[<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStar />]}
-            testimonialReview={'"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."'} />
+            testimonialReview={'Finding the right loan has never been easier. The app\'s user-friendly interface and search filters make the process a breeze.'} />
           <Testimonial
-            testimonialName={'@Alexiscoker'} testimonialRate={[<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStar />]}
-            testimonialReview={'"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."'} />
+            testimonialName={'@SmartInvestor99'} testimonialRate={[<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStar />]}
+            testimonialReview={'As an investor, I value the variety of loan products available here. It helps me diversify my portfolio and achieve my financial goals.'} />
         </div>
       </div>
     </>

@@ -19,7 +19,7 @@
   align-items: center;
   cursor: pointer;
 }
-.Title h2 {
+.Title >h2 {
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
@@ -31,6 +31,8 @@
   max-height: 0;
   overflow: hidden;
   margin: 1rem 0rem;
+  font-family: "Satoshi";
+
   /* transition: all 0.5s cubic-bezier(0, 1, 0, 1); */
 }
 .Content.show {
@@ -38,6 +40,8 @@
   max-height: 9999px;
   /* transition: all 0.5s cubic-bezier(1, 0, 1, 0); */
   line-height: 1.5rem;
+  font-family: "Satoshi";
+
 }
 
 .Faqs__container {
