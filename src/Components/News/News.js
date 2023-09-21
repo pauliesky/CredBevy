@@ -4,6 +4,7 @@ import "./News.css";
 import Download from "../Home/Download";
 import { Link } from "react-router-dom";
 import Newss from "../Home/Utilities/Newss";
+import news_image from "../Home/Images/waitlist-image-5.png"
 
 // import SweetPagination from "sweetpagination";
 
@@ -25,12 +26,11 @@ function News() {
         </div>
       </div>
       <div className="News__searchbar">
-        {/* <img alt="search-icon" src={searchIcon} /> */}
-        <input type="text" placeholder="Search Something.." />
+        <input type="text" placeholder="Search something...." />
       </div>
       <div className="News__grid-container">
         <div className="News__grid-item1">
-          <div className="News__grid-item1-image"></div>
+          <img alt="news" src={news_image} className="News__grid-item1-image" />
           <div className="News__grid-item1-content">
             <Link to="/NewsSingle" style={{ textDecoration: "none" }}>
               <div className="News__grid-item1-content-head">

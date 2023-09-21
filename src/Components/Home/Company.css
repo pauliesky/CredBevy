@@ -1,12 +1,21 @@
 .company {
-
+background: red;
   width: 100%;
+  /* max-width: 503px; */
   display: flex;
   align-items: center;
   justify-content: center;
-  align-items: center;
+
+
+}
+
+.dropdown__holder{
+  position: relative;
+  background: blue;
+  width: 494px;
 }
 .company__container {
+
   animation: fadeIn 0s forwards;
   display: flex;
   flex-direction: row;
@@ -15,7 +24,9 @@
   padding: 0rem 7.5rem 0rem 2.5625rem;
   z-index: 1;
   position: absolute;
-  top: 9rem;
+  top: 0;
+  right: 0;
+  /* left: 45rem; */
   height: 330px;
   border-radius: 2rem;
   background-color: white;

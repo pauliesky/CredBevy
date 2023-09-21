@@ -8,24 +8,12 @@ import Company from "./Company";
 import Button from "./Utilities/Button";
 import { UilAlignRight } from "@iconscout/react-unicons";
 import { UilTimes } from "@iconscout/react-unicons";
-// import { device } from './Device';
-// import styled from 'styled-components'
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import DropDown from './DropDown';
 
 function Navbar() {
-  // const ButtonResize = styled(Button)`
-  //     @media ${device.mobile}{
-  // width: 340px;
-  // background-color:red;
-  //   }
-  //`
   const [showMenu, setShowMenu] = useState(false);
   const [show, setShow] = useState(false);
   const [display, setDisplay] = useState(false);
   const [mobile, setMobile] = useState(false);
-
-  // const [responsiveWidth, setResponsiveWidth] = useState(false)
 
   const showMenuRef = useRef(null);
   const showRef = useRef(null);
@@ -106,85 +94,119 @@ function Navbar() {
   return (
     <>
       <nav className={mobile ? "nav__links-mobile" : "navbar"}>
-        {/* <div className='img-div'  >   <img className='navbar__image' src={logoImg} alt='logo-img'></img>    </div> */}
-        <div className="nav__components">
+        <ul
+          className={mobile ? "null" : "nav-links"}
+          onClick={() => setMobile(false)}
+        >
           <Link to="/">
             <img className="navbar__image" src={logoImg} alt="logo-img"></img>
           </Link>
-          <ul
-            className={mobile ? "null" : "nav-links"}
-            // className='nav-links'
-            onClick={() => setMobile(false)}
-          >
-            <div>
-              <div className="nav-link">
-                <div>
-                  <li>Products</li>
-                </div>
-                <div className="">
-                  <i className="bx bx-chevron-down "></i>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="nav-link">
-                <div>
-                  <li
-                    ref={showMenuRef}
-                    onClick={() => setShowMenu(!showMenu)}
-                    onMouseEnter={mouseHandlerFeatures}
-                  >
-                    Features
-                  </li>
-                </div>
-                <div>
-                  <i class="bx bx-chevron-down"></i>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="nav-link">
-                <div>
-                  <li
-                    ref={showRef}
-                    onClick={() => setShow(!show)}
-                    onMouseEnter={mouseHandlerPartners}
-                  >
-                    Partners
-                  </li>
-                </div>
-                <div>
-                  <i class="bx bx-chevron-down"></i>
-                </div>
-              </div>
-            </div>
-            <div className="nav__company">
-              <div className="nav-link">
-                <div>
-                  <li
-                    ref={displayRef}
-                    onClick={() => setDisplay(!display)}
-                    onMouseEnter={mouseHandlerCompany}
-                  >
-                    Company
-                  </li>
-                </div>
-                <div>
-                  <i class="bx bx-chevron-down"></i>
-                </div>
-              </div>
-            </div>
-            <div className="nav__Button">
-              <Link style={{ textDecoration: "none" }} to="/waitlist">
-                <Button
-                  className="mobile__button-container button__container"
-                  buttonStyle={sizeStyle}
-                  label={"Get Started"}
+          <div className="nav-link">
+            <div className="nav-link_item">
+              <li>Products</li>
+              <svg
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5307 6.24756L9.18404 10.5942C8.6707 11.1076 7.8307 11.1076 7.31737 10.5942L2.9707 6.24756"
+                  stroke="#292D32"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 />
-              </Link>
+              </svg>
             </div>
-          </ul>
-        </div>
+            <div className="nav-link_item">
+              <li
+                ref={showMenuRef}
+                onClick={() => setShowMenu(!showMenu)}
+                onMouseEnter={mouseHandlerFeatures}
+              >
+                Features
+              </li>
+              <svg
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5307 6.24756L9.18404 10.5942C8.6707 11.1076 7.8307 11.1076 7.31737 10.5942L2.9707 6.24756"
+                  stroke="#292D32"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div className="nav-link_item">
+              <li
+                ref={showRef}
+                onClick={() => setShow(!show)}
+                onMouseEnter={mouseHandlerPartners}
+              >
+                Partners
+              </li>
+              <svg
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5307 6.24756L9.18404 10.5942C8.6707 11.1076 7.8307 11.1076 7.31737 10.5942L2.9707 6.24756"
+                  stroke="#292D32"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div className="nav-link_item">
+              <li
+                ref={displayRef}
+                onClick={() => setDisplay(!display)}
+                onMouseEnter={mouseHandlerCompany}
+              >
+                Company
+              </li>
+              <svg
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5307 6.24756L9.18404 10.5942C8.6707 11.1076 7.8307 11.1076 7.31737 10.5942L2.9707 6.24756"
+                  stroke="#292D32"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="nav__Button">
+            <Link style={{ textDecoration: "none" }} to="/waitlist">
+              <Button
+                className="mobile__button-container button__container"
+                buttonStyle={sizeStyle}
+                label={"Get Started"}
+              />
+            </Link>
+          </div>
+        </ul>
         <button className="mobile-menu-icon" onClick={() => setMobile(!mobile)}>
           {mobile ? <UilTimes className="times" /> : <UilAlignRight />}
         </button>
