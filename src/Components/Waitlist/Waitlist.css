@@ -60,7 +60,7 @@ width: 405px;
 color: #333333;
 margin-top: 40px;
 }
-.waitlist__field{
+.waitlist__form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,7 @@ margin-top: 40px;
     margin-top: 86px;
 }
 
-.waitlist__field > input{
+.waitlist__form > input{
  width: 506px;
     padding: 13px 48px;
     border-radius: 4px;
@@ -89,7 +89,7 @@ font-weight: 500;
 line-height: 32px; 
 }
 
-.waitlist__field > button{
+.waitlist__form > button{
     display: flex;
 padding: 17px 30px;
 justify-content: center;

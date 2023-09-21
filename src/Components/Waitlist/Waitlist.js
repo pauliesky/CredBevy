@@ -8,8 +8,8 @@ import waitlistImage_4 from "../Home/Images/waitlist-image-4.png";
 import waitlistImage_5 from "../Home/Images/waitlist-image-5.png";
 import { useState } from "react";
 import WaitlistModal from "./WaitlistModal";
-import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import { useRef } from "react";
+// import emailjs from "@emailjs/browser";
 import { PropagateLoader } from "react-spinners";
 
 const Waitlist = () => {
@@ -30,30 +30,55 @@ const Waitlist = () => {
     top: "0px",
   };
 
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e) => {
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   setEmailValue("");
+  //   setLoading(true);
+
+  //   emailjs
+  //     .sendForm(
+  //       "service_oozd2gs",
+  //       "template_j5sn2gj",
+  //       form.current,
+  //       "2vBs31xnbRlbyw9nS"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         setOpenModal(true);
+  //         setLoading(false);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
+
+  function Submit(e) {
+    const formEle = document.querySelector(".waitlist__form");
     e.preventDefault();
+    console.log("Submitted");
     setEmailValue("");
     setLoading(true);
-
-    emailjs
-      .sendForm(
-        "service_oozd2gs",
-        "template_j5sn2gj",
-        form.current,
-        "2vBs31xnbRlbyw9nS"
-      )
-      .then(
-        (result) => {
-          setOpenModal(true);
-          setLoading(false);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+    const formDatab = new FormData(formEle);
+    fetch(
+      "https://script.google.com/macros/s/AKfycbwQHIX981HHAQN8MdYwffK0snwhoAueEb3-OETDXDt-MCYGSTJQEhFRGW5RQv3_U9teCw/exec",
+      {
+        method: "POST",
+        body: formDatab,
+      }
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+       
+      })
+      .catch((error) => {
+        setOpenModal(true);
+        setLoading(false);
+      });
+  }
 
   return (
     <>
@@ -70,16 +95,26 @@ const Waitlist = () => {
         </p>
       </section>
 
-      <form ref={form} onSubmit={sendEmail} className="waitlist__field">
+      <form
+        //  ref={form}
+        // onSubmit={sendEmail}
+        className="waitlist__form"
+        onSubmit={(e) => Submit(e)}
+      >
         <input
           required
           value={emailValue}
           onChange={(e) => setEmailValue(e.target.value)}
           type="email"
-          name="user_email"
+          // name="user_email"
+          name="Email"
           placeholder="Email Address"
         />
-        <button type="submit" value="Send" onClick={modalHandler}>
+        <button
+          type="submit"
+          value="Submit"
+          // onClick={modalHandler}
+        >
           Join Wait list
         </button>
         {loading && (
