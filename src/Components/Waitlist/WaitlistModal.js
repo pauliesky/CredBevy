@@ -1,13 +1,13 @@
 import React from "react";
 import "./WaitlistModal.css";
 import cancelButton from "../Home/Images/cancelbutton.png";
-import tick from "../Home/Images/tick-circle.png";
+import party from "../Home/Images/Partying Face.png";
 import copyIcon from "../Home/Images/clipboard-text.png";
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export const WaitlistModal = ({ setOpenModal }) => {
+export const WaitlistModal = ({ setOpenModal, setOpenConfetti }) => {
   const [copyText, setCopyText] = useState("");
   const email = "https://www.credbevy.com/waitlist";
   const copyHandler = () => {
@@ -18,6 +18,8 @@ export const WaitlistModal = ({ setOpenModal }) => {
 
   const closeModal = () => {
     setOpenModal(false);
+    // setOpenConfetti(false);
+    console.log("close");
   };
 
   return (
@@ -28,7 +30,7 @@ export const WaitlistModal = ({ setOpenModal }) => {
             <img alt="cancel" src={cancelButton} />
           </button>
           <div className="Modal__main">
-            <img className="Modal__tick" alt="tick" src={tick} />
+            <img className="Modal__tick" alt="tick" src={party} />
             <p className="Modal__title">Thanks for Joining !!!</p>
             <p className="Modal__paragraph">Help us spread the word around</p>
             <div className="Modal__Box">

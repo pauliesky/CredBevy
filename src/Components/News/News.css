@@ -60,14 +60,14 @@ line-height: 32px; /* 200% */
   font-family: "Satoshi";
   width: 783px;
   border: none;
-  padding: 30px 529px 32px 64px;
+  padding: 30px 529px 32px 76px;
   outline: none;
   background-image: url('../Home/Images/search-normal.svg');
   background-repeat: no-repeat;
   display: flex;
 justify-content: center;
 align-items: center;
-background-position: 32px 20px; 
+background-position: 34px 20px; 
 
 }
 .News__grid-container {

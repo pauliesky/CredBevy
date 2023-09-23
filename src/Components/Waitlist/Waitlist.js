@@ -11,11 +11,16 @@ import WaitlistModal from "./WaitlistModal";
 // import { useRef } from "react";
 // import emailjs from "@emailjs/browser";
 import { PropagateLoader } from "react-spinners";
+import useWindowSize from "react-use/lib/useWindowSize";
+import Confetti from "react-confetti";
 
 const Waitlist = () => {
   const [openModal, setOpenModal] = useState(false);
+  const [openConfetti, setOpenConfetti] = useState(false);
   const [emailValue, setEmailValue] = useState("");
   const [loading, setLoading] = useState(false);
+
+  const { width, height } = useWindowSize();
 
   const modalHandler = () => {
     // setOpenModal(true);
@@ -72,11 +77,11 @@ const Waitlist = () => {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-       
       })
       .catch((error) => {
         setOpenModal(true);
         setLoading(false);
+        setOpenConfetti(true);
       });
   }
 
@@ -84,11 +89,16 @@ const Waitlist = () => {
     <>
       <section className="waitlist">
         <header className="waitlist__header">
-          <img alt="wait-list-logo" src={WaitlistLogo} />
           <p className="waitlist__title">
             <span>Jo</span>in our waitlist to get early access
           </p>
+          <img
+            className="waitlist-logo"
+            alt="wait-list-logo"
+            src={WaitlistLogo}
+          />
         </header>
+
         <p className="waitlist__paragraph">
           Loan marketplace where all your loan related needs are adequately and
           properly addressed
@@ -131,6 +141,17 @@ const Waitlist = () => {
         <img alt="waitlistImage_4" src={waitlistImage_4} />
         <img alt="waitlistImage_5" src={waitlistImage_5} />
       </section>
+
+      {openConfetti && (
+        <Confetti
+          recycle={false}
+          // run={true}
+          // tweenDuration={500}
+          width={width}
+          height={height}
+        />
+      )}
+
       {openModal && <WaitlistModal setOpenModal={setOpenModal} />}
     </>
   );
