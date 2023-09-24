@@ -145,4 +145,10 @@ cursor: pointer;
         font-weight: 500;
         line-height: normal;
         }
+
+        .Modal_Email{
+          
+            font-size: 12px;
+          
+            }
 }

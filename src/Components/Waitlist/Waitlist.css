@@ -118,7 +118,11 @@ cursor: pointer;
     padding-bottom: 115px;
 }
 
-@media screen and (max-width: 1000px) {
+/* .time-stamp{
+    display: block;
+} */
+
+@media screen and (max-width: 977px) {
 .waitlist__images{
     white-space: nowrap;
     overflow: auto;

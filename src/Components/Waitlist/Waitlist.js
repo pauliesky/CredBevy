@@ -14,10 +14,13 @@ import { PropagateLoader } from "react-spinners";
 import useWindowSize from "react-use/lib/useWindowSize";
 import Confetti from "react-confetti";
 
-const Waitlist = () => {
+const Waitlist = (e) => {
+  // const Timestamp = new Date();
+
   const [openModal, setOpenModal] = useState(false);
   const [openConfetti, setOpenConfetti] = useState(false);
   const [emailValue, setEmailValue] = useState("");
+  const [timeStamp, setTimeStamp] = useState();
   const [loading, setLoading] = useState(false);
 
   const { width, height } = useWindowSize();
@@ -25,8 +28,24 @@ const Waitlist = () => {
   const modalHandler = () => {
     // setOpenModal(true);
     // setLoading(true);
+    // console.log(event.timeStamp);
+    // console.log(timestamp);
   };
 
+  const handleChange = (e) => {
+    setEmailValue(e.target.value);
+    const date = new Date().toLocaleDateString("en-EN", {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "numeric",
+      minute: "numeric",
+      second: "numeric",
+    });
+    setTimeStamp(date);
+  };
+  // console.log(e.target);
   const override = {
     display: "block",
     margin: "auto",
@@ -35,30 +54,7 @@ const Waitlist = () => {
     top: "0px",
   };
 
-  // const form = useRef();
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-  //   setEmailValue("");
-  //   setLoading(true);
-
-  //   emailjs
-  //     .sendForm(
-  //       "service_oozd2gs",
-  //       "template_j5sn2gj",
-  //       form.current,
-  //       "2vBs31xnbRlbyw9nS"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         setOpenModal(true);
-  //         setLoading(false);
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  // };
+  console.log(timeStamp);
 
   function Submit(e) {
     const formEle = document.querySelector(".waitlist__form");
@@ -66,9 +62,10 @@ const Waitlist = () => {
     console.log("Submitted");
     setEmailValue("");
     setLoading(true);
+    // console.log(timestamp());
     const formDatab = new FormData(formEle);
     fetch(
-      "https://script.google.com/macros/s/AKfycbwQHIX981HHAQN8MdYwffK0snwhoAueEb3-OETDXDt-MCYGSTJQEhFRGW5RQv3_U9teCw/exec",
+      "https://script.google.com/macros/s/AKfycbxKLDWNSTlm_oLaojDFZktPK4tWqvwlqCADoLQK8kGPJsA0rYAExyhekJPtU97l0vguJQ/exec",
       {
         method: "POST",
         body: formDatab,
@@ -114,17 +111,20 @@ const Waitlist = () => {
         <input
           required
           value={emailValue}
-          onChange={(e) => setEmailValue(e.target.value)}
+          onChange={handleChange}
           type="email"
-          // name="user_email"
           name="Email"
           placeholder="Email Address"
         />
-        <button
-          type="submit"
-          value="Submit"
-          // onClick={modalHandler}
-        >
+        <input
+          className="time-stamp"
+          onChange={handleChange}
+          value={timeStamp}
+          name="Timestamp"
+          type="Timestamp"
+          hidden
+        />
+        <button type="submit" value="Submit" onClick={modalHandler}>
           Join Wait list
         </button>
         {loading && (
