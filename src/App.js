@@ -1,9 +1,9 @@
-import React, { lazy } from 'react';
+import React, { lazy } from "react";
 
-import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './Components/Home/Navbar';
-import Footer from './Components/Home/Footer'
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./Components/Home/Navbar";
+// import Footer from "./Components/Home/Footer";
 // import Home from ;
 import Contact from './Components/Contact/ContactUs'
 import AboutUs from './Components/AboutUs/AboutUs';
@@ -26,8 +26,7 @@ const Home = lazy(() => import('./Components/routes/Home'))
 
 
 function App() {
-
-  const displayMobile = MediaQuery('(max-width: 778px)')
+  const displayMobile = MediaQuery("(max-width: 778px)");
   // const showMenuRef = useRef(null)
   // useEffect(() => {
 
@@ -50,21 +49,24 @@ function App() {
         <ScrollToTop />
         {displayMobile ? <DropDown /> : <Navbar />}
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/aboutus' element={<AboutUs />} />
-          <Route path='/contactus' element={<Contact />} />
-          <Route path='/FAQs' element={<FAQs />} />
-          <Route path='/ScoreRating' element={<ScoreRating />} />
-          <Route path='/LoanOffers' element={<LoanOffers />} />
-          <Route path='/Transfer' element={<Transfer />} />
-          <Route path='/Bills' element={<Bills />} />
-          <Route path='/PartnersIntegrations' element={<PartnersIntegrations />} />
-          <Route path='/LendingPartners' element={<LendingPartners />} />
-          <Route path='/News' element={<News />} />
-          <Route path='/NewsSingle' element={<NewsSingle />} />
-          <Route path='/Terms&Conditions' element={<TermsAndConditions />} />
-          <Route path='/Calculator' element={<Calculator />} />
-          <Route path='/Waitlist' element={<Waitlist />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact-us" element={<Contact />} />
+          <Route path="/faqs" element={<FAQs />} />
+          <Route path="/score-rating" element={<ScoreRating />} />
+          <Route path="/loan-offers" element={<LoanOffers />} />
+          <Route path="/transfer" element={<Transfer />} />
+          <Route path="/bills" element={<Bills />} />
+          <Route
+            path="/partners-integrations"
+            element={<PartnersIntegrations />}
+          />
+          <Route path="/lending-partners" element={<LendingPartners />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/news-article" element={<NewsSingle />} />
+          <Route path="/terms&condition" element={<TermsAndConditions />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/waitlist" element={<Waitlist />} />
         </Routes>
         {/* <Footer /> */}
       </Router>

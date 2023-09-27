@@ -47,7 +47,7 @@ export default function Highlights() {
                 more.
               </p>
             </div>
-            <Link to="/Waitlist" style={{ textDecoration: "none" }}>
+            <Link to="/waitlist" style={{ textDecoration: "none" }}>
               <Button
                 className="highlight-button__container   mobile__highlightbutton-container "
                 label={"Get Started"}

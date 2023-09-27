@@ -30,7 +30,7 @@ function Footer() {
                 </div>
                 <h5 className="footer__links">Features</h5>
                 <Link
-                  to="/PartnersIntegrations"
+                  to="/partners-integrations"
                   style={{ textDecoration: "none" }}
                 >
                   <h5 className="footer__links">Integrations</h5>
@@ -47,7 +47,7 @@ function Footer() {
                 </div>
 
                 <h5 className="footer__links">Guides</h5>
-                <Link to="/Calculator" style={{ textDecoration: "none" }}>
+                <Link to="/calculator" style={{ textDecoration: "none" }}>
                   <h5 className="footer__links">EMI Calculator</h5>
                 </Link>
 
@@ -61,17 +61,17 @@ function Footer() {
                     <i className="bx bx-chevron-down"></i>
                   </div>
                 </div>
-                <Link to="/aboutus" style={{ textDecoration: "none" }}>
+                <Link to="/about-us" style={{ textDecoration: "none" }}>
                   <h5 className="footer__links">About</h5>
                 </Link>
-                <Link to="/contactus" style={{ textDecoration: "none" }}>
+                <Link to="/contact-us" style={{ textDecoration: "none" }}>
                   <h5 className="footer__links">Contact</h5>
                 </Link>
-                <Link to="/News" style={{ textDecoration: "none" }}>
+                <Link to="/news" style={{ textDecoration: "none" }}>
                   <h5 className="footer__links">Media</h5>
                 </Link>
 
-                <Link to="/LendingPartners" style={{ textDecoration: "none" }}>
+                <Link to="/lending-partners" style={{ textDecoration: "none" }}>
                   <h5 className="footer__links">Partners</h5>
                 </Link>
                 <h5 className="footer__links">Team</h5>
@@ -90,7 +90,7 @@ function Footer() {
 
             <div className="footer2-text2">
               <div className="under_line">Privacy</div>
-              <Link to="/Terms&Conditions" style={{ textDecoration: "none" }}>
+              <Link to="/terms&conditions" style={{ textDecoration: "none" }}>
                 <div className="under_line">Terms of Service</div>
               </Link>
               <div className="under_line">Cookies Settings</div>

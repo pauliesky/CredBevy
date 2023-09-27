@@ -30,9 +30,9 @@ function News() {
       </div>
       <div className="News__grid-container">
         <div className="News__grid-item1">
-          <img alt="news"  className="News__grid-item1-image" />
+          <img alt="news" className="News__grid-item1-image" />
           <div className="News__grid-item1-content">
-            <Link to="/NewsSingle" style={{ textDecoration: "none" }}>
+            <Link to="/news-article" style={{ textDecoration: "none" }}>
               <div className="News__grid-item1-content-head">
                 <h4>
                   Credbevy raises unknown amount in undisclosed round funding{" "}
