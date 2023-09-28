@@ -40,7 +40,7 @@ function NewsSingle() {
   // );
   // }
 
-  const pageTitle = "Credbevy";
+  const pageTitle = "Credbevy raises unknown amount in undisclosed round funding";
   const pageUrl = "https://cred-bevy.vercel.app/NewsSingle";
 
   return (
@@ -53,7 +53,7 @@ function NewsSingle() {
       </Helmet>
       <div className="NewsSingle__Section-1">
         <div className="NewsSingle__Section-1-title">
-          Credbevy raises unknown amount in undisclosed round funding
+          {pageTitle}
         </div>
         <div className="NewsSingle__Section-1-image"></div>
         <div className="NewsSingle__Section-1-socials">

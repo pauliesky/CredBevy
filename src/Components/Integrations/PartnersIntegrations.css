@@ -66,6 +66,18 @@
   /* Text colour */
   color: black;
 }
+.partners_button__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 25px;
+    background: var(--purple);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    height: 55px;
+}
 .PartnersIntegration__1-body {
   width: 410px;
   height: 72px;

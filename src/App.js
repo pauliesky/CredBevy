@@ -27,22 +27,6 @@ const Home = lazy(() => import('./Components/routes/Home'))
 
 function App() {
   const displayMobile = MediaQuery("(max-width: 778px)");
-  // const showMenuRef = useRef(null)
-  // useEffect(() => {
-
-  //   const pageClickEvent = (e) => {
-  //     if (showMenuRef.current !== null && !showMenuRef.current.contains(e.target)) {
-  //       Navbar(!Navbar);
-  //     }
-  //   }
-  //   if (Navbar) {
-  //     window.addEventListener('click', pageClickEvent)
-  //   }
-  //   return () => {
-  //     window.removeEventListener('click', pageClickEvent)
-  //   }
-  // }, [Navbar])
-
   return (
     <div className="App">
       <Router>

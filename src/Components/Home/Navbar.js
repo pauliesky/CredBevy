@@ -2,12 +2,19 @@ import React, { useState, useEffect, useRef } from "react";
 import "./Navbar.css";
 import logoImg from "../Home/Images/Credbevy Logo.svg";
 import { Link } from "react-router-dom";
-import Features from "./Features";
-import Partners from "./Partners";
-import Company from "./Company";
+// import Features from "./Features";
+// import Partners from "./Partners";
+// import Company from "./Company";
 import Button from "./Utilities/Button";
 import { UilAlignRight } from "@iconscout/react-unicons";
 import { UilTimes } from "@iconscout/react-unicons";
+import { lazy } from "react";
+
+const Features = lazy(() => import("./Features"))
+const Partners = lazy(() => import("./Partners"))
+const Company = lazy(() => import("./Company"))
+
+
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
