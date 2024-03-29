@@ -43,7 +43,7 @@
   gap: 8px;
 }
 .NewsSingle__Section-1-body {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -147,8 +147,7 @@
   height: 55px;
   padding: 2rem;
   border: none;
-font-family: "Satoshi";
-
+  font-family: "General Sans";
 }
 .newsletter {
   background: var(--gray);
@@ -157,8 +156,7 @@ font-family: "Satoshi";
   justify-content: center;
   align-items: center;
   margin-top: 10rem;
-  font-family: "Satoshi";
-
+  font-family: "General Sans";
 }
 .newsletter-content {
   display: flex;
@@ -178,7 +176,7 @@ font-family: "Satoshi";
   height: 60px;
 }
 .newsletter-content-footer {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -226,7 +224,7 @@ font-family: "Satoshi";
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
-  color: var(--purple);
+  color: var(--green);
   margin-bottom: 2.5rem;
 }
 .newssingle__related-articles-content-title {
@@ -245,7 +243,7 @@ font-family: "Satoshi";
   width: 290px;
   height: 96px;
 
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -266,7 +264,7 @@ font-family: "Satoshi";
   padding: 17px 25px;
   width: 140px;
   height: 55px;
-  background: var(--purple);
+  background: var(--green);
   border-radius: 30px;
   border: none;
   cursor: pointer;
@@ -317,7 +315,7 @@ font-family: "Satoshi";
   }
 
   .NewsSingle__Section-1-body {
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -361,7 +359,7 @@ font-family: "Satoshi";
   .related-articles-content {
     width: 396px;
     margin-top: 5rem;
-   
+
     height: 1000px;
   }
   .newssingle__related-articles-content {
@@ -371,7 +369,7 @@ font-family: "Satoshi";
     align-items: center;
     height: 589px;
     gap: 3rem;
-   
+
     margin-top: 30rem;
     /* margin-bottom: 480rem; */
   }
@@ -413,7 +411,7 @@ font-family: "Satoshi";
     width: 396px;
     height: 72px;
 
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 12px;

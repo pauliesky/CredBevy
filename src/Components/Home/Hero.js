@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import ImgPink from "./Images/Ellipse 1.png";
 import ImgPink1 from "./Images/Ellipse 5.png";
-import ImgPurple from "./Images/Ellipse 4.png";
+import Imggreen from "./Images/Ellipse 4.png";
 import ImgBlue from "./Images/Ellipse 3.png";
 import DownloadButton from "./Utilities/DownloadButton";
 import { UilAppleAlt } from "@iconscout/react-unicons";
@@ -22,18 +22,19 @@ export default function Hero() {
         <div className="hero__container">
           <img alt="ellipse 1" className="pink" src={ImgPink}></img>
           <img alt="ellipse 2" className="pink1" src={ImgPink1}></img>
-          <img alt="ellipse 3" className="purple" src={ImgPurple}></img>
+          <img alt="ellipse 3" className="green" src={Imggreen}></img>
           <img alt="ellipse 4" className="blue" src={ImgBlue}></img>
           <div className="hero__title">
             <p className="hero__title-head">
-              Borrow Better, Lend <br /> Smarter, Thrive Together
+              Redefining Lending with
+              <br /> Artificial Intelligence
             </p>
 
             <div className="hero__title-text">
               <p>
-                Don't waste time shopping around for the best loan offers. Our
-                loan marketplace lets you compare multiple options in one
-                convenient place
+                Harness the power of AI to secure loans tailored to your unique
+                financial profile. Experience seamless, efficient, and fair
+                lending like never before
               </p>
             </div>
           </div>

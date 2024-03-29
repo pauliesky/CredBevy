@@ -1,121 +1,119 @@
-
-
-.waitlist{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 133px;
+.waitlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 133px;
 }
 
-.waitlist__header{
-    max-width: 695px;
-    width: 100%;
-    position: relative;
-    margin: auto;
+.waitlist__header {
+  max-width: 695px;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 
-.waitlist-logo{
- position: absolute;
- top: 0;
+.waitlist-logo {
+  position: absolute;
+  top: 0;
 }
 
-.loader__modal{
-    display: flex; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    /* padding-top: 20px;  */
-    margin: auto;
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background: rgba(0, 0, 0, 0.40);
-    /* z-index: 10; */
+.loader__modal {
+  display: flex; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  /* padding-top: 20px;  */
+  margin: auto;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background: rgba(0, 0, 0, 0.4);
+  /* z-index: 10; */
 }
-.waitlist__title{
-    font-family: 'Recoleta Alt';
-    font-weight: 700;
-    font-size: 64px;
-    position: absolute;
-   color:  #333333;
-   text-align: center;
-   z-index: 1;
-}
-
-.waitlist__title >span{
-    color: white;
+.waitlist__title {
+  font-family: "Recoleta Alt";
+  font-weight: 700;
+  font-size: 64px;
+  position: absolute;
+  color: #333333;
+  text-align: center;
+  z-index: 1;
 }
 
-.waitlist__paragraph{
-font-family:"Satoshi";
-font-weight: 700;
-font-size: 14px;
-text-align: center;
-width: 405px;
-color: #333333;
-margin-top:200px;
-}
-.waitlist__form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    margin-top: 86px;
-    font-family: "Satoshi";
-    margin: 16px;
+.waitlist__title > span {
+  color: white;
 }
 
-.waitlist__form > input{
-     max-width: 506px;
-    width: 100%;
-     padding: 13px 12px;
-    border-radius: 4px;
-    border: none;
-    height: 55px;
-font-family: "Satoshi";
-/* margin: auto; */
+.waitlist__paragraph {
+  font-family: "General Sans";
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  width: 405px;
+  color: #333333;
+  margin-top: 200px;
+}
+.waitlist__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 86px;
+  font-family: "General Sans";
+  margin: 16px;
 }
 
-input:focus{
-    border-color: #FFF;
-}
-::placeholder{
-color: #8A8B9F;
-font-family: "Satoshi";
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 32px; 
-}
-
-.waitlist__form > button{
-    display: flex;
-padding: 17px 30px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 30px;
-background: #7E1F86;
-color: #FFF;
-font-family:'Satoshi';
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%; 
-border: none;
-cursor: pointer;
+.waitlist__form > input {
+  max-width: 506px;
+  width: 100%;
+  padding: 13px 12px;
+  border-radius: 4px;
+  border: none;
+  height: 55px;
+  font-family: "General Sans";
+  /* margin: auto; */
 }
 
-.waitlist__images{
-    display: grid;
-    grid-template-columns: repeat(5, 200px);
-    align-items: center;
-    justify-content: center;
-    /* gap: 40px; */
-    margin-top: 115px;
-    padding-bottom: 115px;
+input:focus {
+  border-color: #fff;
+}
+::placeholder {
+  color: #8a8b9f;
+  font-family: "General Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.waitlist__form > button {
+  display: flex;
+  padding: 17px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #156064;
+  color: #fff;
+  font-family: "General Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  border: none;
+  cursor: pointer;
+}
+
+.waitlist__images {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  align-items: center;
+  justify-content: center;
+  /* gap: 40px; */
+  margin-top: 115px;
+  padding-bottom: 115px;
 }
 
 /* .time-stamp{
@@ -123,54 +121,52 @@ cursor: pointer;
 } */
 
 @media screen and (max-width: 977px) {
-.waitlist__images{
+  .waitlist__images {
     white-space: nowrap;
     overflow: auto;
     /* padding-left: 530px; */
-}
+  }
 }
 
 @media screen and (max-width: 778px) {
-
-    .waitlist__header{
-        max-width: 395px;
-        width: 100%;
-        position: relative;
-        margin: auto;
-    }
-    .waitlist-logo{
-        width: 45px;
-        position: absolute;
-        left: 10px;
-    }
-    .waitlist__title{
-        font-family: 'Recoleta Alt';
-        font-weight: 700;
-        font-size: 32px;
-        position: absolute;
-        top: 0;
-        left: 0;
-       color:  #333333;
-       text-align: center;
-    }
-    .waitlist__paragraph{
-        font-family:"Satoshi";
-        font-weight: 700;
-        font-size: 14px;
-        text-align: center;
-        max-width: 405px;
-        width: 100%;
-        color: #333333;
-        margin-top:100px;
-    }
-    .waitlist__form{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 16px;
-        margin-top: 86px;
-        font-family: "Satoshi";
-    }
-    
+  .waitlist__header {
+    max-width: 395px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  .waitlist-logo {
+    width: 45px;
+    position: absolute;
+    left: 10px;
+  }
+  .waitlist__title {
+    font-family: "Recoleta Alt";
+    font-weight: 700;
+    font-size: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #333333;
+    text-align: center;
+  }
+  .waitlist__paragraph {
+    font-family: "General Sans";
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    max-width: 405px;
+    width: 100%;
+    color: #333333;
+    margin-top: 100px;
+  }
+  .waitlist__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 86px;
+    font-family: "General Sans";
+  }
 }

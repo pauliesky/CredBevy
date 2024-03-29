@@ -6,7 +6,7 @@
   align-items: center;
 }
 .scoreRate__head {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -81,8 +81,8 @@
 .scoreRate__1-body {
   z-index: 10;
   max-width: 410px;
-width: 100%;
-  font-family: "Satoshi";
+  width: 100%;
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -121,7 +121,7 @@ width: 100%;
   margin-left: 1rem;
 }
 .scoreRate__body-2__content-1-head {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -131,7 +131,7 @@ width: 100%;
   color: var(--black);
 }
 .scoreRate__body-2__content-1-body {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -161,17 +161,17 @@ width: 100%;
   margin-right: 1rem;
 }
 .scoreRate__body-2__content-2-head {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
   line-height: 133%;
   max-width: 393px;
-  width:100%;
+  width: 100%;
   color: var(--black);
 }
 .scoreRate__body-2__content-2-body {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -194,7 +194,7 @@ width: 100%;
   padding: 17px 25px;
   width: 140px;
   height: 55px;
-  background: var(--purple);
+  background: var(--green);
   border-radius: 30px;
   border: none;
   cursor: pointer;
@@ -203,7 +203,7 @@ width: 100%;
   .scoreRate__title {
     max-width: 216px;
     width: 100%;
-      font-family: "Recoleta Alt";
+    font-family: "Recoleta Alt";
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -241,7 +241,7 @@ width: 100%;
   .scoreRate__1-body {
     max-width: 305px;
     width: 100%;
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -268,7 +268,7 @@ width: 100%;
     padding: 17px 25px;
     width: 140px;
     height: 55px;
-    background: var(--purple);
+    background: var(--green);
     border-radius: 30px;
     border: none;
     cursor: pointer;
@@ -296,18 +296,18 @@ width: 100%;
     gap: 1.5rem;
   }
   .scoreRate__body-2__content-1-head {
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 133%;
     max-width: 350px;
-width: 100%;
+    width: 100%;
     color: var(--black);
   }
 
   .scoreRate__body-2__content-1-body {
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -339,7 +339,7 @@ width: 100%;
   }
 
   .scoreRate__body-2__content-2-head {
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -350,7 +350,7 @@ width: 100%;
   }
 
   .scoreRate__body-2__content-2-body {
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;

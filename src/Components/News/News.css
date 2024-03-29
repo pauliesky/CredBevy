@@ -22,7 +22,7 @@
 }
 .News__head-body {
   margin-top: 1.5rem;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -43,32 +43,29 @@
   margin-top: 4rem;
 }
 
-::placeholder{
-  font-family: "Satoshi";
-  color:  #8A8B9F;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 32px; /* 200% */
-
+::placeholder {
+  font-family: "General Sans";
+  color: #8a8b9f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
 }
-
 
 .News__searchbar > input {
   background: var(--white);
   border-radius: 4px;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   width: 783px;
   border: none;
   padding: 30px 529px 32px 76px;
   outline: none;
-  background-image: url('../Home/Images/search-normal.svg');
+  background-image: url("../Home/Images/search-normal.svg");
   background-repeat: no-repeat;
   display: flex;
-justify-content: center;
-align-items: center;
-background-position: 34px 20px; 
-
+  justify-content: center;
+  align-items: center;
+  background-position: 34px 20px;
 }
 .News__grid-container {
   margin-top: 6.2rem;
@@ -111,7 +108,7 @@ background-position: 34px 20px;
   color: var(--gray);
 }
 .News__grid-item1-content-body {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -136,13 +133,13 @@ background-position: 34px 20px;
   background: #e5eaef;
 }
 
-.News__grid-item1-content-profile-name{
+.News__grid-item1-content-profile-name {
   color: #333;
-font-family:"Satoshi";
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 16px; 
+  font-family: "General Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
 }
 .news__pagination {
   display: flex;
@@ -189,7 +186,7 @@ line-height: 16px;
     width: 327px;
     height: 71px;
 
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -209,11 +206,9 @@ line-height: 16px;
     height: 72px;
     padding: 2rem;
     border: none;
-  font-family: "Satoshi";
-
+    font-family: "General Sans";
   }
   .News__grid-container {
-    
     margin-top: 6.2rem;
     display: grid;
     grid-template-columns: auto;
@@ -268,7 +263,7 @@ line-height: 16px;
     height: 128px;
     padding-left: 0.5rem;
 
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

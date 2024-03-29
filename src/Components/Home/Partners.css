@@ -30,7 +30,7 @@
 }
 .partners__content-1 h3,
 .partners__content-2 h3 {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -39,17 +39,17 @@
 }
 .partners__content-1 h4,
 .partners__content-2 h4 {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 117%;
-  color: var(--purple);
+  color: var(--green);
   margin-bottom: 8px;
 }
 .partners__content-1 p,
 .partners__content-2 p {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -83,7 +83,7 @@
   z-index: 10;
 }
 .partners-content-3-text {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -101,7 +101,7 @@
   z-index: 10;
 }
 .partners__footer {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -116,7 +116,7 @@
   padding: 17px 25px;
   width: 140px;
   height: 55px;
-  background: var(--purple);
+  background: var(--green);
   border-radius: 30px;
   border: none;
   cursor: pointer;

@@ -19,8 +19,8 @@
   align-items: center;
   cursor: pointer;
 }
-.Title >h2 {
-  font-family: "Satoshi";
+.Title > h2 {
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -31,7 +31,7 @@
   max-height: 0;
   overflow: hidden;
   margin: 1rem 0rem;
-  font-family: "Satoshi";
+  font-family: "General Sans";
 
   /* transition: all 0.5s cubic-bezier(0, 1, 0, 1); */
 }
@@ -40,8 +40,7 @@
   max-height: 9999px;
   /* transition: all 0.5s cubic-bezier(1, 0, 1, 0); */
   line-height: 1.5rem;
-  font-family: "Satoshi";
-
+  font-family: "General Sans";
 }
 
 .Faqs__container {
@@ -52,7 +51,7 @@
   margin-top: 7rem;
 }
 .Faqs__head {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -118,7 +117,7 @@
   }
 
   .Title h2 {
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 12px;

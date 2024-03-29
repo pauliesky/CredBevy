@@ -6,7 +6,7 @@
   align-items: center;
 }
 .PartnersIntegration__head {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -66,22 +66,22 @@
   /* Text colour */
   color: black;
 }
-.partners_button__container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 17px 25px;
-    background: var(--purple);
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-    width: 140px;
-    height: 55px;
+.partners_button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 25px;
+  background: var(--green);
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  width: 140px;
+  height: 55px;
 }
 .PartnersIntegration__1-body {
   width: 410px;
   height: 72px;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -104,14 +104,14 @@
   left: 52px;
   top: 348px;
   /* Primary Colour */
-  background: var(--purple);
+  background: var(--green);
   border-radius: 30px;
 }
 .PartnersIntegration__1-button p {
   width: 80px;
   height: 21px;
 
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -167,7 +167,7 @@
 .PartnersIntegration__2-body {
   width: 410px;
   height: 72px;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -190,14 +190,14 @@
   left: 52px;
   top: 348px;
   /* Primary Colour */
-  background: var(--purple);
+  background: var(--green);
   border-radius: 30px;
 }
 .PartnersIntegration__2-button p {
   width: 80px;
   height: 21px;
 
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -253,7 +253,7 @@
 .PartnersIntegration__3-body {
   width: 410px;
   height: 72px;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -276,14 +276,14 @@
   left: 52px;
   top: 348px;
   /* Primary Colour */
-  background: var(--purple);
+  background: var(--green);
   border-radius: 30px;
 }
 .PartnersIntegration__3-button p {
   width: 80px;
   height: 21px;
 
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -339,7 +339,7 @@
 .PartnersIntegration__4-body {
   width: 410px;
   height: 72px;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -362,14 +362,14 @@
   left: 52px;
   top: 348px;
   /* Primary Colour */
-  background: var(--purple);
+  background: var(--green);
   border-radius: 30px;
 }
 .PartnersIntegration__4-button p {
   width: 80px;
   height: 21px;
 
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -425,7 +425,7 @@
 .PartnersIntegration__5-body {
   width: 410px;
   height: 72px;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -448,14 +448,14 @@
   left: 52px;
   top: 348px;
   /* Primary Colour */
-  background: var(--purple);
+  background: var(--green);
   border-radius: 30px;
 }
 .PartnersIntegration__5-button p {
   width: 80px;
   height: 21px;
 
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;

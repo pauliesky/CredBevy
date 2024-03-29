@@ -19,7 +19,7 @@
   left: 13%;
   top: 30%;
 }
-.purple {
+.green {
   position: absolute;
   left: 80%;
   top: 80%;
@@ -30,16 +30,16 @@
   top: 20%;
 }
 .hero__title {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 3rem;
-
+  z-index: 1;
 }
 
 .hero__title-head {
-
   font-family: "Recoleta Alt";
   font-style: normal;
   font-weight: 700;
@@ -50,7 +50,7 @@
   margin-top: 3rem;
 }
 .hero__title-text {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -62,8 +62,8 @@
   max-width: 832px;
   width: 100%;
 }
-#purple {
-  color: var(--purple);
+#green {
+  color: var(--green);
 }
 .hero__download-button {
   margin-top: 2.5rem;
@@ -86,7 +86,7 @@
 .download__button-text {
   width: 100px;
   height: 32px;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -115,7 +115,7 @@
     left: 23%;
     top: 23%;
   }
-  .purple {
+  .green {
     width: 10px;
     position: absolute;
     left: 82%;
@@ -146,12 +146,12 @@
   }
 
   .hero__title-text {
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-     text-align: center;
+    text-align: center;
     margin-top: 1rem;
     color: var(--gray);
     max-width: 374px;
@@ -186,11 +186,10 @@
   .mobile-download__button-text {
     width: 83px;
     height: 28px;
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 117%;
-  
   }
 }

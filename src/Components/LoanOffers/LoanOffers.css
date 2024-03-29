@@ -6,7 +6,7 @@
   align-items: center;
 }
 .loanOffer__head {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -67,7 +67,7 @@
 }
 .loanOffer__1-body {
   max-width: 410px;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -104,7 +104,7 @@
   gap: 2rem;
 }
 .loanOffer__body-2__content-1-head {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -113,7 +113,7 @@
   width: 100%;
 }
 .loanOffer__body-2__content-1-body {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -142,7 +142,7 @@
   gap: 2rem;
 }
 .loanOffer__body-2__content-2-head {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -151,7 +151,7 @@
   width: 100%;
 }
 .loanOffer__body-2__content-2-body {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -172,7 +172,7 @@
   padding: 17px 25px;
   width: 140px;
   height: 55px;
-  background: var(--purple);
+  background: var(--green);
   border-radius: 30px;
   border: none;
   cursor: pointer;
@@ -238,7 +238,7 @@
   .loanOffer__1-body {
     max-width: 305px;
     width: 100%;
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -257,7 +257,7 @@
     padding: 17px 25px;
     width: 140px;
     height: 55px;
-    background: var(--purple);
+    background: var(--green);
     border-radius: 30px;
     border: none;
     cursor: pointer;
@@ -300,19 +300,19 @@
 
   .loanOffer__body-2__content-1-head {
     max-width: 366px;
-    width: 100%;    
-    font-family: "Satoshi";
+    width: 100%;
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 133%;
-    padding: 0rem .5rem;
-     color: var(--black);
+    padding: 0rem 0.5rem;
+    color: var(--black);
   }
 
   -body {
     width: 348px;
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -344,7 +344,7 @@
   .loanOffer__body-2__content-2-head {
     max-width: 364px;
     width: 100%;
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -355,7 +355,7 @@
   .loanOffer__body-2__content-2-body {
     max-width: 348px;
     width: 100%;
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;

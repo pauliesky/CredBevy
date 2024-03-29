@@ -129,7 +129,7 @@ const Waitlist = (e) => {
         </button>
         {loading && (
           <div className="loader__modal">
-            <PropagateLoader cssOverride={override} color="#7E1F86" />
+            <PropagateLoader cssOverride={override} color="#156064" />
           </div>
         )}
       </form>

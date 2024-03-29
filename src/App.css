@@ -1,11 +1,10 @@
-:root{
-  --purple: #7E1F86;
-  --black:#111111;
-  --light-gray:#8C8C8C;
-  --gray:#333333;
-  --pink:#fef9fe;
-  --white:#ffffff;
-
+:root {
+  --green: #156064;
+  --black: #111111;
+  --light-gray: #8c8c8c;
+  --gray: #333333;
+  --pink: #fef9fe;
+  --white: #ffffff;
 }
 
 @font-face {
@@ -13,19 +12,22 @@
   src: url(./Components/fonts/Recoleta/RecoletaAlt-Bold.ttf);
 }
 
-@font-face {
+/* @font-face {
   font-family: "Satoshi";
   src: url(./Components/fonts/Satoshi/Satoshi-Regular.ttf);
+} */
+
+@font-face {
+  font-family: "General Sans";
+  src: url(./Components/fonts/GeneralSan/Fonts/WEB/fonts/GeneralSans-Regular.ttf);
 }
 
 .App {
   background-color: var(--pink);
   /* background: red; */
-font-family: "Satoshi";
-/* height: 100vh; */
-
+  font-family: "Satoshi";
+  /* height: 100vh; */
 }
-
 
 * {
   margin: 0;
@@ -34,8 +36,7 @@ font-family: "Satoshi";
 }
 
 @media screen and (max-width: 778px) {
-.opacity{
-  /* opacity: 0.05; */
-}
-
+  .opacity {
+    /* opacity: 0.05; */
+  }
 }

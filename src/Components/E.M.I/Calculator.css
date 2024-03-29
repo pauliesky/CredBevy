@@ -24,7 +24,7 @@
   color: var(--black);
 }
 .calculator-subtitle {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -68,7 +68,7 @@
 .calculator-form-input label {
   height: 19px;
 
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -83,9 +83,9 @@
 .calculator-form-input input {
   width: 359px;
   border: none;
- padding: 2rem;
- font-size: 1rem;
- font-family: "Satoshi";
+  padding: 2rem;
+  font-size: 1rem;
+  font-family: "General Sans";
   background: #f5f5f5;
   border-radius: 8px;
 }
@@ -100,10 +100,10 @@
 
   /* Primary */
 
-  color: var(--purple);
+  color: var(--green);
 }
 .calculator-content-body {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -116,7 +116,7 @@
   color: var(--gray);
 }
 .calculator-content-footer {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -134,12 +134,11 @@
   padding: 17px 25px;
   width: 140px;
   height: 55px;
-  background: var(--purple);
+  background: var(--green);
   border-radius: 30px;
   border: none;
   cursor: pointer;
 }
-
 
 @media screen and (max-width: 778px) {
   .calculator-container {
@@ -168,7 +167,7 @@
     width: 322px;
     height: 64px;
 
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -211,7 +210,7 @@
   .calculator-form-input label {
     width: 191px;
     height: 19px;
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -247,14 +246,14 @@
 
     text-align: center;
 
-    color: var(--purple);
+    color: var(--green);
   }
 
   .calculator-content-body {
     width: 396px;
     height: 576px;
 
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -274,7 +273,7 @@
     left: 16px;
     top: 1831px;
 
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

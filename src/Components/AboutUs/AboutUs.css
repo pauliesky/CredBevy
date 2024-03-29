@@ -7,7 +7,7 @@
 }
 
 .aboutUs__head {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -59,7 +59,7 @@
 }
 
 .aboutUs__body-1-text p {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -126,7 +126,7 @@
   }
 
   .aboutUs__body-1-text p {
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

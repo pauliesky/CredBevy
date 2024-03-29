@@ -14,7 +14,7 @@ const DropDownLink = styled(Link)`
   gap: 15rem;
   // width: 63px;
   height: 21px;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -29,7 +29,7 @@ const SideBarLabel = styled.span`
   // height: 19px;
   background: white;
 
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -42,7 +42,7 @@ const SideBarLabel = styled.span`
 
 const DropdownTitle = styled.div`
   width: 3.5rem;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -67,7 +67,7 @@ const SideBarLabel2 = styled.span`
   // height: 19px;
   background: white;
 
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -75,7 +75,7 @@ const SideBarLabel2 = styled.span`
   /* identical to box height, or 21px */
   // margin-top:1rem;
   /* Primary */
-  color: var(--purple);
+  color: var(--green);
   padding: 0rem 0rem 0rem 2rem;
 `;
 

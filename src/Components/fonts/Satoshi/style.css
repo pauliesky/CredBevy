@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'Satoshi';
-    src: local('Satoshi Black'), local('Satoshi-Black'),
-        url('Satoshi-Black.woff2') format('woff2'),
-        url('Satoshi-Black.woff') format('woff'),
-        url('Satoshi-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-  }
+  font-family: "General Sans";
+  src: local("General Sans Black"), local("General Sans-Black"),
+    url("General Sans-Black.woff2") format("woff2"),
+    url("General Sans-Black.woff") format("woff"),
+    url("General Sans-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}

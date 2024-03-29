@@ -10,10 +10,9 @@
   align-items: center;
   padding: 2.1rem 1.4rem;
   gap: 28px;
-
 }
 .t-name {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -23,7 +22,7 @@
   color: #f4c418;
 }
 .T-Review {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -42,7 +41,7 @@
   padding: 0px;
 }
 .T-btn p {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -57,20 +56,16 @@
   width: 25px;
 }
 @media screen and (max-width: 778px) {
-
-.test {
-  text-align: center;
-  width: 324px;
-  height: 286.89px;
-  background: var(--white);
-  border-radius: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2.1rem 1.4rem;
-  gap: 28px;
-
-}
-
-
+  .test {
+    text-align: center;
+    width: 324px;
+    height: 286.89px;
+    background: var(--white);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.1rem 1.4rem;
+    gap: 28px;
+  }
 }

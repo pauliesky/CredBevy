@@ -14,7 +14,6 @@
   margin: 6.25rem 5rem;
 }
 
-
 .download__overlay {
   max-width: 1042px;
   width: 100%;
@@ -29,7 +28,7 @@
   z-index: 10;
 }
 .download-container {
-  background: rgba(128, 3, 205, 1);
+  background: #156064;
   width: 1042px;
   height: 380px;
   border-radius: 20px;
@@ -93,7 +92,7 @@
 .download__button-text {
   width: 100px;
   height: 32px;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -144,8 +143,7 @@
     position: relative;
     margin: 4.4rem 1rem;
     border-radius: 50px;
-  overflow: hidden;
-
+    overflow: hidden;
   }
   .download-container-title {
     height: 72px;

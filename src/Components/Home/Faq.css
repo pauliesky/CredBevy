@@ -40,7 +40,7 @@
   cursor: pointer;
 }
 .title > h2 {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -50,7 +50,7 @@
   max-height: 0;
   overflow: hidden;
   margin: 1rem 0rem;
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -69,8 +69,7 @@
   max-height: 9999px;
   /* transition: all 0.5s cubic-bezier(1, 0, 1, 0); */
   line-height: 1.5rem;
-  font-family: "Satoshi";
-
+  font-family: "General Sans";
 }
 .faq__btn {
   display: flex;
@@ -78,14 +77,14 @@
   align-items: center;
 }
 .faq__btn-content {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 150%;
   color: var(--white);
   width: 10rem;
-  background: var(--purple);
+  background: var(--green);
   border-radius: 30px;
   padding: 17px 30px;
   height: 55px;
@@ -101,7 +100,7 @@
   padding: 17px 25px;
   width: 140px;
   height: 55px;
-  background: var(--purple);
+  background: var(--green);
   border-radius: 30px;
   border: none;
   cursor: pointer;
@@ -138,7 +137,7 @@
   }
 
   .title h2 {
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -147,14 +146,14 @@
   }
 
   .faq__btn-content {
-    font-family: "Satoshi";
+    font-family: "General Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 150%;
     color: var(--white);
     width: 10rem;
-    background: var(--purple);
+    background: var(--green);
     border-radius: 30px;
     padding: 17px 30px;
     height: 55px;

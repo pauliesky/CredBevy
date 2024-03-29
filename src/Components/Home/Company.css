@@ -1,21 +1,18 @@
 .company {
-background: red;
+  background: red;
   width: 100%;
   /* max-width: 503px; */
   display: flex;
   align-items: center;
   justify-content: center;
-
-
 }
 
-.dropdown__holder{
+.dropdown__holder {
   position: relative;
   background: blue;
   width: 494px;
 }
 .company__container {
-
   animation: fadeIn 0s forwards;
   display: flex;
   flex-direction: row;
@@ -42,7 +39,7 @@ background: red;
   gap: 2rem;
 }
 .company__content-link {
-  font-family: "Satoshi";
+  font-family: "General Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;

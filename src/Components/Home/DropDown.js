@@ -94,7 +94,7 @@ const DropDownWrap = styled.div`
   z-index: 10;
 `;
 const OverLay = styled.div`
-  background: var(--purple);
+  background: var(--green);
   opacity: 0.05;
   position: absolute;
   height: 80vh;
@@ -135,13 +135,14 @@ function DropDown() {
   return (
     <>
       <Nav>
-        <NavImage to='/'>
-<Link to='/' >
-<img className="mobile_navbar__image"
-    src={logoImg}
-    alt="logo-img"></img>
-</Link>
-         
+        <NavImage to="/">
+          <Link to="/">
+            <img
+              className="mobile_navbar__image"
+              src={logoImg}
+              alt="logo-img"
+            ></img>
+          </Link>
         </NavImage>
         <NavIcon
           onClick={() => {
@@ -156,14 +157,13 @@ function DropDown() {
         <DropDownNav dropDown={dropDown}>
           <NavItems>
             <NavLogo>
-              <Link to='/' >    
-              <img
-                className="mobile_navbar__image"
-                src={logoImg}
-                alt="logo-img"
-              ></img>
+              <Link to="/">
+                <img
+                  className="mobile_navbar__image"
+                  src={logoImg}
+                  alt="logo-img"
+                ></img>
               </Link>
-              
             </NavLogo>
             <NavIcon2
               onClick={() => {
