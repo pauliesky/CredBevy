@@ -3,7 +3,7 @@
   --black: #111111;
   --light-gray: #8c8c8c;
   --gray: #333333;
-  --pink: #fef9fe;
+  --light-green: #faffff;
   --white: #ffffff;
 }
 
@@ -23,9 +23,9 @@
 }
 
 .App {
-  background-color: var(--pink);
+  background-color: var(--light-green);
   /* background: red; */
-  font-family: "Satoshi";
+  /* font-family: "General Sans"; */
   /* height: 100vh; */
 }
 

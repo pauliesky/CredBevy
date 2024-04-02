@@ -91,7 +91,7 @@
   width: 50%;
 }
 .News__grid-item1-content {
-  background-color: var(--pink);
+  background-color: var(--light-green);
   gap: 1rem;
   width: 50%;
   display: flex;
@@ -236,7 +236,7 @@
     height: 340px;
   }
   .News__grid-item1-content {
-    background-color: var(--pink);
+    background-color: var(--light-green);
     gap: 1.5rem;
     width: 100%;
     display: flex;

@@ -102,7 +102,7 @@
 
 @media screen and (max-width: 778px) {
   .download-container {
-    background: rgba(128, 3, 205, 1);
+    background: #156064;
     /* width: 1042px; */
     height: 422px;
     border-radius: 50px;

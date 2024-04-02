@@ -13,7 +13,7 @@
 .News__grid-item-content {
   display: flex;
   flex-direction: column;
-  background-color: var(--pink);
+  background-color: var(--light-green);
   padding: 0.5rem;
   height: 50%;
   gap: 1rem;
